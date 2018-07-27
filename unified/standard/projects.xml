@@ -17,7 +17,7 @@
   <project name="apps/native/worldclock-efl" path="apps/native/worldclock-efl" revision="b1543728750e4fed7705971ed5ab1c7683e86f6c"/>
   <project name="apps/web/download-manager" path="apps/web/download-manager" revision="f32678090f011b598d8ac0669555a766d5435397"/>
   <project name="platform/adaptation/RPI3/device-manager-plugin-RPI3" path="platform/adaptation/RPI3/device-manager-plugin-RPI3" revision="d674319293b80d159f26a016716a30a206450f5e"/>
-  <project name="platform/adaptation/ap_broadcom/audio-hal-bcm2837" path="platform/adaptation/ap_broadcom/audio-hal-bcm2837" revision="2b8a3e38fddf546b6aee93fa01b9ae1fda9be849"/>
+  <project name="platform/adaptation/ap_broadcom/audio-hal-bcm2837" path="platform/adaptation/ap_broadcom/audio-hal-bcm2837" revision="c37c9105f415bc8498fd0f793533fdb985466ed9"/>
   <project name="platform/adaptation/ap_samsung/libexynos-common" path="platform/adaptation/ap_samsung/libexynos-common" revision="682763663709dac5efcff1c9772647654172e5a5"/>
   <project name="platform/adaptation/ap_samsung/libomxil-e3250-v4l2" path="platform/adaptation/ap_samsung/libomxil-e3250-v4l2" revision="45d86d9814550f652bfa41742814ecae733b7f24"/>
   <project name="platform/adaptation/ap_samsung/libomxil-e54xx" path="platform/adaptation/ap_samsung/libomxil-e54xx" revision="94cd35ebec87c506334dce183677a5b0463cc2ae"/>
@@ -34,7 +34,7 @@
   <project name="platform/adaptation/broadcom/libtbm-vc4" path="platform/adaptation/broadcom/libtbm-vc4" revision="260b311785f46c91e5e8737df3d0d5c3b1d6811f"/>
   <project name="platform/adaptation/broadcom/libtdm-vc4" path="platform/adaptation/broadcom/libtdm-vc4" revision="6ac8dc577b9fd7de9b3fb3f6e380da5ded396d18"/>
   <project name="platform/adaptation/camera-hal-v4l2" path="platform/adaptation/camera-hal-v4l2" revision="45b5ddaa81ecda875e4b04dc3088e11c1168dae0"/>
-  <project name="platform/adaptation/emulator/audio-hal-emul" path="platform/adaptation/emulator/audio-hal-emul" revision="d54b0cc1f65b1f17b7052e3b1ac0b0e2323d451a"/>
+  <project name="platform/adaptation/emulator/audio-hal-emul" path="platform/adaptation/emulator/audio-hal-emul" revision="211e8c4830fe474946fade8599ad4c04c537a802"/>
   <project name="platform/adaptation/emulator/device-manager-plugin-emul" path="platform/adaptation/emulator/device-manager-plugin-emul" revision="c6cb9580dcef097da8d5e68bfae06d79dc985ea4"/>
   <project name="platform/adaptation/emulator/emulator-daemon" path="platform/adaptation/emulator/emulator-daemon" revision="90686678fb2ee2976b9dc6b23ed36cbf5a19c36e"/>
   <project name="platform/adaptation/emulator/libtbm-vigs" path="platform/adaptation/emulator/libtbm-vigs" revision="cc16a869aa11c72910feb4ce0b4b995e6017bc78"/>
@@ -44,11 +44,11 @@
   <project name="platform/adaptation/emulator/system-plugin-emulator" path="platform/adaptation/emulator/system-plugin-emulator" revision="0144419eed1a5ade8f12ae32cc8d7c5f64e9e613"/>
   <project name="platform/adaptation/emulator/vmodem-daemon-emulator" path="platform/adaptation/emulator/vmodem-daemon-emulator" revision="6f334eb975224ff2f3550bf32c0aaf0e4cd5da5a"/>
   <project name="platform/adaptation/emulator/xf86-misc-vigs" path="platform/adaptation/emulator/xf86-misc-vigs" revision="0ae5b45428bd168ffe5c745719190d53cb507455"/>
-  <project name="platform/adaptation/hawkp/audio-hal-hawkp" path="platform/adaptation/hawkp/audio-hal-hawkp" revision="05217cb57753b5ecc75046c44233861b625aa0b2"/>
+  <project name="platform/adaptation/hawkp/audio-hal-hawkp" path="platform/adaptation/hawkp/audio-hal-hawkp" revision="8e020305f08e2ac9b709579c040ccc2d1acd346b"/>
   <project name="platform/adaptation/libtbm-dumb" path="platform/adaptation/libtbm-dumb" revision="f1e254d88c75e01e444e082d653d769f75d8b560"/>
   <project name="platform/adaptation/libtdm-drm" path="platform/adaptation/libtdm-drm" revision="24488f492ee4a53cff2502e5beab64c388d3b1e9"/>
   <project name="platform/adaptation/nexell/alsa-ucm-conf-alc5658" path="platform/adaptation/nexell/alsa-ucm-conf-alc5658" revision="551c0dcf2d6ac29f906497ea5a739fcb0217bc83"/>
-  <project name="platform/adaptation/nexell/audio-hal-alc5658" path="platform/adaptation/nexell/audio-hal-alc5658" revision="403b355fc8df70d7d65632ed29cf49f8da146fc6"/>
+  <project name="platform/adaptation/nexell/audio-hal-alc5658" path="platform/adaptation/nexell/audio-hal-alc5658" revision="e07ac1ae2d2499e0100a955c116a9b2244eb0d04"/>
   <project name="platform/adaptation/nexell/gst-plugins-video-dec" path="platform/adaptation/nexell/gst-plugins-video-dec" revision="f8640019e9f1496e2f6883b646559464814bc98b"/>
   <project name="platform/adaptation/nexell/gst-plugins-video-enc" path="platform/adaptation/nexell/gst-plugins-video-enc" revision="0150560578ccb3705c5c161d91ff752ceb848340"/>
   <project name="platform/adaptation/nexell/libtbm-nexell" path="platform/adaptation/nexell/libtbm-nexell" revision="df5e8c56b820a20ebffef79b30b2b20f6c4ec4c0"/>
@@ -61,11 +61,11 @@
   <project name="platform/adaptation/rpi3/model-config-rpi3" path="platform/adaptation/rpi3/model-config-rpi3" revision="20dde9c705aef852f605834ff5edd36a49e50705"/>
   <project name="platform/adaptation/samsung_exynos/alsa-ucm-conf-max98090" path="platform/adaptation/samsung_exynos/alsa-ucm-conf-max98090" revision="621268c00582d7dc86d4e32066a83641a9e9ed81"/>
   <project name="platform/adaptation/samsung_exynos/alsa-ucm-conf-wm5110" path="platform/adaptation/samsung_exynos/alsa-ucm-conf-wm5110" revision="accf693171186da143042c219c114ba8f21322a6"/>
-  <project name="platform/adaptation/samsung_exynos/audio-hal-ak4953" path="platform/adaptation/samsung_exynos/audio-hal-ak4953" revision="b045fe7dc5edfb18f9c37d9a54dab9f7ff84b459"/>
-  <project name="platform/adaptation/samsung_exynos/audio-hal-max98090" path="platform/adaptation/samsung_exynos/audio-hal-max98090" revision="945d7c11d453a93b108ff068a45e90b5b259e03b"/>
-  <project name="platform/adaptation/samsung_exynos/audio-hal-wm1831" path="platform/adaptation/samsung_exynos/audio-hal-wm1831" revision="bf94e5e5a4c936502edc1aadef8634031d8694b2"/>
-  <project name="platform/adaptation/samsung_exynos/audio-hal-wm1831-tw2" path="platform/adaptation/samsung_exynos/audio-hal-wm1831-tw2" revision="36f95bfad9876c321c648c16568601d0d5f9ea73"/>
-  <project name="platform/adaptation/samsung_exynos/audio-hal-wm5110" path="platform/adaptation/samsung_exynos/audio-hal-wm5110" revision="241a82c52c2835084cced71f4d01001ff89fd93f"/>
+  <project name="platform/adaptation/samsung_exynos/audio-hal-ak4953" path="platform/adaptation/samsung_exynos/audio-hal-ak4953" revision="cab558623c433301d895a0696e85c1b049e0eb68"/>
+  <project name="platform/adaptation/samsung_exynos/audio-hal-max98090" path="platform/adaptation/samsung_exynos/audio-hal-max98090" revision="2f3a2412f93097091e156227e9dc38fb34e38816"/>
+  <project name="platform/adaptation/samsung_exynos/audio-hal-wm1831" path="platform/adaptation/samsung_exynos/audio-hal-wm1831" revision="65887d0d3857d4fe412e3bb3ade76e229c71ec98"/>
+  <project name="platform/adaptation/samsung_exynos/audio-hal-wm1831-tw2" path="platform/adaptation/samsung_exynos/audio-hal-wm1831-tw2" revision="ee7289bb97278beed335c2bd454f18ba08e96555"/>
+  <project name="platform/adaptation/samsung_exynos/audio-hal-wm5110" path="platform/adaptation/samsung_exynos/audio-hal-wm5110" revision="b2e6e717342b10adbb8c33e06aa6a774c889fb1c"/>
   <project name="platform/adaptation/samsung_exynos/device-manager-plugin-artik" path="platform/adaptation/samsung_exynos/device-manager-plugin-artik" revision="5a1ea5e57e78dd3fae315afb4aae33af620bb1c7"/>
   <project name="platform/adaptation/samsung_exynos/device-manager-plugin-exynos5433" path="platform/adaptation/samsung_exynos/device-manager-plugin-exynos5433" revision="89440755350852dd8427fec3c95ef1bc33131fcd"/>
   <project name="platform/adaptation/samsung_exynos/device-manager-plugin-odroid" path="platform/adaptation/samsung_exynos/device-manager-plugin-odroid" revision="d9e4e671d0b253ce3e0912861e1632a2b98bb309"/>
@@ -74,7 +74,7 @@
   <project name="platform/adaptation/samsung_exynos/libtbm-exynos-tgm" path="platform/adaptation/samsung_exynos/libtbm-exynos-tgm" revision="36a3a5a2b329ef26b6636ddfc77b38783995cfbb"/>
   <project name="platform/adaptation/samsung_exynos/libtdm-exynos" path="platform/adaptation/samsung_exynos/libtdm-exynos" revision="3a197314d9bca777766fae789ff47abf84ae073e"/>
   <project name="platform/adaptation/samsung_exynos/libtdm-exynos-deconfb" path="platform/adaptation/samsung_exynos/libtdm-exynos-deconfb" revision="614edd22c4e2246517ca6c112efb5e8988a598b2"/>
-  <project name="platform/adaptation/spreadtrum/audio-hal-sc7727" path="platform/adaptation/spreadtrum/audio-hal-sc7727" revision="7776d3b124e9a858937059fd4de70f21662d2f2f"/>
+  <project name="platform/adaptation/spreadtrum/audio-hal-sc7727" path="platform/adaptation/spreadtrum/audio-hal-sc7727" revision="8dab939f22e28efa0524c4115f386723be1560dd"/>
   <project name="platform/adaptation/spreadtrum/libtbm-sprd" path="platform/adaptation/spreadtrum/libtbm-sprd" revision="32585d2d4a73f93981327d1e13fe9cad72153a56"/>
   <project name="platform/adaptation/spreadtrum/libtdm-sprd" path="platform/adaptation/spreadtrum/libtdm-sprd" revision="30c7f8c625e77ba229a7c6a6586595af6a3794f0"/>
   <project name="platform/adaptation/system-plugin" path="platform/adaptation/system-plugin" revision="e59169dc70e5de91589cd1c10ed01758a2bea97f"/>
@@ -172,10 +172,10 @@
   <project name="platform/core/api/wav-player" path="platform/core/api/wav-player" revision="ac8c70e02ed2119fbf3f460baa3d549a3a399ddc"/>
   <project name="platform/core/api/webapi-plugins" path="platform/core/api/webapi-plugins" revision="1d5c74490efe24dbbb60e5f85f49b07b097d5da8"/>
   <project name="platform/core/api/wifi" path="platform/core/api/wifi" revision="7a6398c63fbaeead91e0c1a50888518f762eff02"/>
-  <project name="platform/core/api/wifi-direct" path="platform/core/api/wifi-direct" revision="73fa688aaa4387ebcae1b09857874aa7f511c7b4"/>
+  <project name="platform/core/api/wifi-direct" path="platform/core/api/wifi-direct" revision="f5a9f06c6a68c448944ab7e1b3d722bde9ffeef7"/>
   <project name="platform/core/api/wifi-manager" path="platform/core/api/wifi-manager" revision="1b0f8e9013f0b13aa15d8395ba07ef6e84e2a075"/>
   <project name="platform/core/api/wifi-mesh" path="platform/core/api/wifi-mesh" revision="0c5db75e7cac1bd45f6642208d9f6d3f68074d2d"/>
-  <project name="platform/core/api/zigbee" path="platform/core/api/zigbee" revision="15b2e4773f1d6f3d64f3ecd04ffb620e6c20a9fe"/>
+  <project name="platform/core/api/zigbee" path="platform/core/api/zigbee" revision="09cffad6181625b501f1ed595f98cabb43d470f2"/>
   <project name="platform/core/appfw/alarm-manager" path="platform/core/appfw/alarm-manager" revision="66d753ad55cea6ffdf6de9b4fdd3a49ad98a3d54"/>
   <project name="platform/core/appfw/amd" path="platform/core/appfw/amd" revision="610fa0f2592452322073d457de6711eeca9fe21b"/>
   <project name="platform/core/appfw/app-core" path="platform/core/appfw/app-core" revision="063bcbd579662fd9b077ebe023a9003945ca43f4"/>
@@ -227,12 +227,12 @@
   <project name="platform/core/connectivity/bluetooth-tools" path="platform/core/connectivity/bluetooth-tools" revision="c1e14085c10d43da7b0c703777ed815edb043295"/>
   <project name="platform/core/connectivity/bt-syspopup" path="platform/core/connectivity/bt-syspopup" revision="0b2afea6b3417152e6f21e7edfbba4daef39aa25"/>
   <project name="platform/core/connectivity/data-router" path="platform/core/connectivity/data-router" revision="119dee6d9a6c876ee00ebc70ff867b4c14a85053"/>
-  <project name="platform/core/connectivity/inm-manager" path="platform/core/connectivity/inm-manager" revision="3a8d900bf4048508592e4869fb30e769b7c5dec7"/>
+  <project name="platform/core/connectivity/inm-manager" path="platform/core/connectivity/inm-manager" revision="2188effe4c1e32213cb46f11498f1021375871e7"/>
   <project name="platform/core/connectivity/libnet-client" path="platform/core/connectivity/libnet-client" revision="dd0c00c7738154c31feec1cca9babad15e59c77d"/>
   <project name="platform/core/connectivity/mobileap-agent" path="platform/core/connectivity/mobileap-agent" revision="95241781772a618ae7a393c6a9becaa280bdda02"/>
   <project name="platform/core/connectivity/mtp-initiator" path="platform/core/connectivity/mtp-initiator" revision="58a646bb43b0cf94230a818a5ee15b8b249690b4"/>
   <project name="platform/core/connectivity/mtp-responder" path="platform/core/connectivity/mtp-responder" revision="b1c3e40ab7c21c4a1eeb0ee8f034b06470f70fdc"/>
-  <project name="platform/core/connectivity/net-config" path="platform/core/connectivity/net-config" revision="8d9d52785402a1572c466178a3ab5e6838715183"/>
+  <project name="platform/core/connectivity/net-config" path="platform/core/connectivity/net-config" revision="4c615ecdc2557f21cf04829152b82068ae82a442"/>
   <project name="platform/core/connectivity/net-popup" path="platform/core/connectivity/net-popup" revision="68c4e0639c29eaddd55160f924721f2385e77f25"/>
   <project name="platform/core/connectivity/nfc-manager" path="platform/core/connectivity/nfc-manager" revision="288ac8db392a88c5b6874dfd017f29e02865e3a9"/>
   <project name="platform/core/connectivity/smartcard-plugin-nfc" path="platform/core/connectivity/smartcard-plugin-nfc" revision="1e74825669656e7dab97a57a0bbc96f498a6ce77"/>
@@ -286,14 +286,14 @@
   <project name="platform/core/multimedia/libmm-utility" path="platform/core/multimedia/libmm-utility" revision="cbceaca974ab068e15d8bf745f870f3fd46025df"/>
   <project name="platform/core/multimedia/libmm-wfd" path="platform/core/multimedia/libmm-wfd" revision="a6b18c36a682f5182b51c99adc01310a7b27af83"/>
   <project name="platform/core/multimedia/media-server" path="platform/core/multimedia/media-server" revision="8a3416d014900b50c1e6c3b1d816104b1b1bb6d9"/>
-  <project name="platform/core/multimedia/mm-hal-interface" path="platform/core/multimedia/mm-hal-interface" revision="2a9831bb01e368d3b5b070d8b2a2489ef0d1351f"/>
-  <project name="platform/core/multimedia/mm-resource-manager" path="platform/core/multimedia/mm-resource-manager" revision="7c065e29cd83647756328cb5c02e3d32f7a9b452"/>
+  <project name="platform/core/multimedia/mm-hal-interface" path="platform/core/multimedia/mm-hal-interface" revision="59af996ebcfe5581e6e35fd3c95c6b553a70f8aa"/>
+  <project name="platform/core/multimedia/mm-resource-manager" path="platform/core/multimedia/mm-resource-manager" revision="e0234b2d2c61f3e74c0a4a384c6b1569b7d0ab71"/>
   <project name="platform/core/multimedia/mmfw-sysconf" path="platform/core/multimedia/mmfw-sysconf" revision="7da0d4035074aa8ed903c308bea7c0dd095d0b0d"/>
   <project name="platform/core/multimedia/mmsvc-camera" path="platform/core/multimedia/mmsvc-camera" revision="ce199381c7cf2a9f38dff559896d5e8dda4cd747"/>
   <project name="platform/core/multimedia/mmsvc-core" path="platform/core/multimedia/mmsvc-core" revision="567b0fb26d7b435cd55411f2ba31f0eff345fd25"/>
   <project name="platform/core/multimedia/mmsvc-player" path="platform/core/multimedia/mmsvc-player" revision="8516e207ffccb776ab25e321d5223a21e8c71ddd"/>
   <project name="platform/core/multimedia/mmsvc-recorder" path="platform/core/multimedia/mmsvc-recorder" revision="e604cb5dc18024e25a659e982e8e16cc544130a7"/>
-  <project name="platform/core/multimedia/pulseaudio-modules-tizen" path="platform/core/multimedia/pulseaudio-modules-tizen" revision="0d78c7014222ab1b89d556635469ea977cced806"/>
+  <project name="platform/core/multimedia/pulseaudio-modules-tizen" path="platform/core/multimedia/pulseaudio-modules-tizen" revision="d91d9c88e0f649f0504818b0e00b432fe448c18f"/>
   <project name="platform/core/multimedia/tinycompress" path="platform/core/multimedia/tinycompress" revision="96445c5c0dbb55c453dded5c32bc878f8f154362"/>
   <project name="platform/core/pim/calendar-service" path="platform/core/pim/calendar-service" revision="474918b8fe338f4630536ef73dd0eb4db1ac7914"/>
   <project name="platform/core/pim/contacts-service" path="platform/core/pim/contacts-service" revision="630c90a6452937cc883e2baa074dac8ee15f32f3"/>
@@ -372,7 +372,7 @@
   <project name="platform/core/system/resourced" path="platform/core/system/resourced" revision="6e4e8dd99648a5fb2c1acb0cb062ef7bd3c1c41c"/>
   <project name="platform/core/system/resourced-headless" path="platform/core/system/resourced-headless" revision="80bf0c881ab77a7a64c54e6c19430d2e5c477c01"/>
   <project name="platform/core/system/sensord" path="platform/core/system/sensord" revision="b55e0c269f7bb41823370ee49e519214ee0b8cec"/>
-  <project name="platform/core/system/session-utils" path="platform/core/system/session-utils" revision="74b90bd47b9dbad3b444a0c520046db6123f73fa"/>
+  <project name="platform/core/system/session-utils" path="platform/core/system/session-utils" revision="6365dc2863885da7c37a741d90fbd9888b788f3d"/>
   <project name="platform/core/system/setup-adaptor" path="platform/core/system/setup-adaptor" revision="510cf755ede4cb254a92fbce24eefce0ae2898d1"/>
   <project name="platform/core/system/storaged" path="platform/core/system/storaged" revision="3e4532c1f80882480ec096b7e2dd6e0de87c820d"/>
   <project name="platform/core/system/swap-manager" path="platform/core/system/swap-manager" revision="84fbed2b435f59399afa34ae26e7acdbb3dc37ff"/>
@@ -442,7 +442,7 @@
   <project name="platform/core/uifw/libscl-ui" path="platform/core/uifw/libscl-ui" revision="dba394093ece46f746caacb6079fecbd432121ef"/>
   <project name="platform/core/uifw/libtbm" path="platform/core/uifw/libtbm" revision="cbe1ef4f887c4f1fa80fffc9c487d5aa87b6b8ca"/>
   <project name="platform/core/uifw/libtdm" path="platform/core/uifw/libtdm" revision="096b0daf780ac2cf91e64aab37f640241eb4f632"/>
-  <project name="platform/core/uifw/libtpl-egl" path="platform/core/uifw/libtpl-egl" revision="1b22c4216b6b745a01bb220a061632205afb1017"/>
+  <project name="platform/core/uifw/libtpl-egl" path="platform/core/uifw/libtpl-egl" revision="9c4032c4ee0e7aceb44494870931b1fc8f578e1f"/>
   <project name="platform/core/uifw/pepper" path="platform/core/uifw/pepper" revision="9746bc7adc8207caf0241a7683cbdcbf9e5ac6ad"/>
   <project name="platform/core/uifw/sketch" path="platform/core/uifw/sketch" revision="fc9d0cba9cd8fa3cfb00ced607f3b5b3b740e0bf"/>
   <project name="platform/core/uifw/smartreply" path="platform/core/uifw/smartreply" revision="110beccad7b0eab6b25703aa01edd6d52c47d055"/>
