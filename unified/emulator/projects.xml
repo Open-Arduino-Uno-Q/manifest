@@ -24,7 +24,7 @@
   <project name="platform/adaptation/bluetooth-firmware-marvell" path="platform/adaptation/bluetooth-firmware-marvell" revision="222168510221617b327dfd63a73123bafa03ad3d"/>
   <project name="platform/adaptation/bluetooth-firmware-sprd" path="platform/adaptation/bluetooth-firmware-sprd" revision="f0a2e4f21eda67196dd4f38d5adb127a6b330e43"/>
   <project name="platform/adaptation/broadcom/alsa-ucm-conf-rpi3" path="platform/adaptation/broadcom/alsa-ucm-conf-rpi3" revision="350d254ed380bd4ea143e29d9b9ae2cbd77c5c29"/>
-  <project name="platform/adaptation/camera-hal-v4l2" path="platform/adaptation/camera-hal-v4l2" revision="45b5ddaa81ecda875e4b04dc3088e11c1168dae0"/>
+  <project name="platform/adaptation/camera-hal-v4l2" path="platform/adaptation/camera-hal-v4l2" revision="e1621483eeb5733a879668f19e3c818f3ba19e84"/>
   <project name="platform/adaptation/emulator/audio-hal-emul" path="platform/adaptation/emulator/audio-hal-emul" revision="211e8c4830fe474946fade8599ad4c04c537a802"/>
   <project name="platform/adaptation/emulator/device-manager-plugin-emul" path="platform/adaptation/emulator/device-manager-plugin-emul" revision="c6cb9580dcef097da8d5e68bfae06d79dc985ea4"/>
   <project name="platform/adaptation/emulator/emulator-daemon" path="platform/adaptation/emulator/emulator-daemon" revision="90686678fb2ee2976b9dc6b23ed36cbf5a19c36e"/>
@@ -61,11 +61,11 @@
   <project name="platform/adaptation/system-plugin" path="platform/adaptation/system-plugin" revision="fb2fa12fcd31ad618da25b489404453ea281895b"/>
   <project name="platform/adaptation/unified-model-config" path="platform/adaptation/unified-model-config" revision="58254ea8a1fcbb5c034ab0337dbe8255bb581dfe"/>
   <project name="platform/core/accessibility/screen-reader" path="platform/core/accessibility/screen-reader" revision="dcbc7f9ec593ec1a54d4403931d2f1d22ce298a4"/>
-  <project name="platform/core/account/account-common" path="platform/core/account/account-common" revision="6d11a2367ea789b826179b171af4ee8002a9676b"/>
+  <project name="platform/core/account/account-common" path="platform/core/account/account-common" revision="3b96dd625b0932e2b22a56eb096d65e33f158123"/>
   <project name="platform/core/account/account-manager" path="platform/core/account/account-manager" revision="754f9cb23a33b909af0ec69b2a6a770bb703bcf7"/>
   <project name="platform/core/account/account-parser" path="platform/core/account/account-parser" revision="6a672d7e6bee8085bd016ca397ab0360b5aa769b"/>
   <project name="platform/core/account/fido-asm" path="platform/core/account/fido-asm" revision="8a2c876c3d79db582b032dac31c09698bd4f4333"/>
-  <project name="platform/core/account/fido-client" path="platform/core/account/fido-client" revision="e5858d5f19c261e4aef6b09b1568296ac0de16e3"/>
+  <project name="platform/core/account/fido-client" path="platform/core/account/fido-client" revision="30fd45092e7ed7c7c6d1c4a387a3b4f12a6f6c99"/>
   <project name="platform/core/account/fido-syspopup" path="platform/core/account/fido-syspopup" revision="286f68e93085aa752cfa0e09b5481a85d76e0de9"/>
   <project name="platform/core/account/liboauth2" path="platform/core/account/liboauth2" revision="c70abe5007b81b85f1d399b42a607217bcb7d0f0"/>
   <project name="platform/core/account/sync-manager" path="platform/core/account/sync-manager" revision="52fd93fff63fa8448bbc7ebff4f7ed7ea2c81a25"/>
@@ -76,10 +76,10 @@
   <project name="platform/core/api/app-manager" path="platform/core/api/app-manager" revision="b01b0f955b88549b4f71216282f165570a097244"/>
   <project name="platform/core/api/application" path="platform/core/api/application" revision="50ef9f8690dc78c6bbfb2720f70c1f86a7b4734a"/>
   <project name="platform/core/api/asp" path="platform/core/api/asp" revision="be51bd0c01cff6581c278a9f887957ef8f78eac3"/>
-  <project name="platform/core/api/audio-io" path="platform/core/api/audio-io" revision="d13d568ce0a6d6525d9079004cb5b698942c61be"/>
+  <project name="platform/core/api/audio-io" path="platform/core/api/audio-io" revision="3834fdd8f85758a071e619677f903d478edf15aa"/>
   <project name="platform/core/api/base-utils" path="platform/core/api/base-utils" revision="73d9e56c1b6eb725cb3bf9ea96cc621b3df9a482"/>
   <project name="platform/core/api/bluetooth" path="platform/core/api/bluetooth" revision="d66d6fb8e771c3b3889afe0f8b3145d7f6954a86"/>
-  <project name="platform/core/api/camera" path="platform/core/api/camera" revision="3e579a1062d4906953cad1f797ad80825c3ea697"/>
+  <project name="platform/core/api/camera" path="platform/core/api/camera" revision="3ae1b45de761912374c69ee3656b65cf9d7eb57a"/>
   <project name="platform/core/api/common" path="platform/core/api/common" revision="f8a1a6ae028517c3f95d9445b2b12de91bbd066f"/>
   <project name="platform/core/api/connection" path="platform/core/api/connection" revision="6242a7241d6dde699a3f5bb6afa759c2b350c8b4"/>
   <project name="platform/core/api/context" path="platform/core/api/context" revision="49f1ffb2b0c1b1745550dc8cebd826569038ef31"/>
@@ -98,7 +98,7 @@
   <project name="platform/core/api/libteec" path="platform/core/api/libteec" revision="a1f4fb5285b665c3785ac538370460f4714ca59b"/>
   <project name="platform/core/api/location-manager" path="platform/core/api/location-manager" revision="256fbac688cab362645a30756c4ecbb4e71c9cd9"/>
   <project name="platform/core/api/maps-service" path="platform/core/api/maps-service" revision="3c655aa8a8c1cc74e7e25a21d95d1e03fd1dc7cc"/>
-  <project name="platform/core/api/media-content" path="platform/core/api/media-content" revision="8e753f31513df864a2d17959b51d270551538bfd"/>
+  <project name="platform/core/api/media-content" path="platform/core/api/media-content" revision="0bffe20bdde568a5575b208027f1c4135ac8277f"/>
   <project name="platform/core/api/media-controller" path="platform/core/api/media-controller" revision="9057c961cbacc7b49fb146a6b781bc8fbe09012e"/>
   <project name="platform/core/api/media-key" path="platform/core/api/media-key" revision="ae502dc09fafae299eeba1ec71d36354c1d6c7fa"/>
   <project name="platform/core/api/mediacodec" path="platform/core/api/mediacodec" revision="41162f9d3827a7fa06a976ebbe0eca32e9354a70"/>
@@ -107,7 +107,7 @@
   <project name="platform/core/api/mediastreamer" path="platform/core/api/mediastreamer" revision="6f3033369ef82a4f586affa879dda21b6e9f3d1a"/>
   <project name="platform/core/api/mediastreamrecorder" path="platform/core/api/mediastreamrecorder" revision="f297ea23c52d3ac3fb0928b81ddf7e0f098d00fa"/>
   <project name="platform/core/api/mediatool" path="platform/core/api/mediatool" revision="2f888e0d030d796fa8a3e5869f0b570c71b1a807"/>
-  <project name="platform/core/api/mediavision" path="platform/core/api/mediavision" revision="3bd5148b5584730bc7a12c00ccb611e2e199153d"/>
+  <project name="platform/core/api/mediavision" path="platform/core/api/mediavision" revision="5d23752ea752d6c240ce8906656355e8ec3d7214"/>
   <project name="platform/core/api/messages" path="platform/core/api/messages" revision="bd95a63d372cf7f439393bc73bcc73624cc36f2c"/>
   <project name="platform/core/api/metadata-editor" path="platform/core/api/metadata-editor" revision="5216d274a51a3c3abb69d2690267d2bbc11647ab"/>
   <project name="platform/core/api/metadata-extractor" path="platform/core/api/metadata-extractor" revision="38e5ebf1caef72900ba6108e466aaf8f6897151d"/>
@@ -130,13 +130,13 @@
   <project name="platform/core/api/smart-traffic-control" path="platform/core/api/smart-traffic-control" revision="c1c9da5728388ad954f9d1554b635cfaec4df689"/>
   <project name="platform/core/api/smartcard" path="platform/core/api/smartcard" revision="788d3e8f8789261e0b4a4211d12204f8ab6c5e9a"/>
   <project name="platform/core/api/softap" path="platform/core/api/softap" revision="c3c9821174d9bb21d8576e029290d7112e555c7a"/>
-  <project name="platform/core/api/sound-manager" path="platform/core/api/sound-manager" revision="7741bf0341ab6a8c2a9f212fffe4500c495f2481"/>
+  <project name="platform/core/api/sound-manager" path="platform/core/api/sound-manager" revision="52350f7148cdd725f5df81641baf995d2f56ff1a"/>
   <project name="platform/core/api/sound-pool" path="platform/core/api/sound-pool" revision="bcbe5f893230ec3fafeb66ec9d18e76c927b33c1"/>
   <project name="platform/core/api/system-info" path="platform/core/api/system-info" revision="b34b5fe4d99b1746dbc8620d6f15fdaac50f4cd5"/>
   <project name="platform/core/api/system-settings" path="platform/core/api/system-settings" revision="97aef178c5efcb372a34a4a492d7a04ec94f9660"/>
   <project name="platform/core/api/telephony" path="platform/core/api/telephony" revision="d1081be4e6f33b0452c130f24ef75e84612bc245"/>
   <project name="platform/core/api/tethering" path="platform/core/api/tethering" revision="94a929f11e7726653e2233a93685cdeb770b7120"/>
-  <project name="platform/core/api/thumbnail-util" path="platform/core/api/thumbnail-util" revision="727757690704853e8404e4f0fb5918e3f17627dc"/>
+  <project name="platform/core/api/thumbnail-util" path="platform/core/api/thumbnail-util" revision="098501e67bde03b0ef0473d0d801c43ed8056303"/>
   <project name="platform/core/api/tone-player" path="platform/core/api/tone-player" revision="17491e452e2024080e0cf231d85996821105b455"/>
   <project name="platform/core/api/url-download" path="platform/core/api/url-download" revision="b5ee4f9411c59c308a558cf9747463530c1ef4fe"/>
   <project name="platform/core/api/usb-host" path="platform/core/api/usb-host" revision="73e5316171edb1c74f88dde43162f47ea062ca58"/>
@@ -150,9 +150,9 @@
   <project name="platform/core/api/wifi-manager" path="platform/core/api/wifi-manager" revision="1b0f8e9013f0b13aa15d8395ba07ef6e84e2a075"/>
   <project name="platform/core/api/wifi-mesh" path="platform/core/api/wifi-mesh" revision="0c5db75e7cac1bd45f6642208d9f6d3f68074d2d"/>
   <project name="platform/core/api/zigbee" path="platform/core/api/zigbee" revision="918a29499ca381c2be9ca63f4975693d2458d31f"/>
-  <project name="platform/core/appfw/alarm-manager" path="platform/core/appfw/alarm-manager" revision="ddbeab2d39a19a62bb3361aff98cad70cd893107"/>
-  <project name="platform/core/appfw/amd" path="platform/core/appfw/amd" revision="55f48b8f2c2293240872b854083d1915603ed2e5"/>
-  <project name="platform/core/appfw/app-core" path="platform/core/appfw/app-core" revision="513434ea62823669b8664c3351365f5cb46e4a9f"/>
+  <project name="platform/core/appfw/alarm-manager" path="platform/core/appfw/alarm-manager" revision="6b3a66b374f48577a28fe6939678e83a5b2c88f3"/>
+  <project name="platform/core/appfw/amd" path="platform/core/appfw/amd" revision="19ab8906facd3d287a764e6335ea325f3c847665"/>
+  <project name="platform/core/appfw/app-core" path="platform/core/appfw/app-core" revision="fd5de41e7f40391614b7a03a9f9a4167bf336c62"/>
   <project name="platform/core/appfw/app-installers" path="platform/core/appfw/app-installers" revision="59aba2df26b81beec358589e6ee8f210c1ff2055"/>
   <project name="platform/core/appfw/app-svc" path="platform/core/appfw/app-svc" revision="805ab1c08875a46cb8feb6dd02d5563e98cf5a5e"/>
   <project name="platform/core/appfw/app2sd" path="platform/core/appfw/app2sd" revision="55c3487a44856219ca104b87493874cfd01ed16d"/>
@@ -174,7 +174,7 @@
   <project name="platform/core/appfw/pkgmgr-info" path="platform/core/appfw/pkgmgr-info" revision="cad1df75db41fa2732bb6394e50a6d169cd249a5"/>
   <project name="platform/core/appfw/pkgmgr-server" path="platform/core/appfw/pkgmgr-server" revision="3a74e6b3a2e0074e352a5ab9fb37f62d24c2bc4a"/>
   <project name="platform/core/appfw/pkgmgr-tool" path="platform/core/appfw/pkgmgr-tool" revision="8d502343c3715ab6721f30f664a3bebf853e0c8f"/>
-  <project name="platform/core/appfw/rpc-port" path="platform/core/appfw/rpc-port" revision="0543c071d50ec6d20426d1208804eebec9b1288a"/>
+  <project name="platform/core/appfw/rpc-port" path="platform/core/appfw/rpc-port" revision="c7c0783f3d0f1cf3e537493955c3aff84c97f6f3"/>
   <project name="platform/core/appfw/screen-connector" path="platform/core/appfw/screen-connector" revision="34b94968de1aa65eef8f5236cba026154dd9e420"/>
   <project name="platform/core/appfw/shortcut" path="platform/core/appfw/shortcut" revision="26c1089440368f7eadafa50757e6058df13aa9b5"/>
   <project name="platform/core/appfw/slp-pkgmgr" path="platform/core/appfw/slp-pkgmgr" revision="447fd48b504134d5183ac43c7da9dc5ebd1ffc8e"/>
@@ -184,7 +184,7 @@
   <project name="platform/core/appfw/tpk-manifest-handlers" path="platform/core/appfw/tpk-manifest-handlers" revision="f8261127269cb142ea9defc5d5ea4885b4eee13f"/>
   <project name="platform/core/appfw/ui-gadget-1" path="platform/core/appfw/ui-gadget-1" revision="cde94ffadf9910a59d5592d1545e39edaac80b8c"/>
   <project name="platform/core/appfw/vconf-internal-keys" path="platform/core/appfw/vconf-internal-keys" revision="f8ab213674a9f24b608c9f01e69d0d8b11096e91"/>
-  <project name="platform/core/appfw/watchface-complication" path="platform/core/appfw/watchface-complication" revision="3cfb6c86296add530d34e251140b3d8c262e26ec"/>
+  <project name="platform/core/appfw/watchface-complication" path="platform/core/appfw/watchface-complication" revision="de1a8d45f38c239d6e777767cd3bb5b9702ad8b2"/>
   <project name="platform/core/appfw/wgt-backend" path="platform/core/appfw/wgt-backend" revision="cc46b86b2b0281f87c79b855ae2cc43522cdcedf"/>
   <project name="platform/core/appfw/wgt-manifest-handlers" path="platform/core/appfw/wgt-manifest-handlers" revision="cf89b80bb65d9905011f6fe46ddacc87c985995c"/>
   <project name="platform/core/appfw/widget-service" path="platform/core/appfw/widget-service" revision="280a2bf0d22578cf88d0891d2482913bd7574cbd"/>
@@ -195,7 +195,7 @@
   <project name="platform/core/base/tizen-locale" path="platform/core/base/tizen-locale" revision="9340c7eaa9285555f5fb7a10443d27ce06868725"/>
   <project name="platform/core/base/tzdata-update-parser" path="platform/core/base/tzdata-update-parser" revision="af1ca978bd327a26b3332f78d3280e64b5ffcc26"/>
   <project name="platform/core/connectivity/asp-manager" path="platform/core/connectivity/asp-manager" revision="2a9fad0d24e1b94303c391945d6b762f57814dbe"/>
-  <project name="platform/core/connectivity/bluetooth-agent" path="platform/core/connectivity/bluetooth-agent" revision="5df973c1900877fcba401d7dc753bdc494ed55a5"/>
+  <project name="platform/core/connectivity/bluetooth-agent" path="platform/core/connectivity/bluetooth-agent" revision="d0d0fc909632be5ede8598ca1e77118605900a80"/>
   <project name="platform/core/connectivity/bluetooth-frwk" path="platform/core/connectivity/bluetooth-frwk" revision="245374112cd9c71c96d9560ceb1e80f348ba6245"/>
   <project name="platform/core/connectivity/bluetooth-share" path="platform/core/connectivity/bluetooth-share" revision="0636a698a2990d994de1cd1fc4b85fa091d1dfdd"/>
   <project name="platform/core/connectivity/bluetooth-tools" path="platform/core/connectivity/bluetooth-tools" revision="c1e14085c10d43da7b0c703777ed815edb043295"/>
@@ -205,7 +205,7 @@
   <project name="platform/core/connectivity/libnet-client" path="platform/core/connectivity/libnet-client" revision="dd0c00c7738154c31feec1cca9babad15e59c77d"/>
   <project name="platform/core/connectivity/mobileap-agent" path="platform/core/connectivity/mobileap-agent" revision="95241781772a618ae7a393c6a9becaa280bdda02"/>
   <project name="platform/core/connectivity/mtp-initiator" path="platform/core/connectivity/mtp-initiator" revision="140dc291da5bbdecae44836e250d4d2082c5f39d"/>
-  <project name="platform/core/connectivity/net-config" path="platform/core/connectivity/net-config" revision="dde802157c07a6dcae13cd156f45fa2f72159e66"/>
+  <project name="platform/core/connectivity/net-config" path="platform/core/connectivity/net-config" revision="8e3614238f585e09caeb055ce1881aee7cc064e6"/>
   <project name="platform/core/connectivity/net-popup" path="platform/core/connectivity/net-popup" revision="68c4e0639c29eaddd55160f924721f2385e77f25"/>
   <project name="platform/core/connectivity/nfc-manager" path="platform/core/connectivity/nfc-manager" revision="7a304359fecf77e921e2f534a6fc999034b05d4e"/>
   <project name="platform/core/connectivity/smartcard-plugin-nfc" path="platform/core/connectivity/smartcard-plugin-nfc" revision="1e74825669656e7dab97a57a0bbc96f498a6ce77"/>
@@ -215,16 +215,16 @@
   <project name="platform/core/connectivity/stc-manager" path="platform/core/connectivity/stc-manager" revision="9c9f59bedb5545a376b2ff86c34919095e62dd62"/>
   <project name="platform/core/connectivity/wifi-direct-manager" path="platform/core/connectivity/wifi-direct-manager" revision="004ae0ddda1027ae72dbd35083b01f8d15b86af4"/>
   <project name="platform/core/connectivity/wifi-mesh-manager" path="platform/core/connectivity/wifi-mesh-manager" revision="48d7d1c3ba1de01da759298442ef0f9f6f7278f8"/>
-  <project name="platform/core/connectivity/zigbee-manager" path="platform/core/connectivity/zigbee-manager" revision="7b10aa51662b4bc92a1d31893f8379e2fe3cf67b"/>
+  <project name="platform/core/connectivity/zigbee-manager" path="platform/core/connectivity/zigbee-manager" revision="c732484277528747be818c7060c31d6e0014fd85"/>
   <project name="platform/core/context/app-history" path="platform/core/context/app-history" revision="e275f69fcb0ad58ff606c8f462e38e6e88eef395"/>
   <project name="platform/core/context/context-common" path="platform/core/context/context-common" revision="1498310ab5d23b68920ade99723d18d6cbbf6e08"/>
   <project name="platform/core/context/context-service" path="platform/core/context/context-service" revision="52a3a6acb0d94eb9ef92648dbe0cb50790a2f11d"/>
   <project name="platform/core/context/context-store" path="platform/core/context/context-store" revision="f45e2f93e2de2e2cf94444ca725d5129b6b8d886"/>
   <project name="platform/core/context/job-scheduler" path="platform/core/context/job-scheduler" revision="0c818f009bd90001fd2822dc6a77c8f8c725b19c"/>
   <project name="platform/core/context/sensor-recorder" path="platform/core/context/sensor-recorder" revision="a5192ce99a657b18513d0d57056a8752e1e61516"/>
-  <project name="platform/core/csapi/tizenfx" path="platform/core/csapi/tizenfx" revision="4cefb3f368a359a1b41fba1d5445d28cfb23cbb1"/>
+  <project name="platform/core/csapi/tizenfx" path="platform/core/csapi/tizenfx" revision="e2861a0f4bd9e73b3578b4e59fe0969b28553994"/>
   <project name="platform/core/dotnet/build-tools" path="platform/core/dotnet/build-tools" revision="7aa3ca9aacf001f73532d7a7166b83a46ececd11"/>
-  <project name="platform/core/dotnet/launcher" path="platform/core/dotnet/launcher" revision="e110c812930c0c19963a711dd782eca405ac379c"/>
+  <project name="platform/core/dotnet/launcher" path="platform/core/dotnet/launcher" revision="166d62414a0ffba0ca1345b681e11ea36892fb1c"/>
   <project name="platform/core/graphics/cairo" path="platform/core/graphics/cairo" revision="09169e90d07707dd089c2f24644c383ff4630337"/>
   <project name="platform/core/graphics/default-fonts-fc-sdk" path="platform/core/graphics/default-fonts-fc-sdk" revision="347120509eb9e542497e87be50ca2ddd1f944265"/>
   <project name="platform/core/graphics/default-fonts-sdk" path="platform/core/graphics/default-fonts-sdk" revision="efd8b8a5d8e88e3122037fa126831c5a938736a7"/>
@@ -257,9 +257,9 @@
   <project name="platform/core/multimedia/libmm-streamrecorder" path="platform/core/multimedia/libmm-streamrecorder" revision="6ee3cfd20240b28acf1349e38344e24380f360c1"/>
   <project name="platform/core/multimedia/libmm-transcode" path="platform/core/multimedia/libmm-transcode" revision="62b342587fa338a375c09f0493d0b1424b551ae5"/>
   <project name="platform/core/multimedia/libmm-utility" path="platform/core/multimedia/libmm-utility" revision="7678602bf9d8352fa2baddc4f88ae039a0545c8f"/>
-  <project name="platform/core/multimedia/libmm-wfd" path="platform/core/multimedia/libmm-wfd" revision="a6b18c36a682f5182b51c99adc01310a7b27af83"/>
-  <project name="platform/core/multimedia/media-server" path="platform/core/multimedia/media-server" revision="0a591bad3bc7820046133d094b72f5656aa329a0"/>
-  <project name="platform/core/multimedia/mm-hal-interface" path="platform/core/multimedia/mm-hal-interface" revision="59af996ebcfe5581e6e35fd3c95c6b553a70f8aa"/>
+  <project name="platform/core/multimedia/libmm-wfd" path="platform/core/multimedia/libmm-wfd" revision="db8ae9221c658da4328baabde05deb29f79c5200"/>
+  <project name="platform/core/multimedia/media-server" path="platform/core/multimedia/media-server" revision="7bfb42c6c347a53cbf40b25660f4326aea28322a"/>
+  <project name="platform/core/multimedia/mm-hal-interface" path="platform/core/multimedia/mm-hal-interface" revision="9a6c00f33f08e36fe2d2c060abefd4931261d222"/>
   <project name="platform/core/multimedia/mm-resource-manager" path="platform/core/multimedia/mm-resource-manager" revision="e0234b2d2c61f3e74c0a4a384c6b1569b7d0ab71"/>
   <project name="platform/core/multimedia/mmfw-sysconf" path="platform/core/multimedia/mmfw-sysconf" revision="ef3e3c8cfc02838db555f024908fe1287d159c41"/>
   <project name="platform/core/multimedia/mmsvc-camera" path="platform/core/multimedia/mmsvc-camera" revision="81f981260c2bdcb9bd711c19cfc568432da24123"/>
@@ -311,7 +311,7 @@
   <project name="platform/core/security/privilege-checker" path="platform/core/security/privilege-checker" revision="e584f96aa1eb9c67867da04809f42cac7b861665"/>
   <project name="platform/core/security/privilege-info" path="platform/core/security/privilege-info" revision="cd8a2ebff736db5e568717f612d0402f5dcc5440"/>
   <project name="platform/core/security/pubkey-pinning" path="platform/core/security/pubkey-pinning" revision="fa98e2cadda99dfd872603229a2ff90e2f218bcc"/>
-  <project name="platform/core/security/security-config" path="platform/core/security/security-config" revision="c521ed4f1f4383355f2c5336eb188e892b742198"/>
+  <project name="platform/core/security/security-config" path="platform/core/security/security-config" revision="75e921ca7e72aecbd49c31c3736c7415134d2298"/>
   <project name="platform/core/security/security-manager" path="platform/core/security/security-manager" revision="40609ab24f22491d2fbd52ecfbd80f693dbe3047"/>
   <project name="platform/core/security/tef-dummy" path="platform/core/security/tef-dummy" revision="7aede227b9ba015a699c93002546f03549b0c9d6"/>
   <project name="platform/core/security/tef-simulator" path="platform/core/security/tef-simulator" revision="c62fbb1fc4ef81e2ba1d6b2a4e7782ce3a6aaecb"/>
@@ -322,20 +322,20 @@
   <project name="platform/core/system/buxton2" path="platform/core/system/buxton2" revision="1b6f4f814dfd13ae96b9c3e7ebd713148296555b"/>
   <project name="platform/core/system/crash-worker" path="platform/core/system/crash-worker" revision="f556b5042266b7c7e15150d3240c7dc9f0072c00"/>
   <project name="platform/core/system/dbus-tools" path="platform/core/system/dbus-tools" revision="72750f98f330cfe49c7afbfd373f40f5449541f8"/>
-  <project name="platform/core/system/deviced" path="platform/core/system/deviced" revision="385c7c73eff7b2bf7bff0d7a0e9bbb1989da4791"/>
+  <project name="platform/core/system/deviced" path="platform/core/system/deviced" revision="aadde800d3b3bc5e59a9487e8d05a36a2c1d07dd"/>
   <project name="platform/core/system/dlog" path="platform/core/system/dlog" revision="d16fd434d43eb3484db2ea4dbf75f1af67f02a44"/>
   <project name="platform/core/system/faultd" path="platform/core/system/faultd" revision="589e97cda9e31c590c05f3b7a536c6dfacfd5b04"/>
   <project name="platform/core/system/feedbackd" path="platform/core/system/feedbackd" revision="e2f013146add167d73520066fab1e7f977753ce2"/>
   <project name="platform/core/system/initrd" path="platform/core/system/initrd" revision="c39a7ca402e5b0e5c855d20a2fdfb4ece04f31b9"/>
   <project name="platform/core/system/libdbuspolicy" path="platform/core/system/libdbuspolicy" revision="08d9e38c8509af7dfb726fadd0f69f1533131718"/>
   <project name="platform/core/system/libdevice-node" path="platform/core/system/libdevice-node" revision="eb61f5e1ebe28e20f24c25e66f44fa12e85a6838"/>
-  <project name="platform/core/system/libstorage" path="platform/core/system/libstorage" revision="e385cee34928900da2ac0cc90bc231a55fd69cc0"/>
+  <project name="platform/core/system/libstorage" path="platform/core/system/libstorage" revision="d271b70ebbd43fa434faee15f8a6ddff609dc668"/>
   <project name="platform/core/system/libsvi" path="platform/core/system/libsvi" revision="5fc4de291c8719164f976a2decfc19e772172f0d"/>
   <project name="platform/core/system/libsyscommon" path="platform/core/system/libsyscommon" revision="18728faa2781c56b67d94eb3f0d7fb72a618185b"/>
   <project name="platform/core/system/libtota" path="platform/core/system/libtota" revision="51ac92fd026376df3e83cce93568c3f5f1f27379"/>
   <project name="platform/core/system/libtracker" path="platform/core/system/libtracker" revision="9080ba431deaaf411a1c7eab52277528006e3872"/>
   <project name="platform/core/system/memps" path="platform/core/system/memps" revision="73b06d6d8ea880594b9175d2b96f95e7a4bd42a3"/>
-  <project name="platform/core/system/pass" path="platform/core/system/pass" revision="2e2878fe676d79ef50eb19e73492b640f04e7a41"/>
+  <project name="platform/core/system/pass" path="platform/core/system/pass" revision="f59071aaacb811e0cd57929c073c2a854c82345e"/>
   <project name="platform/core/system/peripheral-bus" path="platform/core/system/peripheral-bus" revision="eae224662ef07c93c63768db689105ab7e326727"/>
   <project name="platform/core/system/resourced" path="platform/core/system/resourced" revision="9b0431ea4388ec526acb3ca1ec0a1a701376904a"/>
   <project name="platform/core/system/resourced-headless" path="platform/core/system/resourced-headless" revision="80bf0c881ab77a7a64c54e6c19430d2e5c477c01"/>
@@ -352,7 +352,7 @@
   <project name="platform/core/system/tlm" path="platform/core/system/tlm" revision="a7ef2bb996d3c3c9350548123f61c6f95f30fba7"/>
   <project name="platform/core/telephony/call-manager" path="platform/core/telephony/call-manager" revision="92a8256bdea021880fddba84c4ef7b42c7acf47b"/>
   <project name="platform/core/telephony/libcall-manager" path="platform/core/telephony/libcall-manager" revision="b725de35adf3b1412ce0438b0b4ccaa583ab58df"/>
-  <project name="platform/core/telephony/libtapi" path="platform/core/telephony/libtapi" revision="de8e4251a8c751efdf31cffc143f0b40f9adf7d0"/>
+  <project name="platform/core/telephony/libtapi" path="platform/core/telephony/libtapi" revision="fb6d00455d471b2c4004e4f410b5bf14ecb012fd"/>
   <project name="platform/core/telephony/libtcore" path="platform/core/telephony/libtcore" revision="2998ca12a7b410920054f0ee0d5377810de9773a"/>
   <project name="platform/core/telephony/phonenumber-utils" path="platform/core/telephony/phonenumber-utils" revision="55dac0636d6d14b27f2b3361a1d6083ec70546c1"/>
   <project name="platform/core/telephony/tel-plugin-atmodem" path="platform/core/telephony/tel-plugin-atmodem" revision="dbc9b2fb9b5bee5ce3a4043888c98b3e4463889f"/>
@@ -369,16 +369,16 @@
   <project name="platform/core/telephony/telephony-syspopup" path="platform/core/telephony/telephony-syspopup" revision="74e5d6270cb60d52cd8865dcc98d80f6f8fe43c3"/>
   <project name="platform/core/uifw/anthy" path="platform/core/uifw/anthy" revision="f1193f620a94036d914ecbeeeffd2795ae8aff28"/>
   <project name="platform/core/uifw/coregl" path="platform/core/uifw/coregl" revision="fa4dcac799209d8c39eb587bc8a53a66b731911b"/>
-  <project name="platform/core/uifw/dali-adaptor" path="platform/core/uifw/dali-adaptor" revision="9390dac13790d894e5531a19aa0f900c4df1be8e"/>
-  <project name="platform/core/uifw/dali-core" path="platform/core/uifw/dali-core" revision="4d75040ab200bd306ec5a48f2a617480062eef4c"/>
-  <project name="platform/core/uifw/dali-csharp-binder" path="platform/core/uifw/dali-csharp-binder" revision="e8cf23524d409550c14ff7d8d99c03ec73dc95fd"/>
-  <project name="platform/core/uifw/dali-demo" path="platform/core/uifw/dali-demo" revision="0f3431b4c151c98f1763117a354580f6fb2b77d7"/>
-  <project name="platform/core/uifw/dali-extension" path="platform/core/uifw/dali-extension" revision="116340984e9251c5973ac79ae3f3b5b4d47a4a6f"/>
-  <project name="platform/core/uifw/dali-toolkit" path="platform/core/uifw/dali-toolkit" revision="20125e47f9f183b0d39972ada01280da8984d942"/>
+  <project name="platform/core/uifw/dali-adaptor" path="platform/core/uifw/dali-adaptor" revision="240762c32ee5c8584b3a128ca775188a9b1c0cf4"/>
+  <project name="platform/core/uifw/dali-core" path="platform/core/uifw/dali-core" revision="1c21029fa51ea8e75575aca5ad65d36056609621"/>
+  <project name="platform/core/uifw/dali-csharp-binder" path="platform/core/uifw/dali-csharp-binder" revision="89143651a6481429b8103fba3c88e6ce32d803f8"/>
+  <project name="platform/core/uifw/dali-demo" path="platform/core/uifw/dali-demo" revision="623f60d87a297beb8f3408926b8bacac21e8de00"/>
+  <project name="platform/core/uifw/dali-extension" path="platform/core/uifw/dali-extension" revision="aeea79a03efa4cceb187bab3fec8c5ecfd5d18ea"/>
+  <project name="platform/core/uifw/dali-toolkit" path="platform/core/uifw/dali-toolkit" revision="5df6d7bc9e68f0b140df3229ef06f483bdd14d82"/>
   <project name="platform/core/uifw/download-fonts-service" path="platform/core/uifw/download-fonts-service" revision="d49e82ff8c57a80bcc56d7aab229231db02a2d1a"/>
   <project name="platform/core/uifw/e-mod-tizen-devicemgr" path="platform/core/uifw/e-mod-tizen-devicemgr" revision="208e51cd309701f4eef33137f3df5ad1cbc2769e"/>
   <project name="platform/core/uifw/e-mod-tizen-effect" path="platform/core/uifw/e-mod-tizen-effect" revision="063db43319f3863ebe1f8b5e986e8e40a64cafc5"/>
-  <project name="platform/core/uifw/e-mod-tizen-gesture" path="platform/core/uifw/e-mod-tizen-gesture" revision="86da8d0d19431c2a25913d40af06cadd4e0cdf23"/>
+  <project name="platform/core/uifw/e-mod-tizen-gesture" path="platform/core/uifw/e-mod-tizen-gesture" revision="2daf5fc007862e181f44b27d176cf8dc30a6cec0"/>
   <project name="platform/core/uifw/e-mod-tizen-keyrouter" path="platform/core/uifw/e-mod-tizen-keyrouter" revision="f0bd0f87d3db247903dee550689bfd804b1ca88b"/>
   <project name="platform/core/uifw/e-mod-tizen-processmgr" path="platform/core/uifw/e-mod-tizen-processmgr" revision="f9072b17fda0f2f91bc09b2943eb9e3073b5fb1d"/>
   <project name="platform/core/uifw/e-mod-tizen-screen-reader" path="platform/core/uifw/e-mod-tizen-screen-reader" revision="f33e3993f7165d8cf8b609be00dfa8426341e12f"/>
@@ -406,7 +406,7 @@
   <project name="platform/core/uifw/libscl-core" path="platform/core/uifw/libscl-core" revision="487ce2fe0f0f24618b7cb713f88c57dfa2012707"/>
   <project name="platform/core/uifw/libscl-ui" path="platform/core/uifw/libscl-ui" revision="dba394093ece46f746caacb6079fecbd432121ef"/>
   <project name="platform/core/uifw/libtbm" path="platform/core/uifw/libtbm" revision="cbe1ef4f887c4f1fa80fffc9c487d5aa87b6b8ca"/>
-  <project name="platform/core/uifw/libtdm" path="platform/core/uifw/libtdm" revision="096b0daf780ac2cf91e64aab37f640241eb4f632"/>
+  <project name="platform/core/uifw/libtdm" path="platform/core/uifw/libtdm" revision="5c5ef51cd9bad051072eeb9ce49fc37577302695"/>
   <project name="platform/core/uifw/libtpl-egl" path="platform/core/uifw/libtpl-egl" revision="f15688c950ee6528077fcdd55f9e504416e473df"/>
   <project name="platform/core/uifw/pepper" path="platform/core/uifw/pepper" revision="9746bc7adc8207caf0241a7683cbdcbf9e5ac6ad"/>
   <project name="platform/core/uifw/sketch" path="platform/core/uifw/sketch" revision="fc9d0cba9cd8fa3cfb00ced607f3b5b3b740e0bf"/>
@@ -439,7 +439,7 @@
   <project name="platform/kernel/swap-modules" path="platform/kernel/swap-modules" revision="0849c9dc9c68a0d20ac02352307366fb6d1d54f0"/>
   <project name="platform/upstream/7zip" path="platform/upstream/7zip" revision="47dd91d4f31d08dbd7c27ef67bafb49f2fb0444b"/>
   <project name="platform/upstream/GraphicsMagick" path="platform/upstream/GraphicsMagick" revision="97fdf1ea5f639179f4ac6a72dd65529632aaeacb"/>
-  <project name="platform/upstream/SDL" path="platform/upstream/SDL" revision="d0c1ff4dbda43a93417f58f7c24c0868af393956"/>
+  <project name="platform/upstream/SDL" path="platform/upstream/SDL" revision="fa61c2dad353d153121667bce47cad652417011f"/>
   <project name="platform/upstream/SPIRV-Headers" path="platform/upstream/SPIRV-Headers" revision="6676ba69251e13aa0f4588414084827b5eaf81fb"/>
   <project name="platform/upstream/SPIRV-Tools" path="platform/upstream/SPIRV-Tools" revision="19f5b71162f065b4a635bc31e96be0b08bea67ef"/>
   <project name="platform/upstream/Vulkan-LoaderAndValidationLayers" path="platform/upstream/Vulkan-LoaderAndValidationLayers" revision="949ea5c80b6d139816fd3411690da9654b671c9b"/>
@@ -480,9 +480,9 @@
   <project name="platform/upstream/dosfstools" path="platform/upstream/dosfstools" revision="b156136ea7bd8d6e7a16d89cd6680d8223945679"/>
   <project name="platform/upstream/ecryptfs-utils" path="platform/upstream/ecryptfs-utils" revision="0342ba1b12a89cc2d2a9d9b820c8270585bee62c"/>
   <project name="platform/upstream/edbus" path="platform/upstream/edbus" revision="86395d99f9525a52dfd540cdef26e218fa20a0a0"/>
-  <project name="platform/upstream/efl" path="platform/upstream/efl" revision="01be1bf65a2735a9aa2c178a825dd238274421be"/>
+  <project name="platform/upstream/efl" path="platform/upstream/efl" revision="43914b0ac7b86cc8a3f43cb388d3f1e836bb7f99"/>
   <project name="platform/upstream/ejdb" path="platform/upstream/ejdb" revision="892012b3095bf5a90341c441b757d7d63d3322e6"/>
-  <project name="platform/upstream/enlightenment" path="platform/upstream/enlightenment" revision="b3bc14f9c388be8720804e7874b269ccdefaac7f"/>
+  <project name="platform/upstream/enlightenment" path="platform/upstream/enlightenment" revision="4f6684aa4ed27b33c7138c9f07e3cbb06e50b7ed"/>
   <project name="platform/upstream/expect" path="platform/upstream/expect" revision="579d1c972c9603cfc5bdfad2a1397ae1ba4cbb2d"/>
   <project name="platform/upstream/flac" path="platform/upstream/flac" revision="8fc4ea16ad857e1e927fde29f99d6fb49d6a5055"/>
   <project name="platform/upstream/fontconfig" path="platform/upstream/fontconfig" revision="53512c1b97b5223eaf302184ea4c9c14439052eb"/>
@@ -495,7 +495,7 @@
   <project name="platform/upstream/gdb" path="platform/upstream/gdb" revision="4e069e3f12a70030f27e199c60e48cc732295f54"/>
   <project name="platform/upstream/gflags" path="platform/upstream/gflags" revision="e5819300dd3cfb625643033d361b0876d3d75c87"/>
   <project name="platform/upstream/giflib" path="platform/upstream/giflib" revision="25f96fe50baab58244927291119730fa129fc0b0"/>
-  <project name="platform/upstream/glib" path="platform/upstream/glib" revision="c6669792bb7faba68bc063bf43ab0d94e8a943da"/>
+  <project name="platform/upstream/glib" path="platform/upstream/glib" revision="a119541e4aef2f98c6bd46cbcd70340cbdd98d75"/>
   <project name="platform/upstream/glib-networking" path="platform/upstream/glib-networking" revision="e43988b68fedcb2cbdad4ffaccca579c6f4729d9"/>
   <project name="platform/upstream/glog" path="platform/upstream/glog" revision="acc5e9cc49cc9d51c5c366cc7b6549c1223f1be9"/>
   <project name="platform/upstream/glslang" path="platform/upstream/glslang" revision="dcff4518785dace01b5a2b06088780aaed6bfb19"/>
@@ -510,9 +510,9 @@
   <project name="platform/upstream/gssdp" path="platform/upstream/gssdp" revision="5c83b7ff28737b92eaefc20905d3d1a700ffe3e9"/>
   <project name="platform/upstream/gst-libav" path="platform/upstream/gst-libav" revision="8c692d09b7d878cddbdaa63ec29975677ed89d63"/>
   <project name="platform/upstream/gst-plugins-bad" path="platform/upstream/gst-plugins-bad" revision="97d68b6059ef06d94babdcffaa2d0b3e0b393dc6"/>
-  <project name="platform/upstream/gst-plugins-base" path="platform/upstream/gst-plugins-base" revision="8ce157db24695d4cdd2416324763984e10339575"/>
+  <project name="platform/upstream/gst-plugins-base" path="platform/upstream/gst-plugins-base" revision="be382bd06a3bb116ce7b974c3e41baec112318ce"/>
   <project name="platform/upstream/gst-plugins-good" path="platform/upstream/gst-plugins-good" revision="e9ae98583c1b670037417cf1826954a62eb05bbf"/>
-  <project name="platform/upstream/gst-plugins-tizen" path="platform/upstream/gst-plugins-tizen" revision="f618db7fb6cec31be23b9ce742784d281994adb5"/>
+  <project name="platform/upstream/gst-plugins-tizen" path="platform/upstream/gst-plugins-tizen" revision="bd09ba03b16b5bb7060e056c7b1459c290c544ea"/>
   <project name="platform/upstream/gst-plugins-ugly" path="platform/upstream/gst-plugins-ugly" revision="3127de178dd0160850d2f40f8b5ec6e3f5e58ed5"/>
   <project name="platform/upstream/gst-rtsp-server" path="platform/upstream/gst-rtsp-server" revision="f3577dc8a767321faedf4eb3ea955e24bf9cb5bc"/>
   <project name="platform/upstream/gstreamer" path="platform/upstream/gstreamer" revision="b761eaab56e9b95d5cbd696e2d6c006ee243fc62"/>
@@ -556,7 +556,6 @@
   <project name="platform/upstream/libevdev" path="platform/upstream/libevdev" revision="559736251dcb855261121b6fcec16359ee0d7fe7"/>
   <project name="platform/upstream/libevent" path="platform/upstream/libevent" revision="2d49d45c9decdf49820a6ede94332660568f3752"/>
   <project name="platform/upstream/libexif" path="platform/upstream/libexif" revision="593bd4c2a95f4ddb56284a787abe2ae3d557dcce"/>
-  <project name="platform/upstream/libgudev" path="platform/upstream/libgudev" revision="f9ae05c26890ae6588b70373d034c273c732a109"/>
   <project name="platform/upstream/libinput" path="platform/upstream/libinput" revision="f4aa3e73c40ba836e2659d19723e997fca7b5c39"/>
   <project name="platform/upstream/libiri" path="platform/upstream/libiri" revision="c756950ca6af8d207c90d570a03ca7673e577123"/>
   <project name="platform/upstream/libjpeg-turbo" path="platform/upstream/libjpeg-turbo" revision="8bb36055914b64399455d80dc875f6baad9251e0"/>
@@ -703,7 +702,7 @@
   <project name="platform/upstream/vi" path="platform/upstream/vi" revision="e8eb59aee615020d82dbe8bbfa108875d2946e86"/>
   <project name="platform/upstream/wayland" path="platform/upstream/wayland" revision="bda80abc89896a0526d226b7a41cfc97c1ea6dd7"/>
   <project name="platform/upstream/wdiff" path="platform/upstream/wdiff" revision="28db84d4a215eec9286339710fadbd5016a3c796"/>
-  <project name="platform/upstream/wpa_supplicant" path="platform/upstream/wpa_supplicant" revision="28dc1af495fa3f6a0ee394a4784539f5f1546b74"/>
+  <project name="platform/upstream/wpa_supplicant" path="platform/upstream/wpa_supplicant" revision="5d11cf9734d5d16b4284760e7664fa27179bf567"/>
   <project name="platform/upstream/xdelta3" path="platform/upstream/xdelta3" revision="dc729ab4aa26561763623fbce96ada379f4c332c"/>
   <project name="platform/upstream/xkeyboard-config" path="platform/upstream/xkeyboard-config" revision="c0927b5ab9124528e8626bcccc5d0750a7b90b7d"/>
   <project name="platform/upstream/xmlcharent" path="platform/upstream/xmlcharent" revision="0489c3ebdd9b3501928110dc6549bfe26efd3b99"/>
@@ -736,7 +735,7 @@
   <project name="profile/mobile/apps/native/clock" path="profile/mobile/apps/native/clock" revision="0c115f64ced9864117d99efc38163f9e26ce70cb"/>
   <project name="profile/mobile/apps/native/email-app" path="profile/mobile/apps/native/email-app" revision="87f491146aadee7915df12d8325fd60732441130"/>
   <project name="profile/mobile/apps/native/gallery" path="profile/mobile/apps/native/gallery" revision="c26153c0b8941854a22923ccd70c4a7e785f12a4"/>
-  <project name="profile/mobile/apps/native/homescreen-efl" path="profile/mobile/apps/native/homescreen-efl" revision="a5159d6fa0aa08dbce81d960bec9595fd6203cd0"/>
+  <project name="profile/mobile/apps/native/homescreen-efl" path="profile/mobile/apps/native/homescreen-efl" revision="9a49e9d121f441924327f866e6b4721407ef04e9"/>
   <project name="profile/mobile/apps/native/indicator" path="profile/mobile/apps/native/indicator" revision="2ac94b10a3ba3133f108093906e6afcf4e8ff4cc"/>
   <project name="profile/mobile/apps/native/location/lbs-setting" path="profile/mobile/apps/native/location/lbs-setting" revision="bd24d14ff0bafa1044a360a00082dddec66ed26b"/>
   <project name="profile/mobile/apps/native/location/myplace" path="profile/mobile/apps/native/location/myplace" revision="9530fa424d17802c6ccce5d2c8f5aac3ea8d1139"/>
@@ -764,9 +763,9 @@
   <project name="profile/mobile/apps/native/video-player" path="profile/mobile/apps/native/video-player" revision="ec888687505edb8db0cd3aa1276400adf8e29cff"/>
   <project name="profile/mobile/apps/native/voice/voice-control-panel" path="profile/mobile/apps/native/voice/voice-control-panel" revision="8d175829d72f1881f5c327a263904d8ac4cd1144"/>
   <project name="profile/mobile/apps/native/voice/voice-setting" path="profile/mobile/apps/native/voice/voice-setting" revision="fa795a8134068286e47e14db5f7edc206629e769"/>
-  <project name="profile/mobile/apps/native/wallpaper-ui-service" path="profile/mobile/apps/native/wallpaper-ui-service" revision="dacadf8f438fb0a42db2dc2f4daa8a0d266fb18e"/>
+  <project name="profile/mobile/apps/native/wallpaper-ui-service" path="profile/mobile/apps/native/wallpaper-ui-service" revision="adff9f36c79cf0eea9d9ad07e30562d7eaa72da7"/>
   <project name="profile/mobile/apps/web/browser" path="profile/mobile/apps/web/browser" revision="57af02c1b38225472e69bfbda3f8f5628bad9d7b"/>
-  <project name="profile/mobile/meta-mobile" path="profile/mobile/meta-mobile" revision="e32316f7328eb3111fe59ae0b45d5a832d9f0196"/>
+  <project name="profile/mobile/meta-mobile" path="profile/mobile/meta-mobile" revision="7496dc01e80d1089478718ea1f6dc80aa19bb170"/>
   <project name="profile/mobile/platform/adaptation/spreadtrum/audio-config-sc" path="profile/mobile/platform/adaptation/spreadtrum/audio-config-sc" revision="6cd164b8051bd07c9a0130796c2a9fc8c47818f3"/>
   <project name="profile/mobile/platform/adaptation/spreadtrum/device-manager-plugin-sc7730" path="profile/mobile/platform/adaptation/spreadtrum/device-manager-plugin-sc7730" revision="00487eada03fd43123c67f542a585734466dca2e"/>
   <project name="profile/mobile/platform/core/appfw/app-selector" path="profile/mobile/platform/core/appfw/app-selector" revision="d7884226f1ff680128b6ef78531ff04a2d59fd45"/>
@@ -775,7 +774,7 @@
   <project name="profile/mobile/platform/core/security/cert-svc-ui" path="profile/mobile/platform/core/security/cert-svc-ui" revision="3b59c23119bfd8f25341706202e0cdcbfcfb7805"/>
   <project name="profile/mobile/platform/core/uifw/cbhm" path="profile/mobile/platform/core/uifw/cbhm" revision="9a84b7433ff3cdc52674354ca89c22d39e22635a"/>
   <project name="profile/mobile/platform/core/uifw/e-tizen-data" path="profile/mobile/platform/core/uifw/e-tizen-data" revision="ac2b556ca39cec6c85eeca0008a912a139fd8d5f"/>
-  <project name="profile/mobile/platform/core/uifw/efl-theme-tizen-mobile" path="profile/mobile/platform/core/uifw/efl-theme-tizen-mobile" revision="071db8c27da682fa1866bfd9a9d9198b3dd9e3d8"/>
+  <project name="profile/mobile/platform/core/uifw/efl-theme-tizen-mobile" path="profile/mobile/platform/core/uifw/efl-theme-tizen-mobile" revision="974778860e985299fa2cd3ddc46fd4cfb88f282a"/>
   <project name="profile/mobile/platform/core/uifw/isf-config" path="profile/mobile/platform/core/uifw/isf-config" revision="a45c56dd499687d89bc64c66bfd0c2f298beae9e"/>
   <project name="profile/tv/apps/dotnet/home" path="profile/tv/apps/dotnet/home" revision="ece8ccdd4509021d307a7763dcaa0370b471bf92"/>
   <project name="profile/tv/apps/dotnet/mediahub" path="profile/tv/apps/dotnet/mediahub" revision="d6835690c2067b7695e6b5b8f679aaa99f7ef92c"/>
@@ -800,7 +799,7 @@
   <project name="profile/wearable/apps/native/call-ui" path="profile/wearable/apps/native/call-ui" revision="67cdfc834fc4c1746b9ff18a2a65ee051a5f7f3d"/>
   <project name="profile/wearable/apps/native/classic-watch" path="profile/wearable/apps/native/classic-watch" revision="5dab1b654ee4ee1e68e2be2b04530f552352409c"/>
   <project name="profile/wearable/apps/native/connectivity/bluetooth" path="profile/wearable/apps/native/connectivity/bluetooth" revision="f964ce736782c3a282ed1cbd184f29c53fe516cb"/>
-  <project name="profile/wearable/apps/native/connectivity/wifi" path="profile/wearable/apps/native/connectivity/wifi" revision="ef6dcd7146b9b501c85d4cfbf0ee5bf1d83895f9"/>
+  <project name="profile/wearable/apps/native/connectivity/wifi" path="profile/wearable/apps/native/connectivity/wifi" revision="7fcbfd290833015f75c18c913fd312ac8dd29cb2"/>
   <project name="profile/wearable/apps/native/gallery" path="profile/wearable/apps/native/gallery" revision="a5cd74f82d5beb86abbdf73fda551507c02bee36"/>
   <project name="profile/wearable/apps/native/idle-clock-digital" path="profile/wearable/apps/native/idle-clock-digital" revision="68ea1209dda2cf0c13b268889fe083b9eb1c413b"/>
   <project name="profile/wearable/apps/native/location/lbs-setting" path="profile/wearable/apps/native/location/lbs-setting" revision="16dd29e8014a83a370a9b5cea6229eb41141f5bb"/>
@@ -814,8 +813,8 @@
   <project name="profile/wearable/apps/native/w-clock-viewer" path="profile/wearable/apps/native/w-clock-viewer" revision="3beeced85915181b4e9f53fa62053ea4134b812c"/>
   <project name="profile/wearable/apps/native/w3-home" path="profile/wearable/apps/native/w3-home" revision="428ac012d787c41efc11b85cc59a5000aa6fe9f6"/>
   <project name="profile/wearable/apps/native/watch-face-editor" path="profile/wearable/apps/native/watch-face-editor" revision="108b983d6af42e52cf11561ae7bff07cdf8ed6df"/>
-  <project name="profile/wearable/apps/native/watch-setting" path="profile/wearable/apps/native/watch-setting" revision="5ff2c3449ba12c4fd7c2958852e0b4412c990986"/>
-  <project name="profile/wearable/meta-wearable" path="profile/wearable/meta-wearable" revision="434c6bab7aed121e724ed7176da952ddf732f514"/>
+  <project name="profile/wearable/apps/native/watch-setting" path="profile/wearable/apps/native/watch-setting" revision="7da46536523380c1152340c1cc03315864d633bb"/>
+  <project name="profile/wearable/meta-wearable" path="profile/wearable/meta-wearable" revision="b28eb95b684e3647d447d2cd5c77936676f81a7d"/>
   <project name="profile/wearable/platform/adaptation/samsung_exynos/audio-config-wm1831" path="profile/wearable/platform/adaptation/samsung_exynos/audio-config-wm1831" revision="32a3cd600356504c8f00646f53c81f87a8bed440"/>
   <project name="profile/wearable/platform/adaptation/samsung_exynos/device-manager-plugin-exynos3250" path="profile/wearable/platform/adaptation/samsung_exynos/device-manager-plugin-exynos3250" revision="7bfb12aa209d4ad22a494c4b6db52b23fd54e685"/>
   <project name="profile/wearable/platform/core/appfw/app-selector" path="profile/wearable/platform/core/appfw/app-selector" revision="c19793f918faf458674df4e65d824616f65e3624"/>
@@ -833,7 +832,7 @@
   <project name="sdk/tools/profctl" path="sdk/tools/profctl" revision="9d1e5c1f0dc3ac3777e2524a5667f6f07dd4597a"/>
   <project name="test/appium/uiautomator" path="test/appium/uiautomator" revision="7d46292af667ae485fc5d744f7aae05136e7769a"/>
   <project name="tools/bmap-tools" path="tools/bmap-tools" revision="05e5d08012dba106383f0eff62d8f86b01f1f3a1"/>
-  <project name="tools/building-blocks" path="tools/building-blocks" revision="f946b2a1e9e600b7bdf58bcca72e62194500c6f4"/>
+  <project name="tools/building-blocks" path="tools/building-blocks" revision="50d3f63e2afdc905228d476fbd74a67de928e962"/>
   <project name="tools/libFuzzer" path="tools/libFuzzer" revision="5dcfdbd628a87f6d28dead17a26a9c3e97e61548"/>
   <project name="tools/mic-bootstrap" path="tools/mic-bootstrap" revision="7274da329038b06577f04399d7c996a51979debf"/>
   <project name="tools/ttrace" path="tools/ttrace" revision="4a87ccb85c870777655c4066a36dd11ba260ea6d"/>
