@@ -199,7 +199,7 @@
   <project name="platform/core/appfw/tpk-manifest-handlers" path="platform/core/appfw/tpk-manifest-handlers" revision="08cc7a462d27aa0ae174e404aab8e1456b23dee7"/>
   <project name="platform/core/appfw/ui-gadget-1" path="platform/core/appfw/ui-gadget-1" revision="eb76472f56603826a2830a15448b7e55247515ab"/>
   <project name="platform/core/appfw/vconf-internal-keys" path="platform/core/appfw/vconf-internal-keys" revision="fa12263ccd2a09b9e2461cf01a7494d7dccd9583"/>
-  <project name="platform/core/appfw/watchface-complication" path="platform/core/appfw/watchface-complication" revision="75b4ddbed04bd3c88e07e28bf590f605acdc4b85"/>
+  <project name="platform/core/appfw/watchface-complication" path="platform/core/appfw/watchface-complication" revision="c45d5111d1df06d3c559fa010dc8c2157c69105d"/>
   <project name="platform/core/appfw/wgt-backend" path="platform/core/appfw/wgt-backend" revision="000e9d5f457f786900808b4e5cd42e7a319f3cd1"/>
   <project name="platform/core/appfw/wgt-manifest-handlers" path="platform/core/appfw/wgt-manifest-handlers" revision="db70e34626b6b25c6fbb8903fa534c05ee7917a4"/>
   <project name="platform/core/appfw/widget-service" path="platform/core/appfw/widget-service" revision="39f4c5feef86c47f08e5379ff9dbfc5da04e38d1"/>
@@ -221,7 +221,7 @@
   <project name="platform/core/connectivity/mdg-manager" path="platform/core/connectivity/mdg-manager" revision="fe06b4eeb2ac648f91bd8882ac1fadb51d798098"/>
   <project name="platform/core/connectivity/mobileap-agent" path="platform/core/connectivity/mobileap-agent" revision="74e2885c1645a4eea44c2e2f0ea1baa0b5194048"/>
   <project name="platform/core/connectivity/mtp-initiator" path="platform/core/connectivity/mtp-initiator" revision="8f60d799550b60615b105e8faf0bd317ea66b000"/>
-  <project name="platform/core/connectivity/nan-manager" path="platform/core/connectivity/nan-manager" revision="f6cebd8a1dcbc27aaf3e0ec8c6c1de21367a1868"/>
+  <project name="platform/core/connectivity/nan-manager" path="platform/core/connectivity/nan-manager" revision="ad483db858369b14997bca0799e86b26b70f8c57"/>
   <project name="platform/core/connectivity/net-config" path="platform/core/connectivity/net-config" revision="0aff3787e495381a4f0875d221a4b1b55434375e"/>
   <project name="platform/core/connectivity/net-popup" path="platform/core/connectivity/net-popup" revision="18fca826efbd9e14e4dab817b5811a96b0a2134d"/>
   <project name="platform/core/connectivity/nfc-manager" path="platform/core/connectivity/nfc-manager" revision="844da4dd51a2b15704979e6eae703ce608b9ffba"/>
@@ -469,7 +469,7 @@
   <project name="platform/core/uifw/xkb-tizen-data" path="platform/core/uifw/xkb-tizen-data" revision="8efae09e8ab5cabf3ccebcbdad07ffe57be268d4"/>
   <project name="platform/core/webapi/libteec" path="platform/core/webapi/libteec" revision="12869a1681e2e227ce337e7bfd8b05b0b4521be0"/>
   <project name="platform/framework/web/browser-provider" path="platform/framework/web/browser-provider" revision="77e17d6130a05ee38b1075270517570e401888ec"/>
-  <project name="platform/framework/web/chromium-efl" path="platform/framework/web/chromium-efl" revision="a162d3d099234eabc50ed49cdf4c136dec3939ed"/>
+  <project name="platform/framework/web/chromium-efl" path="platform/framework/web/chromium-efl" revision="352814f97f5dd9ed4d849d7e1e5c9553a9b503cb"/>
   <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" revision="ab4b44786e84d02c7119dbcdd92d9b06619e4bb9"/>
   <project name="platform/framework/web/wrtjs" path="platform/framework/web/wrtjs" revision="f3e7199303f799c8151ddb84f04f6bd9aa1b67eb"/>
   <project name="platform/framework/web/xwalk-extensions-common" path="platform/framework/web/xwalk-extensions-common" revision="9825fe4f69e44aa94e6cc973a5c3c33bb68b2180"/>
@@ -569,7 +569,7 @@
   <project name="platform/upstream/hyphen" path="platform/upstream/hyphen" revision="4ef24db9187f052603bd4d0f95d1ccf6da4ff9cf"/>
   <project name="platform/upstream/image-configurations" path="platform/upstream/image-configurations" revision="8f4ba37b4aa81aa70e82b905d131b49d2bc2a3ca"/>
   <project name="platform/upstream/iniparser" path="platform/upstream/iniparser" revision="42dd5ad2c9a448fde8cb240b54763096b4f8fe98"/>
-  <project name="platform/upstream/iotivity" path="platform/upstream/iotivity" revision="9d09e1e491f368127f9491e96de4f5b4e105f2fd"/>
+  <project name="platform/upstream/iotivity" path="platform/upstream/iotivity" revision="d3c0b7cd0d04949e39cbbce410949cfe63a2dd2f"/>
   <project name="platform/upstream/iotjs" path="platform/upstream/iotjs" revision="7583818514fac3a349df75849291f30a16f3cadb"/>
   <project name="platform/upstream/iproute2" path="platform/upstream/iproute2" revision="439a68c4560a9d43e25f99857273eb5efd8e1d56"/>
   <project name="platform/upstream/iptables" path="platform/upstream/iptables" revision="b535374131220ea8178ef3423f0737829aee4296"/>
@@ -779,7 +779,7 @@
   <project name="profile/common/platform/core/uifw/efl-theme-tizen-common" path="profile/common/platform/core/uifw/efl-theme-tizen-common" revision="aaeca15377028416cd5b723d605ff0f0a5e37a76"/>
   <project name="profile/common/platform/core/uifw/isf-config" path="profile/common/platform/core/uifw/isf-config" revision="4bcfae1f7294a3d7f298a57b9e85ff0279c8aa12"/>
   <project name="profile/iot/apps/native/font-viewer" path="profile/iot/apps/native/font-viewer" revision="9ec0b2ed343fdf3631fc4f2aca4721a7e03cae41"/>
-  <project name="profile/iot/apps/native/gallery" path="profile/iot/apps/native/gallery" revision="91b98d17927ba1abe828253b7652d4ba00244078"/>
+  <project name="profile/iot/apps/native/gallery" path="profile/iot/apps/native/gallery" revision="507c9874b435f553e9ec3920df6cfc9729a89ec7"/>
   <project name="profile/iot/apps/native/homescreen-efl" path="profile/iot/apps/native/homescreen-efl" revision="1fe0b982dccd388e5fdafbe97fc23ad8bb954fbc"/>
   <project name="profile/iot/apps/native/music-player" path="profile/iot/apps/native/music-player" revision="afa33856c411b76b9971665c67dabda104e5632c"/>
   <project name="profile/iot/apps/native/oobe" path="profile/iot/apps/native/oobe" revision="2dc0fda42de91cdb445ac4aeda13c3051e414f2b"/>
@@ -817,7 +817,7 @@
   <project name="profile/mobile/apps/native/privacy-setting" path="profile/mobile/apps/native/privacy-setting" revision="21bebe07fe6e1b2eff5bbd85f762288831cfcb4c"/>
   <project name="profile/mobile/apps/native/quickpanel" path="profile/mobile/apps/native/quickpanel" revision="6ccb80da905349fbc0ce5cb387aa428c0ae3c4b1"/>
   <project name="profile/mobile/apps/native/resources-setting" path="profile/mobile/apps/native/resources-setting" revision="831c762d6a5c31229800e3a746ee9a9e8a4bf3e8"/>
-  <project name="profile/mobile/apps/native/settings" path="profile/mobile/apps/native/settings" revision="cb61fe356f11371ced650e5bc8be131a5256f4cf"/>
+  <project name="profile/mobile/apps/native/settings" path="profile/mobile/apps/native/settings" revision="6ef9de014ff2813cf2699e9c262d08946f7d2710"/>
   <project name="profile/mobile/apps/native/settings-adid" path="profile/mobile/apps/native/settings-adid" revision="27c0e6016762378cf5e4385a56a5f63e68711080"/>
   <project name="profile/mobile/apps/native/share-panel" path="profile/mobile/apps/native/share-panel" revision="fbfd2c79aa73d3623423403d151ef45869336c18"/>
   <project name="profile/mobile/apps/native/taskmanager" path="profile/mobile/apps/native/taskmanager" revision="d226e60ddeb2b6620709eb731788dbeb230a1248"/>
@@ -833,7 +833,7 @@
   <project name="profile/mobile/apps/native/voice/voice-setting" path="profile/mobile/apps/native/voice/voice-setting" revision="029485437e153038bad47973c68c3e4bba95b1b2"/>
   <project name="profile/mobile/apps/native/wallpaper-ui-service" path="profile/mobile/apps/native/wallpaper-ui-service" revision="4e856f03eec21eeda513eefca33c7ee71bfc93a8"/>
   <project name="profile/mobile/apps/web/webapp-addon-setting" path="profile/mobile/apps/web/webapp-addon-setting" revision="e181aca0eb1eb8b1bdedbd5a376c167ac2f176a4"/>
-  <project name="profile/mobile/meta-mobile" path="profile/mobile/meta-mobile" revision="628af497298ebaf0b677db1209b62fd22e081422"/>
+  <project name="profile/mobile/meta-mobile" path="profile/mobile/meta-mobile" revision="4f0c7cc8a6de40078dd085a3f6456951b2f6b3c6"/>
   <project name="profile/mobile/platform/adaptation/spreadtrum/audio-config-sc" path="profile/mobile/platform/adaptation/spreadtrum/audio-config-sc" revision="6cd164b8051bd07c9a0130796c2a9fc8c47818f3"/>
   <project name="profile/mobile/platform/adaptation/spreadtrum/device-manager-plugin-sc7730" path="profile/mobile/platform/adaptation/spreadtrum/device-manager-plugin-sc7730" revision="269140d42ac5b61f532f1d9cfbe0717d73f03c7a"/>
   <project name="profile/mobile/platform/core/appfw/app-selector" path="profile/mobile/platform/core/appfw/app-selector" revision="973034ea18af99b3ec21460ae7621a0f8d8741db"/>
@@ -856,7 +856,7 @@
   <project name="profile/tv/apps/native/location/simple-maps" path="profile/tv/apps/native/location/simple-maps" revision="60e207a67bb1c13a3a8ad4a7621559d45f1298dc"/>
   <project name="profile/tv/apps/native/utils/app-utils" path="profile/tv/apps/native/utils/app-utils" revision="c60b305325b8749007862665025b57c7c9e7c415"/>
   <project name="profile/tv/apps/web/webapp-addon-setting" path="profile/tv/apps/web/webapp-addon-setting" revision="deea53836f2f76cbb4709a351ba011ad84a03f75"/>
-  <project name="profile/tv/meta-tv" path="profile/tv/meta-tv" revision="113cd2497e81998e400918bb61397c882f407f42"/>
+  <project name="profile/tv/meta-tv" path="profile/tv/meta-tv" revision="959939d38155cb7b4fbf25d71767c3dad7406df9"/>
   <project name="profile/tv/platform/core/uifw/autofill-config" path="profile/tv/platform/core/uifw/autofill-config" revision="194a251b8c664e0137d593b6bcff708349ed1459"/>
   <project name="profile/tv/platform/core/uifw/e-tizen-data" path="profile/tv/platform/core/uifw/e-tizen-data" revision="331b0b5c8b9ad375152222315d90fc41380c7689"/>
   <project name="profile/tv/platform/core/uifw/efl-theme-tizen-tv" path="profile/tv/platform/core/uifw/efl-theme-tizen-tv" revision="b2932cead0eb1b0354ef1036a81669daace31702"/>
@@ -888,7 +888,7 @@
   <project name="profile/wearable/apps/native/watch-face-editor" path="profile/wearable/apps/native/watch-face-editor" revision="16f20f275b70d8da67eccb5db702d8041f5571ac"/>
   <project name="profile/wearable/apps/native/watch-setting" path="profile/wearable/apps/native/watch-setting" revision="5c02915687aa6adeabb353894e7522e6b44edb61"/>
   <project name="profile/wearable/apps/web/webapp-addon-setting" path="profile/wearable/apps/web/webapp-addon-setting" revision="48f35f5eb6aec0482a4078496b83ed96451d0a1a"/>
-  <project name="profile/wearable/meta-wearable" path="profile/wearable/meta-wearable" revision="fb6cfe27ee162bc819ad60812288e4da6e4bead7"/>
+  <project name="profile/wearable/meta-wearable" path="profile/wearable/meta-wearable" revision="a63cad9bedcd09e65ed1109656545b6ced4653f1"/>
   <project name="profile/wearable/platform/adaptation/samsung_exynos/audio-config-wm1831" path="profile/wearable/platform/adaptation/samsung_exynos/audio-config-wm1831" revision="32a3cd600356504c8f00646f53c81f87a8bed440"/>
   <project name="profile/wearable/platform/adaptation/samsung_exynos/device-manager-plugin-exynos3250" path="profile/wearable/platform/adaptation/samsung_exynos/device-manager-plugin-exynos3250" revision="913ceba1d84790cb976cebd3a0178477f4e12d54"/>
   <project name="profile/wearable/platform/core/accessibility/screen-reader" path="profile/wearable/platform/core/accessibility/screen-reader" revision="5970a77a5adf644ae76eb6ed89016641561ed812"/>
