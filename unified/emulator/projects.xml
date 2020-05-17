@@ -13,7 +13,7 @@
   <project name="apps/native/ug-mobile-ap" path="apps/native/ug-mobile-ap" revision="2b7cade66c916c5002e05509a1f3cd78938d4e96"/>
   <project name="apps/native/ug-nfc-efl" path="apps/native/ug-nfc-efl" revision="cd99fb983afdd6d8bbcf68595d2b5354232e6ed6"/>
   <project name="apps/native/ug-wifi-direct" path="apps/native/ug-wifi-direct" revision="7aef21db1446e20fb22941878bf1a95f607a4238"/>
-  <project name="apps/native/ug-wifi-efl" path="apps/native/ug-wifi-efl" revision="ce5167733a9ad6f2e7644b3e499dea741cc23b16"/>
+  <project name="apps/native/ug-wifi-efl" path="apps/native/ug-wifi-efl" revision="58168f7a5698648a2e8f023949749941554dd934"/>
   <project name="apps/native/volume-app" path="apps/native/volume-app" revision="575a671c4c40fcfb4f1849903a787054f94cef0d"/>
   <project name="apps/native/worldclock-efl" path="apps/native/worldclock-efl" revision="2198660c0199a398ca30c93b11e0ed3c5fb02a67"/>
   <project name="apps/web/download-manager" path="apps/web/download-manager" revision="5de08df9d25d8e15201b7c100b08cf3e1375389b"/>
@@ -400,12 +400,17 @@
   <project name="platform/core/uifw/autofill-daemon" path="platform/core/uifw/autofill-daemon" revision="3258a70f41c50c32887f9df9092d9076380e12d8"/>
   <project name="platform/core/uifw/capi-ui-sticker" path="platform/core/uifw/capi-ui-sticker" revision="7b8838a69ac0358614bcd3f489615d83268527a2"/>
   <project name="platform/core/uifw/coregl" path="platform/core/uifw/coregl" revision="23336c25657a445681dfb95fb0d724735aabf84c"/>
-  <project name="platform/core/uifw/dali-adaptor" path="platform/core/uifw/dali-adaptor" revision="f38a585356efb5fbdc096b9bad3e9048c2ed6bec"/>
-  <project name="platform/core/uifw/dali-core" path="platform/core/uifw/dali-core" revision="b067b6f30c7b8cfdaea9c39f7d2375ccb4e7fa81"/>
-  <project name="platform/core/uifw/dali-csharp-binder" path="platform/core/uifw/dali-csharp-binder" revision="d40201cbc1d5fda352f261f5b0dd9aafe291725f"/>
-  <project name="platform/core/uifw/dali-demo" path="platform/core/uifw/dali-demo" revision="2398ad45b8201ef3d99cda24b1b6348db4139dde"/>
-  <project name="platform/core/uifw/dali-extension" path="platform/core/uifw/dali-extension" revision="65fa147d93d6b59d8aba9ea4e5a8591498ab70e3"/>
-  <project name="platform/core/uifw/dali-toolkit" path="platform/core/uifw/dali-toolkit" revision="d6c840efea857e4e14115940a6f14821a23c81fd"/>
+  <project name="platform/core/uifw/dali-adaptor" path="platform/core/uifw/dali-adaptor" revision="cd554ff8514e3187dfac4b0c95c96a9ec25700ea"/>
+  <project name="platform/core/uifw/dali-adaptor-legacy" path="platform/core/uifw/dali-adaptor-legacy" revision="24f274b0f3130e92d092d97d275629c05f3a047b"/>
+  <project name="platform/core/uifw/dali-core" path="platform/core/uifw/dali-core" revision="a21179d0ef0b166378f49bc2a6ca671530a57a9b"/>
+  <project name="platform/core/uifw/dali-core-legacy" path="platform/core/uifw/dali-core-legacy" revision="946bf83411ab21a329789c41f27e7ce61768d3d3"/>
+  <project name="platform/core/uifw/dali-csharp-binder" path="platform/core/uifw/dali-csharp-binder" revision="297829cb009f24849f9c87b45fb992b2fc0c4528"/>
+  <project name="platform/core/uifw/dali-csharp-binder-legacy" path="platform/core/uifw/dali-csharp-binder-legacy" revision="b1c7643cc39f2eef184fa8be04486f2b1ef15e6d"/>
+  <project name="platform/core/uifw/dali-demo" path="platform/core/uifw/dali-demo" revision="ea0788c53af1b95375edf4749c563ea9c245f3d2"/>
+  <project name="platform/core/uifw/dali-extension" path="platform/core/uifw/dali-extension" revision="a9163f8001aff35aea7503eada69f5d458f29152"/>
+  <project name="platform/core/uifw/dali-extension-legacy" path="platform/core/uifw/dali-extension-legacy" revision="350cb8c424d71450a419ac10ce0af274b204889c"/>
+  <project name="platform/core/uifw/dali-toolkit" path="platform/core/uifw/dali-toolkit" revision="41af99ec8142c7cb02f0f80e26d13b77aadb8b37"/>
+  <project name="platform/core/uifw/dali-toolkit-legacy" path="platform/core/uifw/dali-toolkit-legacy" revision="ff55e1ca1328b1b6d55d3706d11ae4c63e56e985"/>
   <project name="platform/core/uifw/download-fonts-service" path="platform/core/uifw/download-fonts-service" revision="c13860ccf4bb3efc3c584d229ce7757915a72d84"/>
   <project name="platform/core/uifw/e-mod-tizen-devicemgr" path="platform/core/uifw/e-mod-tizen-devicemgr" revision="49282acd17698ee4c00c22b147b11d8e6a71c6fe"/>
   <project name="platform/core/uifw/e-mod-tizen-effect" path="platform/core/uifw/e-mod-tizen-effect" revision="4fbf61dbf174fc6a28cec462730ce36846c101ce"/>
@@ -438,7 +443,7 @@
   <project name="platform/core/uifw/libscl-common" path="platform/core/uifw/libscl-common" revision="a57b4bf38d13e13a7885023a714d9c2aad23bbd0"/>
   <project name="platform/core/uifw/libscl-core" path="platform/core/uifw/libscl-core" revision="469de1b8e23f28446822595c36bac89081673a5c"/>
   <project name="platform/core/uifw/libscl-ui" path="platform/core/uifw/libscl-ui" revision="f4f3f5f7b150a9712abde683e1f6cd1dbcbdca69"/>
-  <project name="platform/core/uifw/libtbm" path="platform/core/uifw/libtbm" revision="35eeb731d216a1ff953dd5968721699785700ad1"/>
+  <project name="platform/core/uifw/libtbm" path="platform/core/uifw/libtbm" revision="ca58b5615d0af5daafe53a8af9d6ee6efbfb97f0"/>
   <project name="platform/core/uifw/libtdm" path="platform/core/uifw/libtdm" revision="8128cadec763fe87289d47c25db088bb3955e1fe"/>
   <project name="platform/core/uifw/libtpl-egl" path="platform/core/uifw/libtpl-egl" revision="e61ae4b4270b0b5000b4f4238e6b916696474b48"/>
   <project name="platform/core/uifw/lottie-player" path="platform/core/uifw/lottie-player" revision="3434a6caf4ea3f4ef7e13986d4cbf8d8907134f3"/>
@@ -792,7 +797,7 @@
   <project name="profile/common/apps/web/browser" path="profile/common/apps/web/browser" revision="7fd115737166fe25a6281a1086c357408b8feea9"/>
   <project name="profile/common/meta" path="profile/common/meta" revision="d3b07f699b2bef352b0f46e3f5fcdfaaf263e12e"/>
   <project name="profile/common/platform/core/uifw/e-tizen-data" path="profile/common/platform/core/uifw/e-tizen-data" revision="cb4040786ba21d11523f841ddfb6dd5f6f6b4f6e"/>
-  <project name="profile/common/platform/core/uifw/efl-theme-tizen-common" path="profile/common/platform/core/uifw/efl-theme-tizen-common" revision="342df4fb5f3d8cbe56860228070ba692a94414fa"/>
+  <project name="profile/common/platform/core/uifw/efl-theme-tizen-common" path="profile/common/platform/core/uifw/efl-theme-tizen-common" revision="9bf21f74db3276129e4381c7f7e3b2495c8bd33f"/>
   <project name="profile/common/platform/core/uifw/isf-config" path="profile/common/platform/core/uifw/isf-config" revision="4bcfae1f7294a3d7f298a57b9e85ff0279c8aa12"/>
   <project name="profile/iot/apps/native/askuser-popup" path="profile/iot/apps/native/askuser-popup" revision="90c7f9bd29886ad340756e7e5a632e181a64cf54"/>
   <project name="profile/iot/apps/native/font-viewer" path="profile/iot/apps/native/font-viewer" revision="9ec0b2ed343fdf3631fc4f2aca4721a7e03cae41"/>
@@ -857,7 +862,7 @@
   <project name="profile/mobile/platform/core/appfw/app-selector" path="profile/mobile/platform/core/appfw/app-selector" revision="973034ea18af99b3ec21460ae7621a0f8d8741db"/>
   <project name="profile/mobile/platform/core/appfw/installer-app" path="profile/mobile/platform/core/appfw/installer-app" revision="4784527891e49142fd3876de4e12da8388c09c4f"/>
   <project name="profile/mobile/platform/core/security/cert-checker" path="profile/mobile/platform/core/security/cert-checker" revision="f40b597d613e4296621ee4c6a5c1951bc3479fb1"/>
-  <project name="profile/mobile/platform/core/security/cert-svc-ui" path="profile/mobile/platform/core/security/cert-svc-ui" revision="59328eb3b4587c566bf0bf439dc04c691a399ff4"/>
+  <project name="profile/mobile/platform/core/security/cert-svc-ui" path="profile/mobile/platform/core/security/cert-svc-ui" revision="47fc7741caf564bd574d8a2b1891f103301fc480"/>
   <project name="profile/mobile/platform/core/uifw/autofill-config" path="profile/mobile/platform/core/uifw/autofill-config" revision="392559ea0937305346d2e34f35e554db593bebb8"/>
   <project name="profile/mobile/platform/core/uifw/cbhm" path="profile/mobile/platform/core/uifw/cbhm" revision="2822b2e57f6ccfaa4a554e1f41a5a4b2694ff7d3"/>
   <project name="profile/mobile/platform/core/uifw/e-tizen-data" path="profile/mobile/platform/core/uifw/e-tizen-data" revision="bb360297191fb912f1b477959f9c4e582c892110"/>
@@ -918,10 +923,10 @@
   <project name="profile/wearable/platform/framework/web/web-widget-runtime" path="profile/wearable/platform/framework/web/web-widget-runtime" revision="72ae83d1702e5a689ced82b77108e8a7f52bb470"/>
   <project name="sdk/emulator/emulator-kernel" path="sdk/emulator/emulator-kernel" revision="c0dd00d92642d3ae650c69d413984e40277f2f84"/>
   <project name="sdk/target/sdbd" path="sdk/target/sdbd" revision="bc50e182f8681fa983c5ac1c183bc44723cbcaea"/>
-  <project name="sdk/tools/coreprofiler" path="sdk/tools/coreprofiler" revision="0f08df9ea775a600caaed73dce15800dca7d997a"/>
-  <project name="sdk/tools/heaptrack" path="sdk/tools/heaptrack" revision="3083e91ce197e5a4768c93f05325fc8f71740ab3"/>
-  <project name="sdk/tools/netcoredbg" path="sdk/tools/netcoredbg" revision="c4024f148dceaedfb6ec206e29ebc0f9e1cefa6b"/>
-  <project name="sdk/tools/profctl" path="sdk/tools/profctl" revision="7e2a182a32511e9fe87b9aeeceeb60c4e57ff83b"/>
+  <project name="sdk/tools/coreprofiler" path="sdk/tools/coreprofiler" revision="0485e33a4f76a7f68d241e32070487ffb4b3dfce"/>
+  <project name="sdk/tools/heaptrack" path="sdk/tools/heaptrack" revision="87ab26887606066c30e651b452d8a357b13fe568"/>
+  <project name="sdk/tools/netcoredbg" path="sdk/tools/netcoredbg" revision="01fe0e347d0cb7d59e095d7dddf696c77ed12460"/>
+  <project name="sdk/tools/profctl" path="sdk/tools/profctl" revision="a3cca18029228adc06e229f11d86c4f9e1de1f30"/>
   <project name="tools/bmap-tools" path="tools/bmap-tools" revision="05e5d08012dba106383f0eff62d8f86b01f1f3a1"/>
   <project name="tools/building-blocks" path="tools/building-blocks" revision="c34742aa6d8912b86252893d4fd91bcac2f44a3e"/>
   <project name="tools/libFuzzer" path="tools/libFuzzer" revision="5dcfdbd628a87f6d28dead17a26a9c3e97e61548"/>
