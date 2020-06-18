@@ -381,9 +381,9 @@
   <project name="platform/core/system/factory-reset" path="platform/core/system/factory-reset" revision="e2017a61bc147435c9083dbf6b7b9f3035a252e7"/>
   <project name="platform/core/system/feedbackd" path="platform/core/system/feedbackd" revision="7bfd85f7d98309c2c9a08597053e1d03e3ccfd2a"/>
   <project name="platform/core/system/initrd" path="platform/core/system/initrd" revision="a6462d9c1551fd34bea1aa8af9b0e856a917d54c"/>
-  <project name="platform/core/system/initrd-flash" path="platform/core/system/initrd-flash" revision="65f37b21c90675e5b455589d2b14e312ddc70ec2"/>
+  <project name="platform/core/system/initrd-flash" path="platform/core/system/initrd-flash" revision="0bcec92e2c6f87a7f8bfb52c406c2ce0e46df550"/>
   <project name="platform/core/system/initrd-fota" path="platform/core/system/initrd-fota" revision="f24d38c0f02d23717b1c77a552b5f32cf5caa88c"/>
-  <project name="platform/core/system/initrd-recovery" path="platform/core/system/initrd-recovery" revision="071677dd5b73c43e5d5c601cfbca6b878896e1df"/>
+  <project name="platform/core/system/initrd-recovery" path="platform/core/system/initrd-recovery" revision="2c19956692dad4771bed453c4fe20c605d4e2b60"/>
   <project name="platform/core/system/libdbuspolicy" path="platform/core/system/libdbuspolicy" revision="434396148108ae1dad3215ed696e984b9930caaf"/>
   <project name="platform/core/system/libdevice-node" path="platform/core/system/libdevice-node" revision="858d8131b96b851b604002a230a693a318e0fcdc"/>
   <project name="platform/core/system/libstorage" path="platform/core/system/libstorage" revision="a57c5f01be052d85a4f3f99223239a69abecd6bf"/>
@@ -843,7 +843,7 @@
   <project name="profile/common/apps/native/accessibility-setting" path="profile/common/apps/native/accessibility-setting" revision="69222a92ace8021b9f1201fed7050b0f60aeb94d"/>
   <project name="profile/common/apps/native/settings" path="profile/common/apps/native/settings" revision="e39c4ef082ce7e0055c053eea01c2b79ca2217ff"/>
   <project name="profile/common/apps/web/browser" path="profile/common/apps/web/browser" revision="7fd115737166fe25a6281a1086c357408b8feea9"/>
-  <project name="profile/common/meta" path="profile/common/meta" revision="68b70f5ac8ce2ff958be9110e9400d020196d296"/>
+  <project name="profile/common/meta" path="profile/common/meta" revision="e0cf61b2ab79ad3e0bb7461b7f516188b2cb7cbc"/>
   <project name="profile/common/platform/core/uifw/e-tizen-data" path="profile/common/platform/core/uifw/e-tizen-data" revision="59e4e3b79d2584787a4ed3608d1366b0386b2894"/>
   <project name="profile/common/platform/core/uifw/efl-theme-tizen-common" path="profile/common/platform/core/uifw/efl-theme-tizen-common" revision="c98538c2723c4c7c07dbd2480097e8a0c61b72a1"/>
   <project name="profile/common/platform/core/uifw/isf-config" path="profile/common/platform/core/uifw/isf-config" revision="4bcfae1f7294a3d7f298a57b9e85ff0279c8aa12"/>
@@ -861,7 +861,7 @@
   <project name="profile/iot/apps/native/taskmanager" path="profile/iot/apps/native/taskmanager" revision="32af3b7a36c78f27890dc56749c66a8f9d1d91a9"/>
   <project name="profile/iot/apps/native/ug-image-viewer-efl" path="profile/iot/apps/native/ug-image-viewer-efl" revision="8449ad5b42ea062f6d66bb5bbb16ca405af6aa98"/>
   <project name="profile/iot/apps/native/ug-setting-notification-efl" path="profile/iot/apps/native/ug-setting-notification-efl" revision="81e525e5bb377701924ec58d51a1a44e2adb98b5"/>
-  <project name="profile/iot/apps/native/video-player" path="profile/iot/apps/native/video-player" revision="5590331c18e685cce0b49943797f3fb2df887d8f"/>
+  <project name="profile/iot/apps/native/video-player" path="profile/iot/apps/native/video-player" revision="41584af704689311c1f60cd2a6d1a657f0cb9ba8"/>
   <project name="profile/iot/apps/native/volume-app" path="profile/iot/apps/native/volume-app" revision="c7e324e9ba5e26209c3c40dfafeb56854af7efb9"/>
   <project name="profile/mobile/apps/native/accessibility-setting" path="profile/mobile/apps/native/accessibility-setting" revision="ece9dad0cdd361b18810e458a0bcc92384e80d74"/>
   <project name="profile/mobile/apps/native/askuser-popup" path="profile/mobile/apps/native/askuser-popup" revision="8baa36fb26bbbfa1d78fc9c504025ff757b51bb8"/>
@@ -986,7 +986,7 @@
   <project name="sdk/tools/netcoredbg" path="sdk/tools/netcoredbg" revision="6e4710c2d0d464f6934db2a1e5974146d9aaf1f4"/>
   <project name="sdk/tools/profctl" path="sdk/tools/profctl" revision="a3cca18029228adc06e229f11d86c4f9e1de1f30"/>
   <project name="tools/bmap-tools" path="tools/bmap-tools" revision="05e5d08012dba106383f0eff62d8f86b01f1f3a1"/>
-  <project name="tools/building-blocks" path="tools/building-blocks" revision="0ee4cef76f99f3c0007484709cbfe650f2e9c17e"/>
+  <project name="tools/building-blocks" path="tools/building-blocks" revision="bb5ae46881ccdc79ffa9f81cb35f3d405876dba5"/>
   <project name="tools/libFuzzer" path="tools/libFuzzer" revision="5dcfdbd628a87f6d28dead17a26a9c3e97e61548"/>
   <project name="tools/mic-bootstrap" path="tools/mic-bootstrap" revision="865821da36472a6906da81e84dffa65173ff639b"/>
   <project name="tools/ttrace" path="tools/ttrace" revision="d65d04fabb5bc2336d24a44e15fd592a22be4ca7"/>
