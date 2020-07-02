@@ -146,7 +146,7 @@
   <project name="platform/core/api/system-info" path="platform/core/api/system-info" revision="d8d614ad3151c9735f45a4723d15535aeda015c8"/>
   <project name="platform/core/api/system-settings" path="platform/core/api/system-settings" revision="d639768ebbd9afcf40adc8f1bec1f5778efe38e3"/>
   <project name="platform/core/api/telephony" path="platform/core/api/telephony" revision="f91c2549cdddac54f15f16a330925d9312bae531"/>
-  <project name="platform/core/api/tethering" path="platform/core/api/tethering" revision="0fd00ef40e406cd5875612e13bb40d7ec6b75310"/>
+  <project name="platform/core/api/tethering" path="platform/core/api/tethering" revision="27dae790401abaa430371dac0e9128651431066f"/>
   <project name="platform/core/api/thumbnail-util" path="platform/core/api/thumbnail-util" revision="7da7ac1755558ef4b5a0aa012f8184e70f6b87c5"/>
   <project name="platform/core/api/tone-player" path="platform/core/api/tone-player" revision="a5dd08dbcec6e03ba7987937e0b0efc9a4c0eb15"/>
   <project name="platform/core/api/url-download" path="platform/core/api/url-download" revision="49c4cf8fd3434de4bd7622ec65058dcfe1b4d954"/>
@@ -212,18 +212,18 @@
   <project name="platform/core/base/tzdata-update-parser" path="platform/core/base/tzdata-update-parser" revision="af1ca978bd327a26b3332f78d3280e64b5ffcc26"/>
   <project name="platform/core/connectivity/asp-manager" path="platform/core/connectivity/asp-manager" revision="a052e41c54de4adbe4541e9cb482d8f83db1976b"/>
   <project name="platform/core/connectivity/bluetooth-agent" path="platform/core/connectivity/bluetooth-agent" revision="67f89b02549e72dd182125421696950380a1a5bb"/>
-  <project name="platform/core/connectivity/bluetooth-frwk" path="platform/core/connectivity/bluetooth-frwk" revision="8d63076a87a8f170432fb42036d6524858d3b3b8"/>
+  <project name="platform/core/connectivity/bluetooth-frwk" path="platform/core/connectivity/bluetooth-frwk" revision="7dd74bfa081c8da674709212b440dbb87c0a3a88"/>
   <project name="platform/core/connectivity/bluetooth-share" path="platform/core/connectivity/bluetooth-share" revision="cd2002def66c590e4b3243b461040ad09d594e02"/>
   <project name="platform/core/connectivity/bluetooth-tools" path="platform/core/connectivity/bluetooth-tools" revision="6cf5bc7211b898b763a0bbfccfce945d308843eb"/>
   <project name="platform/core/connectivity/bt-syspopup" path="platform/core/connectivity/bt-syspopup" revision="2fa82bf53d983900eea9c2cf89d62e57797c2107"/>
   <project name="platform/core/connectivity/data-router" path="platform/core/connectivity/data-router" revision="119dee6d9a6c876ee00ebc70ff867b4c14a85053"/>
   <project name="platform/core/connectivity/inm-manager" path="platform/core/connectivity/inm-manager" revision="08140dac90dd4d82e6b2f3df52a384d7f5a335bc"/>
-  <project name="platform/core/connectivity/libnet-client" path="platform/core/connectivity/libnet-client" revision="f3c852324ffe309c4107e0c84aacfa90d44e7297"/>
+  <project name="platform/core/connectivity/libnet-client" path="platform/core/connectivity/libnet-client" revision="cdb05b435685b43104c3f7093048735859babc2b"/>
   <project name="platform/core/connectivity/mdg-manager" path="platform/core/connectivity/mdg-manager" revision="fe06b4eeb2ac648f91bd8882ac1fadb51d798098"/>
   <project name="platform/core/connectivity/mobileap-agent" path="platform/core/connectivity/mobileap-agent" revision="a1f08db12b312605beca385d4d033aa00b875b3f"/>
   <project name="platform/core/connectivity/mtp-initiator" path="platform/core/connectivity/mtp-initiator" revision="ef585b2a54c9a23b85a7a0a955301eea6a10a99a"/>
   <project name="platform/core/connectivity/nan-manager" path="platform/core/connectivity/nan-manager" revision="d6024d23b93f20f53220f12eb44795c8cf5e4ca6"/>
-  <project name="platform/core/connectivity/net-config" path="platform/core/connectivity/net-config" revision="353d613ae0b33b89068c36c2ee92b0662b0a8e22"/>
+  <project name="platform/core/connectivity/net-config" path="platform/core/connectivity/net-config" revision="0aa2ca033f728db75cddf958a2433d57f2c5b688"/>
   <project name="platform/core/connectivity/net-popup" path="platform/core/connectivity/net-popup" revision="0f8bc855803da0d403989e28ce287c5563e35a72"/>
   <project name="platform/core/connectivity/nfc-manager" path="platform/core/connectivity/nfc-manager" revision="0b977cf6402f0404f65dc301624de1b519547ffa"/>
   <project name="platform/core/connectivity/smartcard-plugin-nfc" path="platform/core/connectivity/smartcard-plugin-nfc" revision="1e74825669656e7dab97a57a0bbc96f498a6ce77"/>
@@ -447,7 +447,7 @@
   <project name="platform/core/uifw/libpui" path="platform/core/uifw/libpui" revision="6d782e4a4538dde6126a9126c027e90b98cc3f9f"/>
   <project name="platform/core/uifw/libscl-common" path="platform/core/uifw/libscl-common" revision="a57b4bf38d13e13a7885023a714d9c2aad23bbd0"/>
   <project name="platform/core/uifw/libscl-core" path="platform/core/uifw/libscl-core" revision="469de1b8e23f28446822595c36bac89081673a5c"/>
-  <project name="platform/core/uifw/libscl-ui" path="platform/core/uifw/libscl-ui" revision="ce183829ab7cfb07bea671427c6f3374a5740c39"/>
+  <project name="platform/core/uifw/libscl-ui" path="platform/core/uifw/libscl-ui" revision="f664a4750e2c85862c53dc5b918a539a75087288"/>
   <project name="platform/core/uifw/libtbm" path="platform/core/uifw/libtbm" revision="d9782b6f5041f638e318384536f205aa1dcb0119"/>
   <project name="platform/core/uifw/libtdm" path="platform/core/uifw/libtdm" revision="c963331b3ff99f6eeea0d6fa358d48fcda7b0120"/>
   <project name="platform/core/uifw/libtpl-egl" path="platform/core/uifw/libtpl-egl" revision="1a3bffdccdc63a32682eef3e9f0481d6db141c2c"/>
@@ -506,7 +506,7 @@
   <project name="platform/upstream/augeas" path="platform/upstream/augeas" revision="739e65f6fdf94af827898e3a74c72e2a462cefe8"/>
   <project name="platform/upstream/bcc" path="platform/upstream/bcc" revision="5529304523010614bcca9377fe50b9909bf3b548"/>
   <project name="platform/upstream/bind" path="platform/upstream/bind" revision="e2ef38509912c77bbf9419d464fb714eb0a3d790"/>
-  <project name="platform/upstream/bluez" path="platform/upstream/bluez" revision="385246c38e94448a52c1a6f157d78dfd617d28e2"/>
+  <project name="platform/upstream/bluez" path="platform/upstream/bluez" revision="8ac931b46cd094206f0eed4a842c0fc239e92687"/>
   <project name="platform/upstream/boost" path="platform/upstream/boost" revision="0f4640a69f10b356ca5834201baca4932ad1f8b4"/>
   <project name="platform/upstream/boost-jam" path="platform/upstream/boost-jam" revision="4245efad1caf60b71cc0923dff485b1276ea2b98"/>
   <project name="platform/upstream/bootchart" path="platform/upstream/bootchart" revision="e8d33ffb9edcb2081ef318c7695e9c752c782f95"/>
@@ -581,7 +581,7 @@
   <project name="platform/upstream/image-configurations" path="platform/upstream/image-configurations" revision="8f4ba37b4aa81aa70e82b905d131b49d2bc2a3ca"/>
   <project name="platform/upstream/iniparser" path="platform/upstream/iniparser" revision="42dd5ad2c9a448fde8cb240b54763096b4f8fe98"/>
   <project name="platform/upstream/iotivity" path="platform/upstream/iotivity" revision="17b7414f6f5fbab35a1f0cc143f0ec3ab4808eb1"/>
-  <project name="platform/upstream/iotjs" path="platform/upstream/iotjs" revision="c79a6c9c9f80459eaf510afa70b46049feae5639"/>
+  <project name="platform/upstream/iotjs" path="platform/upstream/iotjs" revision="e63d5bd1c42fcc0fbcfbccbe2f7801eca7101e1a"/>
   <project name="platform/upstream/iproute2" path="platform/upstream/iproute2" revision="439a68c4560a9d43e25f99857273eb5efd8e1d56"/>
   <project name="platform/upstream/iptables" path="platform/upstream/iptables" revision="b535374131220ea8178ef3423f0737829aee4296"/>
   <project name="platform/upstream/iputils" path="platform/upstream/iputils" revision="5bc9c75a4fdf1ec88a110153cab0e010d5ac2f62"/>
@@ -928,7 +928,7 @@
   <project name="sdk/tools/netcoredbg" path="sdk/tools/netcoredbg" revision="6e4710c2d0d464f6934db2a1e5974146d9aaf1f4"/>
   <project name="sdk/tools/profctl" path="sdk/tools/profctl" revision="a3cca18029228adc06e229f11d86c4f9e1de1f30"/>
   <project name="tools/bmap-tools" path="tools/bmap-tools" revision="05e5d08012dba106383f0eff62d8f86b01f1f3a1"/>
-  <project name="tools/building-blocks" path="tools/building-blocks" revision="8b453ce48156b74a3c21377ddd2cb575cfa9130e"/>
+  <project name="tools/building-blocks" path="tools/building-blocks" revision="b4e02be5026c8f97dfd00056bc6c45e3a6c05b42"/>
   <project name="tools/libFuzzer" path="tools/libFuzzer" revision="5dcfdbd628a87f6d28dead17a26a9c3e97e61548"/>
   <project name="tools/mic-bootstrap" path="tools/mic-bootstrap" revision="865821da36472a6906da81e84dffa65173ff639b"/>
   <project name="tools/ttrace" path="tools/ttrace" revision="f3f82c7fd5cf44e5ecd4cd304b08c88c1f7f1b98"/>
