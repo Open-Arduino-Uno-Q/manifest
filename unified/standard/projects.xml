@@ -846,7 +846,6 @@
   <project name="product/upstream/libidn" path="product/upstream/libidn" revision="2accbb3c338f8514463e485aeac06eeefba4421e"/>
   <project name="profile/common/apps/native/accessibility-setting" path="profile/common/apps/native/accessibility-setting" revision="69222a92ace8021b9f1201fed7050b0f60aeb94d"/>
   <project name="profile/common/apps/native/settings" path="profile/common/apps/native/settings" revision="29a8c8bd36891f752ed9fcbd64a89a9455c4a939"/>
-  <project name="profile/common/apps/web/browser" path="profile/common/apps/web/browser" revision="7fd115737166fe25a6281a1086c357408b8feea9"/>
   <project name="profile/common/meta" path="profile/common/meta" revision="2b8de33dfbea2b5ef79aaa70eb2da8ae118d087e"/>
   <project name="profile/common/platform/core/uifw/e-tizen-data" path="profile/common/platform/core/uifw/e-tizen-data" revision="59e4e3b79d2584787a4ed3608d1366b0386b2894"/>
   <project name="profile/common/platform/core/uifw/efl-theme-tizen-common" path="profile/common/platform/core/uifw/efl-theme-tizen-common" revision="5858d18288a978c7a0303a29044c29a99f515d5a"/>
@@ -855,18 +854,21 @@
   <project name="profile/common/platform/kernel/u-boot-artik7" path="profile/common/platform/kernel/u-boot-artik7" revision="dfc9a25b556faf7b556f5124c8057ef685b1ddb7"/>
   <project name="profile/iot/apps/native/askuser-popup" path="profile/iot/apps/native/askuser-popup" revision="900ce2bde6cb57cce7a80cf0bd7d4051590e4b9d"/>
   <project name="profile/iot/apps/native/font-viewer" path="profile/iot/apps/native/font-viewer" revision="b89f86057bb8e0438816092ee458a5205fb1e159"/>
-  <project name="profile/iot/apps/native/gallery" path="profile/iot/apps/native/gallery" revision="118b9aaaa93a2904089de95d57eae2918eb6ca73"/>
+  <project name="profile/iot/apps/native/gallery" path="profile/iot/apps/native/gallery" revision="79100cb5bbe3691a6472924b2719e9eef6355880"/>
   <project name="profile/iot/apps/native/homescreen-efl" path="profile/iot/apps/native/homescreen-efl" revision="745490aa72990b981cf359a623ad553adc83ff1d"/>
-  <project name="profile/iot/apps/native/music-player" path="profile/iot/apps/native/music-player" revision="3573735be97f4e6a20c5af96d141a4968ec752f9"/>
+  <project name="profile/iot/apps/native/music-player" path="profile/iot/apps/native/music-player" revision="d690952ef72f8ed2259c7135f9b1459884ca736d"/>
   <project name="profile/iot/apps/native/oobe" path="profile/iot/apps/native/oobe" revision="e023c7c2ce179b29d8c1150a62dd1d6ba14950a8"/>
   <project name="profile/iot/apps/native/privacy-setting" path="profile/iot/apps/native/privacy-setting" revision="eac3b05cff610163c348122dc91b454030ba4632"/>
   <project name="profile/iot/apps/native/quickpanel" path="profile/iot/apps/native/quickpanel" revision="a188581c0567bc66f142dac47a1a540951bca364"/>
   <project name="profile/iot/apps/native/softkey-container" path="profile/iot/apps/native/softkey-container" revision="ee0149afb26f1618bac0c17d752b3118fcc0598d"/>
   <project name="profile/iot/apps/native/taskmanager" path="profile/iot/apps/native/taskmanager" revision="ffc1919d13bc711aafcf161576943ad4a9c6043d"/>
+  <project name="profile/iot/apps/native/ug-gallery-efl" path="profile/iot/apps/native/ug-gallery-efl" revision="f192370dde3ca4c366357192ee2ff3e1bb965df3"/>
   <project name="profile/iot/apps/native/ug-image-viewer-efl" path="profile/iot/apps/native/ug-image-viewer-efl" revision="a9e825e0de06ba9a3df9f40e45e330937d60b5d5"/>
+  <project name="profile/iot/apps/native/ug-setting-homescreen-efl" path="profile/iot/apps/native/ug-setting-homescreen-efl" revision="6d97f759f1bc08d9673524601fdfd2b50f703a9e"/>
   <project name="profile/iot/apps/native/ug-setting-notification-efl" path="profile/iot/apps/native/ug-setting-notification-efl" revision="35f0489a3aaeb2b097df76a5a3ead1cd18ae0d05"/>
   <project name="profile/iot/apps/native/video-player" path="profile/iot/apps/native/video-player" revision="b1ae1288d422fb8cfe7ca43749c795f116246eab"/>
   <project name="profile/iot/apps/native/volume-app" path="profile/iot/apps/native/volume-app" revision="c7e324e9ba5e26209c3c40dfafeb56854af7efb9"/>
+  <project name="profile/iot/apps/native/wallpaper-ui-service" path="profile/iot/apps/native/wallpaper-ui-service" revision="0c75d9febf0427786505b5b3762b634bda6ed521"/>
   <project name="profile/mobile/apps/native/accessibility-setting" path="profile/mobile/apps/native/accessibility-setting" revision="ece9dad0cdd361b18810e458a0bcc92384e80d74"/>
   <project name="profile/mobile/apps/native/askuser-popup" path="profile/mobile/apps/native/askuser-popup" revision="8baa36fb26bbbfa1d78fc9c504025ff757b51bb8"/>
   <project name="profile/mobile/apps/native/attach-panel" path="profile/mobile/apps/native/attach-panel" revision="da4db327451e13cd195680178376849758b52141"/>
@@ -990,7 +992,7 @@
   <project name="sdk/tools/netcoredbg" path="sdk/tools/netcoredbg" revision="6e4710c2d0d464f6934db2a1e5974146d9aaf1f4"/>
   <project name="sdk/tools/profctl" path="sdk/tools/profctl" revision="a3cca18029228adc06e229f11d86c4f9e1de1f30"/>
   <project name="tools/bmap-tools" path="tools/bmap-tools" revision="05e5d08012dba106383f0eff62d8f86b01f1f3a1"/>
-  <project name="tools/building-blocks" path="tools/building-blocks" revision="173fc6dec36c3506ab6448d166c7d994f5c125bb"/>
+  <project name="tools/building-blocks" path="tools/building-blocks" revision="47cd1a20b051ad30f684fa5e0eee61e529a003ed"/>
   <project name="tools/libFuzzer" path="tools/libFuzzer" revision="5dcfdbd628a87f6d28dead17a26a9c3e97e61548"/>
   <project name="tools/mic-bootstrap" path="tools/mic-bootstrap" revision="865821da36472a6906da81e84dffa65173ff639b"/>
   <project name="tools/ttrace" path="tools/ttrace" revision="f3f82c7fd5cf44e5ecd4cd304b08c88c1f7f1b98"/>
