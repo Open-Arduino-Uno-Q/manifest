@@ -13,7 +13,7 @@
   <project name="apps/native/ug-mobile-ap" path="apps/native/ug-mobile-ap" revision="2b7cade66c916c5002e05509a1f3cd78938d4e96"/>
   <project name="apps/native/ug-nfc-efl" path="apps/native/ug-nfc-efl" revision="cd99fb983afdd6d8bbcf68595d2b5354232e6ed6"/>
   <project name="apps/native/ug-wifi-direct" path="apps/native/ug-wifi-direct" revision="7aef21db1446e20fb22941878bf1a95f607a4238"/>
-  <project name="apps/native/ug-wifi-efl" path="apps/native/ug-wifi-efl" revision="aed4328d3fe63279847e72579f5fd70323b738df"/>
+  <project name="apps/native/ug-wifi-efl" path="apps/native/ug-wifi-efl" revision="ca343cb081f0d6c8dffb2774e49b762207d02183"/>
   <project name="apps/native/volume-app" path="apps/native/volume-app" revision="575a671c4c40fcfb4f1849903a787054f94cef0d"/>
   <project name="apps/native/worldclock-efl" path="apps/native/worldclock-efl" revision="7d819fe1059ba7a68c688e63c2a6445db59210fa"/>
   <project name="apps/web/download-manager" path="apps/web/download-manager" revision="e0fb5bfa9fa63aa8907557d77f863fbeccf5054b"/>
@@ -297,7 +297,7 @@
   <project name="platform/core/pim/calendar-service" path="platform/core/pim/calendar-service" revision="b371e5b4cdf909a92eba8dced3a2cc2c8caf93b5"/>
   <project name="platform/core/pim/contacts-service" path="platform/core/pim/contacts-service" revision="0f88f04e81084a768da44f933fee04f8bd9ba8eb"/>
   <project name="platform/core/pim/pims-ipc" path="platform/core/pim/pims-ipc" revision="4cdb12fdc22d6a186e4d97e19a84b7021db9b15f"/>
-  <project name="platform/core/security/askuser" path="platform/core/security/askuser" revision="2e915cc4ebc0fae0ede551af44f2c94c0ff50317"/>
+  <project name="platform/core/security/askuser" path="platform/core/security/askuser" revision="11c705eb8818a8bca5f06badbe263cad1d096d11"/>
   <project name="platform/core/security/audit-trail" path="platform/core/security/audit-trail" revision="aab1ad8b3d6ef6f386d62825f2bebd7d731d3a32"/>
   <project name="platform/core/security/auth-fw" path="platform/core/security/auth-fw" revision="986f5e28a820cab758cb18792b22519183663dc7"/>
   <project name="platform/core/security/ca-certificates" path="platform/core/security/ca-certificates" revision="5af5a7b01986fb8cfe5b7e5ed9733f1fd7db40dc"/>
@@ -371,7 +371,7 @@
   <project name="platform/core/system/resourced" path="platform/core/system/resourced" revision="9211539458f6493692a03a1a3a15230d96bb16b9"/>
   <project name="platform/core/system/resourced-headless" path="platform/core/system/resourced-headless" revision="efc76d963073c094d7f5ab0f6a86f5a40b6a14da"/>
   <project name="platform/core/system/sensord" path="platform/core/system/sensord" revision="930a7a20eecef6e9946b6ad948773f40e0af7b76"/>
-  <project name="platform/core/system/session-utils" path="platform/core/system/session-utils" revision="c4c57fcea84de33bf28e56f0e6311dd0f4de5e90"/>
+  <project name="platform/core/system/session-utils" path="platform/core/system/session-utils" revision="7c434f69023146031e91933338f935b1d50a737d"/>
   <project name="platform/core/system/stability-monitor" path="platform/core/system/stability-monitor" revision="fb7dc7cfbf63236f16997f1c8d968f68ddb56dcc"/>
   <project name="platform/core/system/storaged" path="platform/core/system/storaged" revision="f2802e6cbac7e8abc6f9111754cb03cd077699f8"/>
   <project name="platform/core/system/swap-manager" path="platform/core/system/swap-manager" revision="1e3512c398022b294e708ec9a19cb64fa393f722"/>
@@ -483,7 +483,7 @@
   <project name="platform/core/uifw/xkb-tizen-data" path="platform/core/uifw/xkb-tizen-data" revision="8efae09e8ab5cabf3ccebcbdad07ffe57be268d4"/>
   <project name="platform/core/webapi/libteec" path="platform/core/webapi/libteec" revision="12869a1681e2e227ce337e7bfd8b05b0b4521be0"/>
   <project name="platform/framework/web/chromium-efl" path="platform/framework/web/chromium-efl" revision="50db2b0c446779c5eefb6c196680707bda072705"/>
-  <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" revision="1a569d1fb254ba0ac5098cfd7ba3f32dde5af06a"/>
+  <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" revision="ceb50e9aef65c245a431efe5aa7aba072c450881"/>
   <project name="platform/framework/web/wrtjs" path="platform/framework/web/wrtjs" revision="c2753a44fff106045381515c3ae9150cdaf35bd8"/>
   <project name="platform/framework/web/xwalk-extensions-common" path="platform/framework/web/xwalk-extensions-common" revision="9825fe4f69e44aa94e6cc973a5c3c33bb68b2180"/>
   <project name="platform/kernel/swap-modules" path="platform/kernel/swap-modules" revision="151a05a5ad16ef6ec3ac86af6005cfddbed30a60"/>
@@ -538,7 +538,7 @@
   <project name="platform/upstream/edbus" path="platform/upstream/edbus" revision="d3865646d308be9f0921d4f0470793d745f77da1"/>
   <project name="platform/upstream/efl" path="platform/upstream/efl" revision="d64fa144f36a2e1a5ff1b2d6be6cb1c1f09cd8af"/>
   <project name="platform/upstream/ell" path="platform/upstream/ell" revision="a4328623de6997a73a6811e011cb0831e891c3cc"/>
-  <project name="platform/upstream/enlightenment" path="platform/upstream/enlightenment" revision="9a41262104d7724f74d19e7bb91af2a3da056eb6"/>
+  <project name="platform/upstream/enlightenment" path="platform/upstream/enlightenment" revision="cab2c87ea0b6a0ac24785506644f9698130a015b"/>
   <project name="platform/upstream/flac" path="platform/upstream/flac" revision="3e03746915e222d17962f84b8136ca96d5fbf7e4"/>
   <project name="platform/upstream/flatbuffers" path="platform/upstream/flatbuffers" revision="83938a355ae54f51d27dc561693421b5ad8171ee"/>
   <project name="platform/upstream/fontconfig" path="platform/upstream/fontconfig" revision="03192cd3ac67ab86de4047e787a998ae91a70c25"/>
@@ -703,7 +703,7 @@
   <project name="platform/upstream/protobuf" path="platform/upstream/protobuf" revision="4dc3cfd78ae1b826c26f3c127d4cae4e3ac56201"/>
   <project name="platform/upstream/psmisc" path="platform/upstream/psmisc" revision="90289587993527e425657c1bc37774c270f36fc7"/>
   <project name="platform/upstream/pth" path="platform/upstream/pth" revision="0ca5a10d4f4864a6232d18078065f87c20018298"/>
-  <project name="platform/upstream/pulseaudio" path="platform/upstream/pulseaudio" revision="dc7860f0f94613a04b37ed55fd825b2a1458d34c"/>
+  <project name="platform/upstream/pulseaudio" path="platform/upstream/pulseaudio" revision="5c6c2569f33436c4a737255f8a11109e005721a1"/>
   <project name="platform/upstream/pygobject2" path="platform/upstream/pygobject2" revision="ff29139e776da8a0111914f5e300016846ec361c"/>
   <project name="platform/upstream/python-Cheetah" path="platform/upstream/python-Cheetah" revision="233a54fa2616d3b19b7559e1a77ed64163fcbcf3"/>
   <project name="platform/upstream/python-M2Crypto" path="platform/upstream/python-M2Crypto" revision="da7b4b34e02365cff757840ed401ad07c533be93"/>
