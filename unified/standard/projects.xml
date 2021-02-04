@@ -68,8 +68,6 @@
   <project name="platform/adaptation/samsung_exynos/audio-hal-wm1831-tw2" path="platform/adaptation/samsung_exynos/audio-hal-wm1831-tw2" revision="5ddb56a79229344a628ca8d3af7d213cbd414301"/>
   <project name="platform/adaptation/samsung_exynos/audio-hal-wm5110" path="platform/adaptation/samsung_exynos/audio-hal-wm5110" revision="3c23bd643f06f0e88073371ca4878aa4c7231072"/>
   <project name="platform/adaptation/samsung_exynos/device-manager-plugin-artik" path="platform/adaptation/samsung_exynos/device-manager-plugin-artik" revision="8a9b56402d99a765f35d113148e9408be32cd38a"/>
-  <project name="platform/adaptation/samsung_exynos/device-manager-plugin-exynos5433" path="platform/adaptation/samsung_exynos/device-manager-plugin-exynos5433" revision="daf6973e4fd6e216697c28769c941caa0dd979c4"/>
-  <project name="platform/adaptation/samsung_exynos/device-manager-plugin-odroid" path="platform/adaptation/samsung_exynos/device-manager-plugin-odroid" revision="c38b377dac4ac3731022d8f5e9b7422be72c1e34"/>
   <project name="platform/adaptation/samsung_exynos/gst-plugins-camera-n4" path="platform/adaptation/samsung_exynos/gst-plugins-camera-n4" revision="6ada3d9b060113e9dd3871e247bbb920bad02966"/>
   <project name="platform/adaptation/samsung_exynos/libtbm-exynos" path="platform/adaptation/samsung_exynos/libtbm-exynos" revision="f9ef8299ac93bbd198e15f58f9b248c93fb06c50"/>
   <project name="platform/adaptation/samsung_exynos/libtbm-exynos-tgm" path="platform/adaptation/samsung_exynos/libtbm-exynos-tgm" revision="3d8095839a8fedebfc31986a29567c5fece900ca"/>
@@ -195,7 +193,7 @@
   <project name="platform/core/appfw/aul-1" path="platform/core/appfw/aul-1" revision="facc629d851f14e6593114f4fdb369b3332de8df"/>
   <project name="platform/core/appfw/badge" path="platform/core/appfw/badge" revision="19f0ac2fc3fd51b64782f48f5a9c6c0618afe61e"/>
   <project name="platform/core/appfw/capmgr" path="platform/core/appfw/capmgr" revision="7be3934fcb1ad63f203be00ee7c0faf0886a410a"/>
-  <project name="platform/core/appfw/component-based-application" path="platform/core/appfw/component-based-application" revision="5a743acd60a6e4f6efc6b679d8cbb64235d35dd5"/>
+  <project name="platform/core/appfw/component-based-application" path="platform/core/appfw/component-based-application" revision="7205f4a030d68091d9f40972bb3f89ae1c4f969c"/>
   <project name="platform/core/appfw/data-control" path="platform/core/appfw/data-control" revision="77c630a6c63b55b4a0f98c0d54b910e34d46f69a"/>
   <project name="platform/core/appfw/data-provider-master" path="platform/core/appfw/data-provider-master" revision="567533915f661100b417e2a86fa179c40f87d83a"/>
   <project name="platform/core/appfw/event-system" path="platform/core/appfw/event-system" revision="927d468709ca9f254c544dac3e6867a564fb44c6"/>
@@ -527,6 +525,7 @@
   <project name="platform/hal/api/device" path="platform/hal/api/device" revision="7d5fdd7e3a11941cb61e8c901109cb060c60a34c"/>
   <project name="platform/hal/api/power" path="platform/hal/api/power" revision="be86ea4dd5fe17087f1e351a23a25e9d680865dd"/>
   <project name="platform/hal/api/sensor" path="platform/hal/api/sensor" revision="4242016a0151b906a1e7e45f105feb9ddac9d8fa"/>
+  <project name="platform/hal/api/wifi" path="platform/hal/api/wifi" revision="6f235927483abf5a4705c63c2ac4ec413d0d7ca8"/>
   <project name="platform/hal/backend/device-common" path="platform/hal/backend/device-common" revision="f56c4c54e3e440b239d31012c9f45b13c4fe4476"/>
   <project name="platform/kernel/linux-amlogic" path="platform/kernel/linux-amlogic" revision="9ed38b396065f82921fb03f97e3fb009301f7464"/>
   <project name="platform/kernel/linux-exynos" path="platform/kernel/linux-exynos" revision="82be6ca5275c6fc3d2f30a67c5e5c56d6e372557"/>
@@ -588,7 +587,7 @@
   <project name="platform/upstream/edbus" path="platform/upstream/edbus" revision="d3865646d308be9f0921d4f0470793d745f77da1"/>
   <project name="platform/upstream/efl" path="platform/upstream/efl" revision="ebac2650223165c7f52c1813e057dcfe9e28592c"/>
   <project name="platform/upstream/ell" path="platform/upstream/ell" revision="a4328623de6997a73a6811e011cb0831e891c3cc"/>
-  <project name="platform/upstream/enlightenment" path="platform/upstream/enlightenment" revision="c0f0244331bd7f6bb86e1ead868a50882236e6bf"/>
+  <project name="platform/upstream/enlightenment" path="platform/upstream/enlightenment" revision="ea934d97706351f921a0ca38cd7bb1cb821fe783"/>
   <project name="platform/upstream/f2fs-tools" path="platform/upstream/f2fs-tools" revision="976a70d0c249769076395da119cc033303ce1468"/>
   <project name="platform/upstream/ffmpeg" path="platform/upstream/ffmpeg" revision="bc21e58ec117ae4ad28ea883ecff328aff8d128f"/>
   <project name="platform/upstream/flac" path="platform/upstream/flac" revision="3e03746915e222d17962f84b8136ca96d5fbf7e4"/>
@@ -856,13 +855,12 @@
   <project name="platform/upstream/yum" path="platform/upstream/yum" revision="40014cdf8aae2f0a8c3eccd7f908e6ed1f5ddd65"/>
   <project name="platform/upstream/yum-metadata-parser" path="platform/upstream/yum-metadata-parser" revision="0b140b5d0c96edbc7323a70cf842ecfe7b6ba424"/>
   <project name="platform/upstream/zypper" path="platform/upstream/zypper" revision="c25296b9b382e6337d5707f410fef94a54e6307e"/>
-  <project name="product/upstream/libidn" path="product/upstream/libidn" revision="2accbb3c338f8514463e485aeac06eeefba4421e"/>
   <project name="profile/common/apps/native/accessibility-setting" path="profile/common/apps/native/accessibility-setting" revision="d3d009a383991ba91b6b3408a5f8d962b6d6c34f"/>
   <project name="profile/common/apps/native/firmware-update-app-ui" path="profile/common/apps/native/firmware-update-app-ui" revision="bcef0b961d2680cbf7112f1d9ccfa826e72b13a5"/>
   <project name="profile/common/apps/native/firmware-update-system-ui" path="profile/common/apps/native/firmware-update-system-ui" revision="27ceb84822e88d8bf05fe286996d239a4fac595e"/>
   <project name="profile/common/apps/native/recovery-app-ui" path="profile/common/apps/native/recovery-app-ui" revision="c8097491493837a796c066d0237124cb0f49fa9c"/>
   <project name="profile/common/apps/native/settings" path="profile/common/apps/native/settings" revision="778449dc67efb65b81bf5936e580cc3d8f295960"/>
-  <project name="profile/common/meta" path="profile/common/meta" revision="8e72296e71e587a22a0e24b7bca2003c7d72602f"/>
+  <project name="profile/common/meta" path="profile/common/meta" revision="f3c130e51c4abd8a12be1ad169e51799a4a3309f"/>
   <project name="profile/common/platform/core/uifw/e-tizen-data" path="profile/common/platform/core/uifw/e-tizen-data" revision="329bd7de05a4abeb9182ad62d7b8932ff0773171"/>
   <project name="profile/common/platform/core/uifw/efl-theme-tizen-common" path="profile/common/platform/core/uifw/efl-theme-tizen-common" revision="a9ffcda5f4a5a3a34ca0b5d70692705ad57c4feb"/>
   <project name="profile/common/platform/core/uifw/isf-config" path="profile/common/platform/core/uifw/isf-config" revision="4bcfae1f7294a3d7f298a57b9e85ff0279c8aa12"/>
@@ -992,7 +990,6 @@
   <project name="profile/wearable/apps/web/webapp-addon-setting" path="profile/wearable/apps/web/webapp-addon-setting" revision="93263a94aad7fd6cd42353948cc651aeac77c90f"/>
   <project name="profile/wearable/meta-wearable" path="profile/wearable/meta-wearable" revision="4ced4f3c4a51ac657c300099278cefd90d7f65de"/>
   <project name="profile/wearable/platform/adaptation/samsung_exynos/audio-config-wm1831" path="profile/wearable/platform/adaptation/samsung_exynos/audio-config-wm1831" revision="32a3cd600356504c8f00646f53c81f87a8bed440"/>
-  <project name="profile/wearable/platform/adaptation/samsung_exynos/device-manager-plugin-exynos3250" path="profile/wearable/platform/adaptation/samsung_exynos/device-manager-plugin-exynos3250" revision="fe0a0cc12d2b9b126c72b03d3c8cf25fde54cd8f"/>
   <project name="profile/wearable/platform/core/accessibility/screen-reader" path="profile/wearable/platform/core/accessibility/screen-reader" revision="1b49390b9e9583ebd586cc080119b166695b2b8b"/>
   <project name="profile/wearable/platform/core/appfw/app-selector" path="profile/wearable/platform/core/appfw/app-selector" revision="c19793f918faf458674df4e65d824616f65e3624"/>
   <project name="profile/wearable/platform/core/uifw/autofill-config" path="profile/wearable/platform/core/uifw/autofill-config" revision="bdb320b5c64b50d4ec656582b96a1a3973022ecf"/>
