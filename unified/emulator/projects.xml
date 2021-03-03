@@ -18,8 +18,8 @@
   <project name="apps/web/download-manager" path="apps/web/download-manager" revision="e0fb5bfa9fa63aa8907557d77f863fbeccf5054b"/>
   <project name="platform/adaptation/RPI3/device-manager-plugin-RPI3" path="platform/adaptation/RPI3/device-manager-plugin-RPI3" revision="301a5752596cd6d2beb71b75dd7190969442abed"/>
   <project name="platform/adaptation/ap_broadcom/audio-hal-bcm2837" path="platform/adaptation/ap_broadcom/audio-hal-bcm2837" revision="b3bdacec94db89e66a984dfdaac672a5b3b4cfa0"/>
-  <project name="platform/adaptation/artik/lbs-plugin-gps-artik5" path="platform/adaptation/artik/lbs-plugin-gps-artik5" revision="18534cdc1d8908aa39d26a7fe8a5244176218291"/>
-  <project name="platform/adaptation/artik/lbs-plugin-gps-artik7" path="platform/adaptation/artik/lbs-plugin-gps-artik7" revision="e1c752d41bce81993345163e8e90af4c10e7dc43"/>
+  <project name="platform/adaptation/artik/lbs-plugin-gps-artik5" path="platform/adaptation/artik/lbs-plugin-gps-artik5" revision="765b3ba2de8e6337c5585c591a756ade79732b91"/>
+  <project name="platform/adaptation/artik/lbs-plugin-gps-artik7" path="platform/adaptation/artik/lbs-plugin-gps-artik7" revision="9169d8b1eb8d7db86bc7b461e078e00f399d827c"/>
   <project name="platform/adaptation/bluetooth-firmware-bcm" path="platform/adaptation/bluetooth-firmware-bcm" revision="134a9d1e38872fd9d31c370cf82f07d1b1e41f48"/>
   <project name="platform/adaptation/bluetooth-firmware-marvell" path="platform/adaptation/bluetooth-firmware-marvell" revision="630f8f9bff688ba56e7c02dfec99b930f404eb10"/>
   <project name="platform/adaptation/bluetooth-firmware-sprd" path="platform/adaptation/bluetooth-firmware-sprd" revision="d6c5267d4d0742d1db300e094de2f035a26b62a3"/>
@@ -50,7 +50,7 @@
   <project name="platform/adaptation/npu/intel-libmvnc" path="platform/adaptation/npu/intel-libmvnc" revision="1618ade8a46c2622df2bf07a9bfc6f28f6a45e3f"/>
   <project name="platform/adaptation/npu/intel-movidius-firmware" path="platform/adaptation/npu/intel-movidius-firmware" revision="0aa509e1ada2ba5ed813f898713c55fca1fa2ebc"/>
   <project name="platform/adaptation/pass-hal-standard" path="platform/adaptation/pass-hal-standard" revision="0f3b44a78d7efefaf21e983507eff69aac032ecc"/>
-  <project name="platform/adaptation/rpi3/lbs-plugin-gps-rpi3" path="platform/adaptation/rpi3/lbs-plugin-gps-rpi3" revision="0c55e6f5bcf36e8345879aedb0c6e6d4dc8d52b0"/>
+  <project name="platform/adaptation/rpi3/lbs-plugin-gps-rpi3" path="platform/adaptation/rpi3/lbs-plugin-gps-rpi3" revision="ee8c53226f3579442e3d02023e1f01e489fe9795"/>
   <project name="platform/adaptation/samsung_exynos/alsa-ucm-conf-max98090" path="platform/adaptation/samsung_exynos/alsa-ucm-conf-max98090" revision="621268c00582d7dc86d4e32066a83641a9e9ed81"/>
   <project name="platform/adaptation/samsung_exynos/alsa-ucm-conf-wm5110" path="platform/adaptation/samsung_exynos/alsa-ucm-conf-wm5110" revision="accf693171186da143042c219c114ba8f21322a6"/>
   <project name="platform/adaptation/samsung_exynos/audio-hal-ak4953" path="platform/adaptation/samsung_exynos/audio-hal-ak4953" revision="d6a861b5e741212f102e45735929f81850ea3116"/>
@@ -259,9 +259,9 @@
   <project name="platform/core/location/geofence-server" path="platform/core/location/geofence-server" revision="5d8cc040ccda1fea9871b4588dda0bd6a26756f4"/>
   <project name="platform/core/location/lbs-dbus" path="platform/core/location/lbs-dbus" revision="c61fdfc598da293a2083337684d38d0fac071c26"/>
   <project name="platform/core/location/lbs-location" path="platform/core/location/lbs-location" revision="29e4a2425534dd70354584a0999b852b7d3c3809"/>
-  <project name="platform/core/location/lbs-server" path="platform/core/location/lbs-server" revision="279c5e51fbf6d0929b61d3555f77ba6f87192d04"/>
-  <project name="platform/core/location/lbs-server-plugin-replay" path="platform/core/location/lbs-server-plugin-replay" revision="e45ab1fd4a76076778a742d44f45fb26620948ca"/>
-  <project name="platform/core/location/maps-plugin-here" path="platform/core/location/maps-plugin-here" revision="4df11f5529df33af51c9dc7df859314a531372a0"/>
+  <project name="platform/core/location/lbs-server" path="platform/core/location/lbs-server" revision="fb5538a90ef72cb42724c0b55b5bd999fc92d75d"/>
+  <project name="platform/core/location/lbs-server-plugin-replay" path="platform/core/location/lbs-server-plugin-replay" revision="99b529d4f36c0a06a487d7fc4424c2060228d9ea"/>
+  <project name="platform/core/location/maps-plugin-here" path="platform/core/location/maps-plugin-here" revision="7435073c7ab5e107446e3d6fff5b9eb49b1ae8a1"/>
   <project name="platform/core/messaging/email-service" path="platform/core/messaging/email-service" revision="fcae8b3cbb6b756aa3a853d60ecc7b1f18d20665"/>
   <project name="platform/core/messaging/msg-service" path="platform/core/messaging/msg-service" revision="9554f00a77b82b1a2c62af170a213ad3cd288a9d"/>
   <project name="platform/core/ml/nnfw" path="platform/core/ml/nnfw" revision="f92da17c01055288beff0e70f01d215f9e4c51f1"/>
@@ -351,7 +351,7 @@
   <project name="platform/core/system/crash-worker" path="platform/core/system/crash-worker" revision="5dc09589a1bc3e24a46ae332dffbfbbf9c5fd25d"/>
   <project name="platform/core/system/dbus-tools" path="platform/core/system/dbus-tools" revision="67948aa62f61d458f7bedae5a2201c1859b62567"/>
   <project name="platform/core/system/deviced" path="platform/core/system/deviced" revision="fb285c4a76af114ad398cac8043d73a689a7dc31"/>
-  <project name="platform/core/system/dlog" path="platform/core/system/dlog" revision="17c9a37edaaf004ce1cc4b6201bd00179635b638"/>
+  <project name="platform/core/system/dlog" path="platform/core/system/dlog" revision="e11fb19caa2e0880bc49e2831c8b10d04213e49d"/>
   <project name="platform/core/system/dumpsys" path="platform/core/system/dumpsys" revision="d542a95c0f19b8f5cc0154a3e1bbc733dbffc2e9"/>
   <project name="platform/core/system/edge-home-orchestration-service" path="platform/core/system/edge-home-orchestration-service" revision="712e6c1ea0e1233d79713ccd50fdfcbea33f12e2"/>
   <project name="platform/core/system/feedbackd" path="platform/core/system/feedbackd" revision="53fb1df01cd0ab795279973f204d31d2db8efc48"/>
@@ -369,7 +369,7 @@
   <project name="platform/core/system/modes-plugins" path="platform/core/system/modes-plugins" revision="6e3d6761820186c35666008642835039c8d80909"/>
   <project name="platform/core/system/pass" path="platform/core/system/pass" revision="01ad94bded43fc7f2ce29c5d141fe604c7f2e484"/>
   <project name="platform/core/system/peripheral-bus" path="platform/core/system/peripheral-bus" revision="2a741d9ba82b4a49e0f7f9b4e324ed44cff5d015"/>
-  <project name="platform/core/system/resourced" path="platform/core/system/resourced" revision="0bf4dc8f3f5258ad4dc8af51fce0aed15410c013"/>
+  <project name="platform/core/system/resourced" path="platform/core/system/resourced" revision="08993e3a052b171c35046de1949882d796e8a7b3"/>
   <project name="platform/core/system/resourced-headless" path="platform/core/system/resourced-headless" revision="efc76d963073c094d7f5ab0f6a86f5a40b6a14da"/>
   <project name="platform/core/system/sensord" path="platform/core/system/sensord" revision="dfc8ea97c31ec75ba46ad6a68764f85fa185d972"/>
   <project name="platform/core/system/stability-monitor" path="platform/core/system/stability-monitor" revision="8ab681bc825babaad307914791c4c4c6adb160e0"/>
