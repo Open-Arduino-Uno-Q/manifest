@@ -28,7 +28,7 @@
   <project name="platform/adaptation/bluetooth-firmware-marvell" path="platform/adaptation/bluetooth-firmware-marvell" revision="630f8f9bff688ba56e7c02dfec99b930f404eb10"/>
   <project name="platform/adaptation/bluetooth-firmware-sprd" path="platform/adaptation/bluetooth-firmware-sprd" revision="d6c5267d4d0742d1db300e094de2f035a26b62a3"/>
   <project name="platform/adaptation/broadcom/alsa-ucm-conf-rpi3" path="platform/adaptation/broadcom/alsa-ucm-conf-rpi3" revision="3d10b0b9b02ccd5ee6d47d61131d60666a9f1cec"/>
-  <project name="platform/adaptation/broadcom/libomxil-vc4" path="platform/adaptation/broadcom/libomxil-vc4" revision="4ec2534e435b530b7f8d14b10a7518b960ecdcfe"/>
+  <project name="platform/adaptation/broadcom/libomxil-vc4" path="platform/adaptation/broadcom/libomxil-vc4" revision="17d8a424a3955b30b826a909adc727eab0a9c451"/>
   <project name="platform/adaptation/broadcom/libtbm-vc4" path="platform/adaptation/broadcom/libtbm-vc4" revision="49c6947e0521dd1dabc5f7946563c6140b1d7c0b"/>
   <project name="platform/adaptation/broadcom/libtdm-vc4" path="platform/adaptation/broadcom/libtdm-vc4" revision="1c499923ebb1832464113cc99affe1d0d416196e"/>
   <project name="platform/adaptation/camera-hal-v4l2" path="platform/adaptation/camera-hal-v4l2" revision="7fa3027ab19c066471efa66b09e57cd3eb3da631"/>
@@ -170,7 +170,7 @@
   <project name="platform/core/api/tone-player" path="platform/core/api/tone-player" revision="36820c0aea11a2a722b6b7ed1a947a0fe44f9cb9"/>
   <project name="platform/core/api/url-download" path="platform/core/api/url-download" revision="cfc955c26fbdb82206baf88d43440dc07a4dbd60"/>
   <project name="platform/core/api/usb-host" path="platform/core/api/usb-host" revision="2bd3482a1f79bcc2ca93fe4401dc9a38cfe25e86"/>
-  <project name="platform/core/api/user-awareness" path="platform/core/api/user-awareness" revision="2229d750ce3f60264ac2d9013711111d07dae6dd"/>
+  <project name="platform/core/api/user-awareness" path="platform/core/api/user-awareness" revision="2d7b261712eb4e9dd2e78f0835432b9ea20052b8"/>
   <project name="platform/core/api/uwb" path="platform/core/api/uwb" revision="7da5b4c3bd8fa49bed764e5a7706288185322585"/>
   <project name="platform/core/api/vpn-service" path="platform/core/api/vpn-service" revision="dc44758101cb6747e1e0f5c0d55164ea5adee898"/>
   <project name="platform/core/api/vpn-setting" path="platform/core/api/vpn-setting" revision="fa65449b0ea8977b6ab0bcee7dab763620e8302e"/>
@@ -228,7 +228,7 @@
   <project name="platform/core/appfw/xdgmime" path="platform/core/appfw/xdgmime" revision="5ae364e67b6bd76a14469ff39d3aaedc2c96a111"/>
   <project name="platform/core/base/bundle" path="platform/core/base/bundle" revision="0f692c06d9757f1d737a6e2751b1a1ed69f93727"/>
   <project name="platform/core/base/syspopup" path="platform/core/base/syspopup" revision="54fabe1f41ff2be4b49f991a70b2e60dbb9b3f8d"/>
-  <project name="platform/core/base/tizen-locale" path="platform/core/base/tizen-locale" revision="ba7cc043e1490878f7813aeb275aef6038adc2d7"/>
+  <project name="platform/core/base/tizen-locale" path="platform/core/base/tizen-locale" revision="a988b2425366d73fde785e43947fd7e2d849ddf3"/>
   <project name="platform/core/base/tzdata-update-parser" path="platform/core/base/tzdata-update-parser" revision="af1ca978bd327a26b3332f78d3280e64b5ffcc26"/>
   <project name="platform/core/connectivity/asp-manager" path="platform/core/connectivity/asp-manager" revision="767c6b9a107b600b9d6cfa9d7db9227a2e50f851"/>
   <project name="platform/core/connectivity/bluetooth-agent" path="platform/core/connectivity/bluetooth-agent" revision="422749383057ab13e010638f792db1a079bee778"/>
@@ -292,6 +292,7 @@
   <project name="platform/core/multimedia/inference-engine-mlapi" path="platform/core/multimedia/inference-engine-mlapi" revision="8307f38ff175148097f9cf6d16d20724278ca446"/>
   <project name="platform/core/multimedia/inference-engine-opencv" path="platform/core/multimedia/inference-engine-opencv" revision="c8f9c5da3ee4c0c96b15334d2717130b15162cf2"/>
   <project name="platform/core/multimedia/inference-engine-tflite" path="platform/core/multimedia/inference-engine-tflite" revision="6f1aaf7472a644d72a3e879c23cfe9af80c98ca3"/>
+  <project name="platform/core/multimedia/libheif" path="platform/core/multimedia/libheif" revision="a48d749ab908baba79a9b27abe9ccb018bfffdf0"/>
   <project name="platform/core/multimedia/libmedia-service" path="platform/core/multimedia/libmedia-service" revision="2826378d059f56a7f2fddc343b3d8e052f560671"/>
   <project name="platform/core/multimedia/libmedia-thumbnail" path="platform/core/multimedia/libmedia-thumbnail" revision="ed88ae5e86ceff6f801c3e33e201b0cf343de6b2"/>
   <project name="platform/core/multimedia/libmm-camcorder" path="platform/core/multimedia/libmm-camcorder" revision="b575f6e3fd4bd05db866b2a126065a0698417cd3"/>
@@ -515,13 +516,13 @@
   <project name="platform/core/uifw/xkb-tizen-data" path="platform/core/uifw/xkb-tizen-data" revision="8efae09e8ab5cabf3ccebcbdad07ffe57be268d4"/>
   <project name="platform/core/webapi/libteec" path="platform/core/webapi/libteec" revision="c4908b74d360a44cc06eeb1516fa555823c8e8ac"/>
   <project name="platform/framework/web/chromium-efl" path="platform/framework/web/chromium-efl" revision="83b30533e8304b6d2f727158e27561f6dbe66567"/>
-  <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" revision="1d66306b0c234ed58506ca3244ad4a1df50fea33"/>
+  <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" revision="dd58e7205218a1d0b28e3f509a6c76284b06eb4c"/>
   <project name="platform/framework/web/wrtjs" path="platform/framework/web/wrtjs" revision="c3bdaa57e30aa3a23bb4528a38c159aed109f98f"/>
   <project name="platform/framework/web/xwalk-extensions-common" path="platform/framework/web/xwalk-extensions-common" revision="9825fe4f69e44aa94e6cc973a5c3c33bb68b2180"/>
   <project name="platform/hal/api/audio" path="platform/hal/api/audio" revision="340cb9d004b48111042fc43e5c398659392c69fb"/>
   <project name="platform/hal/api/bluetooth" path="platform/hal/api/bluetooth" revision="16feecfa8bbd26466044b423b0041b68921f3ee1"/>
   <project name="platform/hal/api/camera" path="platform/hal/api/camera" revision="38945d8bcefe80afab9a9ca46fca45aca9de3df7"/>
-  <project name="platform/hal/api/common" path="platform/hal/api/common" revision="21e5da8a27efb24104cc3a5abc29eac979e61e8e"/>
+  <project name="platform/hal/api/common" path="platform/hal/api/common" revision="7827e46be2462a45b7645e89654acd6e541ddf61"/>
   <project name="platform/hal/api/device" path="platform/hal/api/device" revision="2f23ad0de08f53ec680ba8d7361accd129d0cbe9"/>
   <project name="platform/hal/api/location" path="platform/hal/api/location" revision="5d968d79ed8704f094f1fadb204968361917de72"/>
   <project name="platform/hal/api/nfc" path="platform/hal/api/nfc" revision="a74401d641995ff7ca825d693d19562b9be58eb4"/>
@@ -712,7 +713,7 @@
   <project name="platform/upstream/libzip" path="platform/upstream/libzip" revision="a5e569b5ed9211bb10dbd9cea80ddca193167069"/>
   <project name="platform/upstream/libzypp" path="platform/upstream/libzypp" revision="116e71dd9d401d2f2f922e57100220ea04ad31d6"/>
   <project name="platform/upstream/libzypp-bindings" path="platform/upstream/libzypp-bindings" revision="f2f1a310c855e9a9d19b1e3d1e7737784dc6ce7b"/>
-  <project name="platform/upstream/lightweight-web-engine" path="platform/upstream/lightweight-web-engine" revision="1a8666c61e4e0827ea9ec731f553cd6a79984e51"/>
+  <project name="platform/upstream/lightweight-web-engine" path="platform/upstream/lightweight-web-engine" revision="1cd8a162c51559c13375e62e540807264be2ed1e"/>
   <project name="platform/upstream/linux-firmware" path="platform/upstream/linux-firmware" revision="aee29dbd1325c4df321ae86528f47e5862629c0d"/>
   <project name="platform/upstream/lmdb" path="platform/upstream/lmdb" revision="80d8d65f7c2a3140534b1ad8102227d60056bb86"/>
   <project name="platform/upstream/lrzsz" path="platform/upstream/lrzsz" revision="eda2dc32b45ceaf2d1cba23beb305e3b128f9306"/>
@@ -827,7 +828,7 @@
   <project name="platform/upstream/sudo" path="platform/upstream/sudo" revision="0adcea32458d49bd67c051a3ec660f1a6e55f96f"/>
   <project name="platform/upstream/swig" path="platform/upstream/swig" revision="4d2a61ee3c510adc5a80d3e9d5cb20a6a53e460f"/>
   <project name="platform/upstream/sysprof" path="platform/upstream/sysprof" revision="510029309bfa269fa9d58ebb7e3e93b7d1b2b432"/>
-  <project name="platform/upstream/systemd" path="platform/upstream/systemd" revision="f3789d515c60d8221bd0e39062100ccb14071923"/>
+  <project name="platform/upstream/systemd" path="platform/upstream/systemd" revision="a997cbdee71cf450228c2287220bbef27cb41b98"/>
   <project name="platform/upstream/taglib" path="platform/upstream/taglib" revision="9e8dd5168532afbed0e2488959289ec2eb712512"/>
   <project name="platform/upstream/tayga" path="platform/upstream/tayga" revision="2b346cc2597030c14121ebdf6c7e94c889363d97"/>
   <project name="platform/upstream/tbb" path="platform/upstream/tbb" revision="ca527375a712be96fbceb1524bd1fe091b984347"/>
