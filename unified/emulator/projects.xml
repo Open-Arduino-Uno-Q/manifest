@@ -36,7 +36,7 @@
   <project name="platform/adaptation/emulator/vmodem-daemon-emulator" path="platform/adaptation/emulator/vmodem-daemon-emulator" revision="85670aa8a9ff1378143fea1a19c316254d3f5aa4"/>
   <project name="platform/adaptation/emulator/xf86-misc-vigs" path="platform/adaptation/emulator/xf86-misc-vigs" revision="0ae5b45428bd168ffe5c745719190d53cb507455"/>
   <project name="platform/adaptation/libtbm-dumb" path="platform/adaptation/libtbm-dumb" revision="8a833c470f5311e88e967e470e377ddcdee26370"/>
-  <project name="platform/adaptation/libtbm-shm" path="platform/adaptation/libtbm-shm" revision="4e23dda3ba8d72110dd9de417dc52047cfdf31f7"/>
+  <project name="platform/adaptation/libtbm-shm" path="platform/adaptation/libtbm-shm" revision="3f8ee7018e664903daddc4482119d6f22c1008e6"/>
   <project name="platform/adaptation/libtdm-drm" path="platform/adaptation/libtdm-drm" revision="44412ec394c791a8ea52b48e90e07145412ed2d2"/>
   <project name="platform/adaptation/nexell/alsa-ucm-conf-alc5658" path="platform/adaptation/nexell/alsa-ucm-conf-alc5658" revision="751979851a90da56905a7c304dc17c5a2c10e0af"/>
   <project name="platform/adaptation/nexell/audio-hal-alc5658" path="platform/adaptation/nexell/audio-hal-alc5658" revision="c375a689b180b64fe3c258ebf19a9c81ca39df3b"/>
@@ -54,7 +54,7 @@
   <project name="platform/adaptation/samsung_exynos/audio-hal-exynos9110" path="platform/adaptation/samsung_exynos/audio-hal-exynos9110" revision="bcdfac8bdb53cb3429dadb0232e3dd7717cbc98b"/>
   <project name="platform/adaptation/samsung_exynos/device-manager-plugin-artik" path="platform/adaptation/samsung_exynos/device-manager-plugin-artik" revision="14688219cfdb084ba2a94258b04410a3b8fc8385"/>
   <project name="platform/adaptation/spreadtrum/audio-hal-sc7727" path="platform/adaptation/spreadtrum/audio-hal-sc7727" revision="3801575719a330cd98c2a7211c9c0248b7207905"/>
-  <project name="platform/adaptation/system-plugin" path="platform/adaptation/system-plugin" revision="de22fc7daa0323672439c6df89de4cabdd6fb772"/>
+  <project name="platform/adaptation/system-plugin" path="platform/adaptation/system-plugin" revision="a65c40fd7e1ebf5f6449cdefd15218b4b4721949"/>
   <project name="platform/adaptation/tw3/device-manager-plugin-tw3" path="platform/adaptation/tw3/device-manager-plugin-tw3" revision="738c9b5fd5fda684d155c2364e4e59177321cb1a"/>
   <project name="platform/adaptation/unified-model-config" path="platform/adaptation/unified-model-config" revision="23c831e65d96c9c85af317239763c26d44338b35"/>
   <project name="platform/core/accessibility/screen-reader" path="platform/core/accessibility/screen-reader" revision="2201e413f97a37ace568b8e0e9542ab0597f6e42"/>
@@ -140,7 +140,7 @@
   <project name="platform/core/api/system-settings" path="platform/core/api/system-settings" revision="bd521bfaf8db82f2301f4537fb03d474f06a859a"/>
   <project name="platform/core/api/telephony" path="platform/core/api/telephony" revision="6c28b9b24f426db8e805c8d7d0e670be02b5e4d0"/>
   <project name="platform/core/api/tethering" path="platform/core/api/tethering" revision="c3bf85017d7d1f7e687aae12d863b7f47b21d350"/>
-  <project name="platform/core/api/thumbnail-util" path="platform/core/api/thumbnail-util" revision="1e538f421e94831c8b5d1855c8f563aa1fcaa4de"/>
+  <project name="platform/core/api/thumbnail-util" path="platform/core/api/thumbnail-util" revision="cf440cbc4321bd2e673e40a11052d428481907a1"/>
   <project name="platform/core/api/tone-player" path="platform/core/api/tone-player" revision="36820c0aea11a2a722b6b7ed1a947a0fe44f9cb9"/>
   <project name="platform/core/api/url-download" path="platform/core/api/url-download" revision="661dfee1fffe6fff4649447c9a19c80efa8729ef"/>
   <project name="platform/core/api/usb-host" path="platform/core/api/usb-host" revision="68c4a2f91cea23ec18e1459962e98455bc3bf9ba"/>
@@ -279,7 +279,7 @@
   <project name="platform/core/multimedia/libmm-streamrecorder" path="platform/core/multimedia/libmm-streamrecorder" revision="306c0d3415b5417896b78cb878fe970c92ebe8be"/>
   <project name="platform/core/multimedia/libmm-utility" path="platform/core/multimedia/libmm-utility" revision="461e7304ebdc66e96b46592061f45664446cc5af"/>
   <project name="platform/core/multimedia/libmm-wfd" path="platform/core/multimedia/libmm-wfd" revision="ea2e4e05b5ed6fb1084469da8facfc685edb6341"/>
-  <project name="platform/core/multimedia/media-server" path="platform/core/multimedia/media-server" revision="b71b7d478a6270492b916cca45e4a8d1b2df8824"/>
+  <project name="platform/core/multimedia/media-server" path="platform/core/multimedia/media-server" revision="8c07e6eb4e6d6d0c324ba2e25efc40db30cb98c1"/>
   <project name="platform/core/multimedia/mm-hal-interface" path="platform/core/multimedia/mm-hal-interface" revision="84c713229f1441ff2d372aed0281a8e275f7c657"/>
   <project name="platform/core/multimedia/mm-resource-manager" path="platform/core/multimedia/mm-resource-manager" revision="b1a0f72a65ed842c30094c2943b376e4a4bd29b0"/>
   <project name="platform/core/multimedia/mmfw-sysconf" path="platform/core/multimedia/mmfw-sysconf" revision="cd819fb5bc06c47e208ac3457454c2bae2b64f00"/>
@@ -479,8 +479,8 @@
   <project name="platform/core/uifw/widget-viewer-dali" path="platform/core/uifw/widget-viewer-dali" revision="2673d4b46de67746b7d89dbe9e4d0d3d2baa6e6b"/>
   <project name="platform/core/uifw/xkb-tizen-data" path="platform/core/uifw/xkb-tizen-data" revision="8efae09e8ab5cabf3ccebcbdad07ffe57be268d4"/>
   <project name="platform/core/webapi/libteec" path="platform/core/webapi/libteec" revision="c4908b74d360a44cc06eeb1516fa555823c8e8ac"/>
-  <project name="platform/framework/web/chromium-efl" path="platform/framework/web/chromium-efl" revision="36cd5cfd04e04f2c648f23b6e11668c073fcbe48"/>
-  <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" revision="f9c71c34f2840263da0bb9b71e53b615b267bafc"/>
+  <project name="platform/framework/web/chromium-efl" path="platform/framework/web/chromium-efl" revision="30c236ab7dde47aa478ead016b30c6efa34c8622"/>
+  <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" revision="5eb5bd612ea1ded58b6ddf998999f68c64a81bf5"/>
   <project name="platform/framework/web/wrtjs" path="platform/framework/web/wrtjs" revision="7f038dc2d1be6e8572672ffc958ff32f8e2b2ab5"/>
   <project name="platform/framework/web/xwalk-extensions-common" path="platform/framework/web/xwalk-extensions-common" revision="9825fe4f69e44aa94e6cc973a5c3c33bb68b2180"/>
   <project name="platform/hal/api/audio" path="platform/hal/api/audio" revision="c588f3ea5d05f99b4cc9d7f50411dc0549c6568e"/>
@@ -553,7 +553,7 @@
   <project name="platform/upstream/efl" path="platform/upstream/efl" revision="2d935a44c1f69a9ac6548efb46900f63c4fd81e7"/>
   <project name="platform/upstream/ell" path="platform/upstream/ell" revision="a4328623de6997a73a6811e011cb0831e891c3cc"/>
   <project name="platform/upstream/enlightenment" path="platform/upstream/enlightenment" revision="3ca1c5e03115fa5c216b6ebb9280ab370c9217e0"/>
-  <project name="platform/upstream/f2fs-tools" path="platform/upstream/f2fs-tools" revision="976a70d0c249769076395da119cc033303ce1468"/>
+  <project name="platform/upstream/f2fs-tools" path="platform/upstream/f2fs-tools" revision="c2eff33b5f21ca6b6174753915be2ffda9798a51"/>
   <project name="platform/upstream/ffmpeg" path="platform/upstream/ffmpeg" revision="bc21e58ec117ae4ad28ea883ecff328aff8d128f"/>
   <project name="platform/upstream/flac" path="platform/upstream/flac" revision="3e03746915e222d17962f84b8136ca96d5fbf7e4"/>
   <project name="platform/upstream/flatbuffers" path="platform/upstream/flatbuffers" revision="d7dfaf3ec28a2879188d20c5fe9c208f0e50bcc5"/>
@@ -680,7 +680,7 @@
   <project name="platform/upstream/lzop" path="platform/upstream/lzop" revision="d7678d5e7bde3ad0dd6127245ab2a5ea6148a0ac"/>
   <project name="platform/upstream/man-db" path="platform/upstream/man-db" revision="c521d788537b4186afd5ab2f108f424a57b97aa4"/>
   <project name="platform/upstream/mdnsresponder" path="platform/upstream/mdnsresponder" revision="86e072d0d87c4e313ddef7f1794a37916053b5d6"/>
-  <project name="platform/upstream/meta-generic" path="platform/upstream/meta-generic" revision="1d0fd3cf960964111f7ece114437d2e441ed5a98"/>
+  <project name="platform/upstream/meta-generic" path="platform/upstream/meta-generic" revision="495272b516cc485ec5302c33f6bad2880e048ae2"/>
   <project name="platform/upstream/mic" path="platform/upstream/mic" revision="ff5819fa88cf0522c567925aa5919eb300c628f8"/>
   <project name="platform/upstream/minicoredumper" path="platform/upstream/minicoredumper" revision="8b05c41c79accdf2b10a2a584fc6d40316160c29"/>
   <project name="platform/upstream/mtdev" path="platform/upstream/mtdev" revision="11838823f7ff50cbc2914ca26192eef617b24cbc"/>
@@ -965,7 +965,7 @@
   <project name="sdk/tools/netcoredbg" path="sdk/tools/netcoredbg" revision="a4406b9005fa8cb37083a453d4df13072e756f53"/>
   <project name="sdk/tools/profctl" path="sdk/tools/profctl" revision="fd3801cc19e490b01cfb11fdda2cac5f1c5cf884"/>
   <project name="tools/bmap-tools" path="tools/bmap-tools" revision="05e5d08012dba106383f0eff62d8f86b01f1f3a1"/>
-  <project name="tools/building-blocks" path="tools/building-blocks" revision="b4e6962e7db9699296d4fccf554ff3be8a239b4d"/>
+  <project name="tools/building-blocks" path="tools/building-blocks" revision="0e96a514610a015be5aa07d3d2d49f08b9af3d40"/>
   <project name="tools/libFuzzer" path="tools/libFuzzer" revision="5dcfdbd628a87f6d28dead17a26a9c3e97e61548"/>
   <project name="tools/mic-bootstrap" path="tools/mic-bootstrap" revision="22e653a0d7ced2fc23581d825f364f80ea7b5111"/>
   <project name="tools/ttrace" path="tools/ttrace" revision="997a0b846b06a8472cb9b2585947bb884a9dd429"/>
