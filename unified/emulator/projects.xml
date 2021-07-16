@@ -236,7 +236,7 @@
   <project name="platform/core/context/job-scheduler" path="platform/core/context/job-scheduler" revision="3d3163fbebad57e5a16a919715a01a36d700cb09"/>
   <project name="platform/core/context/sensor-recorder" path="platform/core/context/sensor-recorder" revision="1e90114aaac469b9aad38fb36bdee682bb84e945"/>
   <project name="platform/core/csapi/opentk" path="platform/core/csapi/opentk" revision="858e6613374d224c7e06d82f161cc888559985b1"/>
-  <project name="platform/core/csapi/tizenfx" path="platform/core/csapi/tizenfx" revision="f4b599694a2e0df77feedd22b7e13c9a0e6cf88b"/>
+  <project name="platform/core/csapi/tizenfx" path="platform/core/csapi/tizenfx" revision="fda47b744fe38c1743a67f76c2ebfb3f6929e7b9"/>
   <project name="platform/core/csapi/xsf" path="platform/core/csapi/xsf" revision="0b61e3269596a322b4ae97e48e7816e49a01c1ee"/>
   <project name="platform/core/dotnet/build-tools" path="platform/core/dotnet/build-tools" revision="49fba0b5891ad4b7ca51210a22af13fa6b639718"/>
   <project name="platform/core/dotnet/diagnostics" path="platform/core/dotnet/diagnostics" revision="970892e039918e29a508ebc7dce6dde1b2b0270e"/>
@@ -354,14 +354,14 @@
   <project name="platform/core/system/libtracker" path="platform/core/system/libtracker" revision="9080ba431deaaf411a1c7eab52277528006e3872"/>
   <project name="platform/core/system/memps" path="platform/core/system/memps" revision="4690da14d5840760c37fad1c338b7f2b568c5254"/>
   <project name="platform/core/system/modes" path="platform/core/system/modes" revision="25ca160728fb14138c32d0518746b3aa71c1201e"/>
-  <project name="platform/core/system/modes-plugins" path="platform/core/system/modes-plugins" revision="128f9ed482af9e6fdf2da7dfbed716fceb05743b"/>
+  <project name="platform/core/system/modes-plugins" path="platform/core/system/modes-plugins" revision="c224c8af00abe11cc522e11fc75d12cfce7f3256"/>
   <project name="platform/core/system/pass" path="platform/core/system/pass" revision="085a28368ba8df42b437b5e2844fbd35909fc267"/>
   <project name="platform/core/system/peripheral-bus" path="platform/core/system/peripheral-bus" revision="0b98b4f2b50c32f9a76dc90bdf948cf5557795e0"/>
-  <project name="platform/core/system/resourced" path="platform/core/system/resourced" revision="296028adb6e1a70615b1d45412b14e098ce82431"/>
+  <project name="platform/core/system/resourced" path="platform/core/system/resourced" revision="1884459759b06f25658b1fabd317f522beddbd43"/>
   <project name="platform/core/system/resourced-headless" path="platform/core/system/resourced-headless" revision="efc76d963073c094d7f5ab0f6a86f5a40b6a14da"/>
   <project name="platform/core/system/sensord" path="platform/core/system/sensord" revision="f5bed42b6258cdcf6976321eab24e580242c4fa9"/>
   <project name="platform/core/system/stability-monitor" path="platform/core/system/stability-monitor" revision="104091648a772941b964432174f0d117b2b076c9"/>
-  <project name="platform/core/system/storaged" path="platform/core/system/storaged" revision="a6f14c1bd93c41626e66792cdf4bd392cdd8e093"/>
+  <project name="platform/core/system/storaged" path="platform/core/system/storaged" revision="8549a2b26dbe4d4ec2ec6ec3b4e1c320becd27d2"/>
   <project name="platform/core/system/swap-manager" path="platform/core/system/swap-manager" revision="5b5dad7697aacbd7bb75c0378e656c922ed4bede"/>
   <project name="platform/core/system/swap-probe" path="platform/core/system/swap-probe" revision="6ee33eef39aaba5ebecaf08fb646cfc9cf505d76"/>
   <project name="platform/core/system/system-configuration" path="platform/core/system/system-configuration" revision="73dd341e4cdd02af4355968698f91d64c76256b5"/>
@@ -375,7 +375,7 @@
   <project name="platform/core/system/update-control" path="platform/core/system/update-control" revision="7e0d7fb1b73e6fc9599e179bc79417904305b53f"/>
   <project name="platform/core/telephony/call-manager" path="platform/core/telephony/call-manager" revision="ac77c8173d463b4016d51fef827479b5a8727f6e"/>
   <project name="platform/core/telephony/libcall-manager" path="platform/core/telephony/libcall-manager" revision="8b661cc892ddf12518189a4ad90f244600654440"/>
-  <project name="platform/core/telephony/libtapi" path="platform/core/telephony/libtapi" revision="1d01393b2d28e0243bb4e313fa9411e201b51d80"/>
+  <project name="platform/core/telephony/libtapi" path="platform/core/telephony/libtapi" revision="6ad338560acb9111393a6c02528a3624b2d1d0ff"/>
   <project name="platform/core/telephony/libtcore" path="platform/core/telephony/libtcore" revision="01fce2853107f40fd8c0b9d5f5d30c40c9c68a00"/>
   <project name="platform/core/telephony/phonenumber-utils" path="platform/core/telephony/phonenumber-utils" revision="22360b8c2b0c5ac23c448ded6fec865678ffdfa4"/>
   <project name="platform/core/telephony/tel-plugin-atmodem" path="platform/core/telephony/tel-plugin-atmodem" revision="b937e11c8ccff680122a0b9188f580afdac37937"/>
@@ -400,7 +400,7 @@
   <project name="platform/core/uifw/dali-adaptor-legacy" path="platform/core/uifw/dali-adaptor-legacy" revision="ba86df0204329c252f04c2148550f0a68109d0b8"/>
   <project name="platform/core/uifw/dali-core" path="platform/core/uifw/dali-core" revision="3a0e774eed7e1097fe568e7a905828bb61972e7a"/>
   <project name="platform/core/uifw/dali-core-legacy" path="platform/core/uifw/dali-core-legacy" revision="27a8d67aca4de02b6256d19561563cd0b7fc53fb"/>
-  <project name="platform/core/uifw/dali-csharp-binder" path="platform/core/uifw/dali-csharp-binder" revision="acb6b772a0ab61cca940cf8bfb36739a10f29348"/>
+  <project name="platform/core/uifw/dali-csharp-binder" path="platform/core/uifw/dali-csharp-binder" revision="a19d0558e1f22184eb8e1560aa2c0913d5ddc0ad"/>
   <project name="platform/core/uifw/dali-csharp-binder-legacy" path="platform/core/uifw/dali-csharp-binder-legacy" revision="e80f1d0ce490d063a356e49c90d81dbf4832a168"/>
   <project name="platform/core/uifw/dali-demo" path="platform/core/uifw/dali-demo" revision="bedd07a0cdbab46648c03ac4b896dbea806cf071"/>
   <project name="platform/core/uifw/dali-extension" path="platform/core/uifw/dali-extension" revision="f6d4aebe9eda1d8a128341825c4c74c049023a55"/>
@@ -456,7 +456,7 @@
   <project name="platform/core/uifw/stt" path="platform/core/uifw/stt" revision="41e2b497424d36618847eefec6a83c8ec2baeedd"/>
   <project name="platform/core/uifw/stt-engine-default" path="platform/core/uifw/stt-engine-default" revision="079629b515ba73f3a4440d29061bc578ab5f2067"/>
   <project name="platform/core/uifw/stt-engine-embedded" path="platform/core/uifw/stt-engine-embedded" revision="09dd73a37697f79c1bfa1a655d36f0e89b314a9b"/>
-  <project name="platform/core/uifw/tizen-ws-shell" path="platform/core/uifw/tizen-ws-shell" revision="88551d62abda2d9f45e0ee4f686978489f4865e4"/>
+  <project name="platform/core/uifw/tizen-ws-shell" path="platform/core/uifw/tizen-ws-shell" revision="84f4cf7d3b3024740ad56d73ec2ebd842e9ff9c7"/>
   <project name="platform/core/uifw/tts" path="platform/core/uifw/tts" revision="5d25c7ce237166278d3a19b1d2572c56c42258ed"/>
   <project name="platform/core/uifw/tts-engine-default" path="platform/core/uifw/tts-engine-default" revision="31b012e7c8bac5fd6bc9a0f9e6622b5fc0997ba7"/>
   <project name="platform/core/uifw/tts-engine-rsc" path="platform/core/uifw/tts-engine-rsc" revision="b46305b010e7247094dab3e94a50638a50c56151"/>
@@ -558,7 +558,7 @@
   <project name="platform/upstream/edbus" path="platform/upstream/edbus" revision="d3865646d308be9f0921d4f0470793d745f77da1"/>
   <project name="platform/upstream/efl" path="platform/upstream/efl" revision="b4e4e4a2bf25367fe778dd6fa674685430067c1e"/>
   <project name="platform/upstream/ell" path="platform/upstream/ell" revision="a4328623de6997a73a6811e011cb0831e891c3cc"/>
-  <project name="platform/upstream/enlightenment" path="platform/upstream/enlightenment" revision="ffa044116e218c3f80fd653a244ab2cdbbbdd746"/>
+  <project name="platform/upstream/enlightenment" path="platform/upstream/enlightenment" revision="b1f9fa19ff494d1c3b16ac9fed347f502560421d"/>
   <project name="platform/upstream/f2fs-tools" path="platform/upstream/f2fs-tools" revision="c2eff33b5f21ca6b6174753915be2ffda9798a51"/>
   <project name="platform/upstream/ffmpeg" path="platform/upstream/ffmpeg" revision="bc21e58ec117ae4ad28ea883ecff328aff8d128f"/>
   <project name="platform/upstream/flac" path="platform/upstream/flac" revision="3e03746915e222d17962f84b8136ca96d5fbf7e4"/>
@@ -686,7 +686,7 @@
   <project name="platform/upstream/lzo" path="platform/upstream/lzo" revision="46a0aa70a35939815807200bf1fa20c40eb70a8f"/>
   <project name="platform/upstream/lzop" path="platform/upstream/lzop" revision="d7678d5e7bde3ad0dd6127245ab2a5ea6148a0ac"/>
   <project name="platform/upstream/man-db" path="platform/upstream/man-db" revision="c521d788537b4186afd5ab2f108f424a57b97aa4"/>
-  <project name="platform/upstream/mdnsresponder" path="platform/upstream/mdnsresponder" revision="d7229d3a142139323a353f599697444ebdf94520"/>
+  <project name="platform/upstream/mdnsresponder" path="platform/upstream/mdnsresponder" revision="e7ace3c3b1f086901cde49bee064befb22aeff22"/>
   <project name="platform/upstream/meta-generic" path="platform/upstream/meta-generic" revision="96ed2d5724479146ceacb7d7608954aca0551308"/>
   <project name="platform/upstream/mic" path="platform/upstream/mic" revision="ff5819fa88cf0522c567925aa5919eb300c628f8"/>
   <project name="platform/upstream/minicoredumper" path="platform/upstream/minicoredumper" revision="fc310e40d82f0d9a988ac3c00cc195daa59dfa50"/>
@@ -773,6 +773,7 @@
   <project name="platform/upstream/python3-sqlite" path="platform/upstream/python3-sqlite" revision="b1eefbe35b938645f6da3f2b010473bbddb4ccba"/>
   <project name="platform/upstream/python3-traceback2" path="platform/upstream/python3-traceback2" revision="3e9945111bb93ab63221c207317c7cbd1399098e"/>
   <project name="platform/upstream/python3-unittest2" path="platform/upstream/python3-unittest2" revision="d24ac9f22630598acfe826a14393991b395c1580"/>
+  <project name="platform/upstream/pytorch" path="platform/upstream/pytorch" revision="6f2c349dc55661e02b841f9a86605225de0bed99"/>
   <project name="platform/upstream/re2" path="platform/upstream/re2" revision="679af9a5bc5af8e7a5796897618ea629bf5393cb"/>
   <project name="platform/upstream/re2c" path="platform/upstream/re2c" revision="d33151e799be481832ffee36dcbbb2a0d3802bff"/>
   <project name="platform/upstream/referenceassemblies-pcl" path="platform/upstream/referenceassemblies-pcl" revision="b0c662d6f2d2e2e3c0629d78eb8da0e185e8d47c"/>
@@ -833,7 +834,7 @@
   <project name="profile/common/apps/native/accessibility-setting" path="profile/common/apps/native/accessibility-setting" revision="38641bf56cb1e060be05bcc5e7ac1dfd9656aa8e"/>
   <project name="profile/common/apps/native/firmware-update-app-ui" path="profile/common/apps/native/firmware-update-app-ui" revision="bcef0b961d2680cbf7112f1d9ccfa826e72b13a5"/>
   <project name="profile/common/apps/native/recovery-app-ui" path="profile/common/apps/native/recovery-app-ui" revision="c8097491493837a796c066d0237124cb0f49fa9c"/>
-  <project name="profile/common/apps/native/settings" path="profile/common/apps/native/settings" revision="072240b4b29247a8d697e0b5381813e703a8af9a"/>
+  <project name="profile/common/apps/native/settings" path="profile/common/apps/native/settings" revision="bddf0683119b3151c3c52b2b1bb42ee4ce799a23"/>
   <project name="profile/common/meta" path="profile/common/meta" revision="2f55dcd9b499fe6678f72819c6d88a526bacbf9d"/>
   <project name="profile/common/platform/core/uifw/e-tizen-data" path="profile/common/platform/core/uifw/e-tizen-data" revision="07f767303bc733dfe984878e1196c0b0493ec471"/>
   <project name="profile/common/platform/core/uifw/efl-theme-tizen-common" path="profile/common/platform/core/uifw/efl-theme-tizen-common" revision="a9ffcda5f4a5a3a34ca0b5d70692705ad57c4feb"/>
@@ -973,7 +974,7 @@
   <project name="sdk/tools/netcoredbg" path="sdk/tools/netcoredbg" revision="a4406b9005fa8cb37083a453d4df13072e756f53"/>
   <project name="sdk/tools/profctl" path="sdk/tools/profctl" revision="fd3801cc19e490b01cfb11fdda2cac5f1c5cf884"/>
   <project name="tools/bmap-tools" path="tools/bmap-tools" revision="05e5d08012dba106383f0eff62d8f86b01f1f3a1"/>
-  <project name="tools/building-blocks" path="tools/building-blocks" revision="d89c7d7b8b40db3b6fe764dcb18427bef6c5aff7"/>
+  <project name="tools/building-blocks" path="tools/building-blocks" revision="0435fe2d44475b624dd72a8e7d8ca93d7eccf26a"/>
   <project name="tools/libFuzzer" path="tools/libFuzzer" revision="5dcfdbd628a87f6d28dead17a26a9c3e97e61548"/>
   <project name="tools/mic-bootstrap" path="tools/mic-bootstrap" revision="22e653a0d7ced2fc23581d825f364f80ea7b5111"/>
   <project name="tools/ttrace" path="tools/ttrace" revision="997a0b846b06a8472cb9b2585947bb884a9dd429"/>
