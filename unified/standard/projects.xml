@@ -135,8 +135,8 @@
   <project name="platform/core/api/nsd" path="platform/core/api/nsd" revision="b047174714080451b25eb9314ec46e92116c8096"/>
   <project name="platform/core/api/package-manager" path="platform/core/api/package-manager" revision="c6e5261eba6071cb2b09c901267c3af55e7649e5"/>
   <project name="platform/core/api/peripheral-io" path="platform/core/api/peripheral-io" revision="fa9c36057d082414262a185813565abc8874862e"/>
-  <project name="platform/core/api/player" path="platform/core/api/player" revision="17c67e7d7ad8b942dc2ef2b0069afd4d1fffed46"/>
-  <project name="platform/core/api/preference" path="platform/core/api/preference" revision="34088ca1861fb9d40cee59d6bbfb9fdfb847af97"/>
+  <project name="platform/core/api/player" path="platform/core/api/player" revision="9dea013aaf654e1c346bf5dab57dbd0e97490742"/>
+  <project name="platform/core/api/preference" path="platform/core/api/preference" revision="69706a387d6b578010c439b23f8d2adee14c5e55"/>
   <project name="platform/core/api/radio" path="platform/core/api/radio" revision="6fb8464e8805592d9e74d290d9577d85baba3dd9"/>
   <project name="platform/core/api/recorder" path="platform/core/api/recorder" revision="eb9054bfd8f6fa950a5aea3428ea2875f64acb3a"/>
   <project name="platform/core/api/runtime-info" path="platform/core/api/runtime-info" revision="36dd79f3266a687923d19699d364240e79e63065"/>
@@ -186,7 +186,7 @@
   <project name="platform/core/appfw/data-control" path="platform/core/appfw/data-control" revision="885a135723e1101ef17217c53378f718398303d6"/>
   <project name="platform/core/appfw/data-provider-master" path="platform/core/appfw/data-provider-master" revision="38b3596c1573d0eef99bcc54e6928310d9ee03cb"/>
   <project name="platform/core/appfw/event-system" path="platform/core/appfw/event-system" revision="b0d3e4dc862d94fecfee218331f5af58e5a9da36"/>
-  <project name="platform/core/appfw/launchpad" path="platform/core/appfw/launchpad" revision="c4a904daf1b1228fb5a4cd69c29211f801c0d7c1"/>
+  <project name="platform/core/appfw/launchpad" path="platform/core/appfw/launchpad" revision="5457e5e5e5729d1b33f1e5f90696c0105425612e"/>
   <project name="platform/core/appfw/libeventsystem" path="platform/core/appfw/libeventsystem" revision="a032cdc960611512ee914114854923005237f872"/>
   <project name="platform/core/appfw/librua" path="platform/core/appfw/librua" revision="ab04dc84993977d7331080ceebb9a98e09724ee4"/>
   <project name="platform/core/appfw/libslp-db-util" path="platform/core/appfw/libslp-db-util" revision="c55f6401c544540c802929833f0ea9e4391bd4c2"/>
@@ -255,7 +255,7 @@
   <project name="platform/core/context/job-scheduler" path="platform/core/context/job-scheduler" revision="3d3163fbebad57e5a16a919715a01a36d700cb09"/>
   <project name="platform/core/context/sensor-recorder" path="platform/core/context/sensor-recorder" revision="1e90114aaac469b9aad38fb36bdee682bb84e945"/>
   <project name="platform/core/csapi/opentk" path="platform/core/csapi/opentk" revision="858e6613374d224c7e06d82f161cc888559985b1"/>
-  <project name="platform/core/csapi/tizenfx" path="platform/core/csapi/tizenfx" revision="db9194081493990475acec61f124f335915eeab3"/>
+  <project name="platform/core/csapi/tizenfx" path="platform/core/csapi/tizenfx" revision="7422336245e1f85d2afb69a84509d382b479d097"/>
   <project name="platform/core/csapi/xsf" path="platform/core/csapi/xsf" revision="0b61e3269596a322b4ae97e48e7816e49a01c1ee"/>
   <project name="platform/core/dotnet/build-tools" path="platform/core/dotnet/build-tools" revision="49fba0b5891ad4b7ca51210a22af13fa6b639718"/>
   <project name="platform/core/dotnet/diagnostics" path="platform/core/dotnet/diagnostics" revision="970892e039918e29a508ebc7dce6dde1b2b0270e"/>
@@ -501,7 +501,7 @@
   <project name="platform/core/uifw/widget-viewer-dali" path="platform/core/uifw/widget-viewer-dali" revision="0517686974af58b34863660130048e57c0f9c716"/>
   <project name="platform/core/uifw/xkb-tizen-data" path="platform/core/uifw/xkb-tizen-data" revision="8efae09e8ab5cabf3ccebcbdad07ffe57be268d4"/>
   <project name="platform/core/webapi/libteec" path="platform/core/webapi/libteec" revision="c4908b74d360a44cc06eeb1516fa555823c8e8ac"/>
-  <project name="platform/framework/web/chromium-efl" path="platform/framework/web/chromium-efl" revision="ee8a0d533541e764ca18099013ed96eb8572817c"/>
+  <project name="platform/framework/web/chromium-efl" path="platform/framework/web/chromium-efl" revision="c5f2f91c982c8284f13f3b0abf5ab3a282dab6a1"/>
   <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" revision="d26a9609fa39c36385cf2ae7a03eb831be3b284e"/>
   <project name="platform/framework/web/lwnode" path="platform/framework/web/lwnode" revision="805538995172240b081c451ce6fa77afa2373f99"/>
   <project name="platform/framework/web/wrtjs" path="platform/framework/web/wrtjs" revision="2b0a3fd49ee5508552eab9a4f00f35359225a6af"/>
@@ -541,7 +541,7 @@
   <project name="platform/kernel/linux-exynos" path="platform/kernel/linux-exynos" revision="00f84bbe233858fd80cea8dcee7d2e5318a46cb5"/>
   <project name="platform/kernel/linux-rpi" path="platform/kernel/linux-rpi" revision="213af95b4919cfefd37fd3bed53c9b342896462a"/>
   <project name="platform/kernel/linux-rpi3" path="platform/kernel/linux-rpi3" revision="cec42e0a4e9704d1f428e96cb4f5e1902a6e2b11"/>
-  <project name="platform/kernel/linux-tizen-modules" path="platform/kernel/linux-tizen-modules" revision="dd34e4672d3bd5e3c9327a39295221b37a20b1f7"/>
+  <project name="platform/kernel/linux-tizen-modules" path="platform/kernel/linux-tizen-modules" revision="d97fec48acf2040d9a9419a864c2789f5569b069"/>
   <project name="platform/kernel/swap-modules" path="platform/kernel/swap-modules" revision="151a05a5ad16ef6ec3ac86af6005cfddbed30a60"/>
   <project name="platform/kernel/u-boot" path="platform/kernel/u-boot" revision="8ea78d580e326a29a3d9a4625eb7f631fef48bfc"/>
   <project name="platform/upstream/GraphicsMagick" path="platform/upstream/GraphicsMagick" revision="3e93e4eaef75b976c8fb5abc816c35f797eeac9a"/>
