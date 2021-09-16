@@ -94,7 +94,7 @@
   <project name="platform/core/api/libaccount-service" path="platform/core/api/libaccount-service" revision="d4b01d35f39f0ae28e595612fbd8ddbcc738376a"/>
   <project name="platform/core/api/libteec" path="platform/core/api/libteec" revision="5fc7672363fdf57bc8f5a858041156046bce3887"/>
   <project name="platform/core/api/location-manager" path="platform/core/api/location-manager" revision="2e39b779e8cfa02f1fbc3ffe3b41bab1c77b3cf8"/>
-  <project name="platform/core/api/machine-learning" path="platform/core/api/machine-learning" revision="b4014a1549c10a3ae97a86d4f4424082a1456467"/>
+  <project name="platform/core/api/machine-learning" path="platform/core/api/machine-learning" revision="a9b85ba8fab8c207d1bd06449cbea1d1abd3b38f"/>
   <project name="platform/core/api/maps-service" path="platform/core/api/maps-service" revision="3522a19c02335b8e661ac7e5ae5af538c6c8f756"/>
   <project name="platform/core/api/media-content" path="platform/core/api/media-content" revision="a14f941978dec0d06fa06ae3f6daccec168be1dc"/>
   <project name="platform/core/api/media-controller" path="platform/core/api/media-controller" revision="1a6722b61b639ca6d050273f8461435419b735d8"/>
@@ -282,7 +282,7 @@
   <project name="platform/core/multimedia/media-server" path="platform/core/multimedia/media-server" revision="8c07e6eb4e6d6d0c324ba2e25efc40db30cb98c1"/>
   <project name="platform/core/multimedia/mm-resource-manager" path="platform/core/multimedia/mm-resource-manager" revision="783db76db114a2c16c35552ca61ec4cd7c60c65f"/>
   <project name="platform/core/multimedia/mmsvc-camera" path="platform/core/multimedia/mmsvc-camera" revision="c2e910603b752b2d352c8fe07cbf5be2ab614e7d"/>
-  <project name="platform/core/multimedia/mmsvc-core" path="platform/core/multimedia/mmsvc-core" revision="1474625317c97665c5226b0ba1b9c4509d16134b"/>
+  <project name="platform/core/multimedia/mmsvc-core" path="platform/core/multimedia/mmsvc-core" revision="7383bcf77b5be945216098e020cd51de8c104317"/>
   <project name="platform/core/multimedia/mmsvc-player" path="platform/core/multimedia/mmsvc-player" revision="ff193d732e9e033669cdbdb434e9023eb14f8db4"/>
   <project name="platform/core/multimedia/mmsvc-recorder" path="platform/core/multimedia/mmsvc-recorder" revision="97e7338466bba24fdebdb1ffb6c22978655ba1f3"/>
   <project name="platform/core/multimedia/pulseaudio-modules-tizen" path="platform/core/multimedia/pulseaudio-modules-tizen" revision="64302e3895000bd0d1d1e9c6a068463ab049f1be"/>
@@ -489,7 +489,7 @@
   <project name="platform/hal/api/bluetooth" path="platform/hal/api/bluetooth" revision="3357fc7abb4f290d36efb0f6b484a85f68738fe1"/>
   <project name="platform/hal/api/camera" path="platform/hal/api/camera" revision="c8b1f55cec857f4c3737c49b9270f51bbfe37b5c"/>
   <project name="platform/hal/api/codec" path="platform/hal/api/codec" revision="3b4aa0ec35c582a2525184fc9d82886cbfb00346"/>
-  <project name="platform/hal/api/common" path="platform/hal/api/common" revision="4d7fe5bb76eb9b7ab06cba4572c49ef9b16234ea"/>
+  <project name="platform/hal/api/common" path="platform/hal/api/common" revision="72cb48874d00f5ae02081e43ebd982410c730466"/>
   <project name="platform/hal/api/device" path="platform/hal/api/device" revision="9305d274c9616724aed56e5378a9320f4076e06b"/>
   <project name="platform/hal/api/location" path="platform/hal/api/location" revision="5d968d79ed8704f094f1fadb204968361917de72"/>
   <project name="platform/hal/api/nfc" path="platform/hal/api/nfc" revision="218cb9c276458ac4c624bd540e31f8a2ec6d2f16"/>
@@ -507,7 +507,7 @@
   <project name="platform/hal/backend/device-common" path="platform/hal/backend/device-common" revision="8477eeb9530b03a650ca02dc9a894fbd10dc213d"/>
   <project name="platform/hal/backend/emulator/device-emulator" path="platform/hal/backend/emulator/device-emulator" revision="f31d3dc48dfa36fcc79ce0ce1ccba7f744a36c34"/>
   <project name="platform/hal/backend/emulator/sensor-emulator" path="platform/hal/backend/emulator/sensor-emulator" revision="c26533a08018cf9e76e7c12c54cba49b064ca181"/>
-  <project name="platform/hal/backend/media-config" path="platform/hal/backend/media-config" revision="667311776a40e8068faef75b263486be42ba4524"/>
+  <project name="platform/hal/backend/media-config" path="platform/hal/backend/media-config" revision="4de8aef60a938e05a56aee23b290d9335b6e5ee4"/>
   <project name="platform/hal/backend/rpi/device-rpi" path="platform/hal/backend/rpi/device-rpi" revision="b529fdbdf586edbb88040ad3e0c72f3c3d0a0a0d"/>
   <project name="platform/hal/backend/rpi/sensor-rpi" path="platform/hal/backend/rpi/sensor-rpi" revision="0005024ab8780afeed8c76673b28068f53358a4f"/>
   <project name="platform/hal/backend/tm1/device-tm1" path="platform/hal/backend/tm1/device-tm1" revision="bf256c0b3a8b57b02fd616bd8a9cf26a0c31a22b"/>
@@ -563,7 +563,7 @@
   <project name="platform/upstream/edbus" path="platform/upstream/edbus" revision="d3865646d308be9f0921d4f0470793d745f77da1"/>
   <project name="platform/upstream/efl" path="platform/upstream/efl" revision="49db4b5fc1b85087c2cf3557d08bd999738d3c27"/>
   <project name="platform/upstream/ell" path="platform/upstream/ell" revision="a4328623de6997a73a6811e011cb0831e891c3cc"/>
-  <project name="platform/upstream/enlightenment" path="platform/upstream/enlightenment" revision="ac232d788aba9a912a968f0306d95fe817124cc6"/>
+  <project name="platform/upstream/enlightenment" path="platform/upstream/enlightenment" revision="93bf1e0a6050d5ac0279b0f35202416350beb847"/>
   <project name="platform/upstream/f2fs-tools" path="platform/upstream/f2fs-tools" revision="c2eff33b5f21ca6b6174753915be2ffda9798a51"/>
   <project name="platform/upstream/ffmpeg" path="platform/upstream/ffmpeg" revision="ab518bf0198abf726c92880de54ea04779a24d7e"/>
   <project name="platform/upstream/flac" path="platform/upstream/flac" revision="3e03746915e222d17962f84b8136ca96d5fbf7e4"/>
@@ -681,7 +681,7 @@
   <project name="platform/upstream/murphy" path="platform/upstream/murphy" revision="ec5dab622e873bb3cd5bf3abe7252d09bbc303e7"/>
   <project name="platform/upstream/nasm" path="platform/upstream/nasm" revision="0b9d5e907c1c55453c85d921c145a19a01f745a9"/>
   <project name="platform/upstream/newfs-msdos" path="platform/upstream/newfs-msdos" revision="392177552ad3e4d3289f0baf8042c4bc40c539b8"/>
-  <project name="platform/upstream/nnstreamer" path="platform/upstream/nnstreamer" revision="d0de7c987361bac87036e466f7dfa361264ad2c8"/>
+  <project name="platform/upstream/nnstreamer" path="platform/upstream/nnstreamer" revision="50d82aa029c72053004cc35743ba54a79560bc0d"/>
   <project name="platform/upstream/nsjail" path="platform/upstream/nsjail" revision="e5ddbcccbaf4c3072627be191f56109e45159573"/>
   <project name="platform/upstream/openal-soft" path="platform/upstream/openal-soft" revision="c947a09c1b092e36f88547d1d565bad8d340a337"/>
   <project name="platform/upstream/openblas" path="platform/upstream/openblas" revision="802179bf8793d144120be4c820b3aa0d98778fba"/>
@@ -795,6 +795,7 @@
   <project name="profile/common/platform/core/uifw/e-tizen-data" path="profile/common/platform/core/uifw/e-tizen-data" revision="07f767303bc733dfe984878e1196c0b0493ec471"/>
   <project name="profile/common/platform/core/uifw/efl-theme-tizen-common" path="profile/common/platform/core/uifw/efl-theme-tizen-common" revision="a9ffcda5f4a5a3a34ca0b5d70692705ad57c4feb"/>
   <project name="profile/common/platform/core/uifw/isf-config" path="profile/common/platform/core/uifw/isf-config" revision="4bcfae1f7294a3d7f298a57b9e85ff0279c8aa12"/>
+  <project name="profile/iot/apps/dotnet/fitness" path="profile/iot/apps/dotnet/fitness" revision="5ae652456ec8138cefaf6d725695fcd0506d54f2"/>
   <project name="profile/iot/apps/native/askuser-popup" path="profile/iot/apps/native/askuser-popup" revision="72f88f2028060aeb760d72be79041703e161dd04"/>
   <project name="profile/iot/apps/native/font-viewer" path="profile/iot/apps/native/font-viewer" revision="5bf879dcbced6a87298d356d97a854638d7ed123"/>
   <project name="profile/iot/apps/native/gallery" path="profile/iot/apps/native/gallery" revision="9c84fa29f8e97ee43523b6980c82502ae207a902"/>
