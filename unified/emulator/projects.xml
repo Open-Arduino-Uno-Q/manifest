@@ -59,7 +59,7 @@
   <project name="platform/core/account/fido-asm" path="platform/core/account/fido-asm" revision="fd7089638f9b57ec92ff6f1098f2344054f2f057"/>
   <project name="platform/core/account/fido-client" path="platform/core/account/fido-client" revision="4083581e03dbba2c1473bc7fae59e89e61e01678"/>
   <project name="platform/core/account/fido-syspopup" path="platform/core/account/fido-syspopup" revision="286f68e93085aa752cfa0e09b5481a85d76e0de9"/>
-  <project name="platform/core/account/liboauth2" path="platform/core/account/liboauth2" revision="118331d20a8becee958c8aaeebab8ebe685b7136"/>
+  <project name="platform/core/account/liboauth2" path="platform/core/account/liboauth2" revision="36fbd93a70505019cb7e61cc0ac5de73230a5034"/>
   <project name="platform/core/account/sync-manager" path="platform/core/account/sync-manager" revision="666e7ea3c51a3244833eda143a5ae48cc400156e"/>
   <project name="platform/core/api/alarm" path="platform/core/api/alarm" revision="f5e13ef0b35ef50fd9574217bbd0c0ba6787dbe7"/>
   <project name="platform/core/api/app-common" path="platform/core/api/app-common" revision="61b1fac09083fe3866246715577bf47c7e37f5ad"/>
@@ -154,7 +154,7 @@
   <project name="platform/core/api/wifi-mesh" path="platform/core/api/wifi-mesh" revision="657c246a7cf0f8fc2bca1a06d16ea5f0db379c99"/>
   <project name="platform/core/api/zigbee" path="platform/core/api/zigbee" revision="37d0c63ba73d40ce10adde2340da8227916e97cd"/>
   <project name="platform/core/appfw/alarm-manager" path="platform/core/appfw/alarm-manager" revision="5dd97129948accfb07898326272455dc717afef8"/>
-  <project name="platform/core/appfw/amd" path="platform/core/appfw/amd" revision="ba52343186218b45944d0c829bfb559766e6b87a"/>
+  <project name="platform/core/appfw/amd" path="platform/core/appfw/amd" revision="8d419add0608ed4936cb56a5070a2df359048d99"/>
   <project name="platform/core/appfw/app-core" path="platform/core/appfw/app-core" revision="c96d8846707c45fda60e08e893fcd06c4e55d50e"/>
   <project name="platform/core/appfw/app-installers" path="platform/core/appfw/app-installers" revision="f066977684aab172051afc09301d0b5491488ce1"/>
   <project name="platform/core/appfw/app-svc" path="platform/core/appfw/app-svc" revision="805ab1c08875a46cb8feb6dd02d5563e98cf5a5e"/>
@@ -425,7 +425,7 @@
   <project name="platform/core/uifw/efl-misc" path="platform/core/uifw/efl-misc" revision="11918a97e7d0cdb9e75e962d271b6f114c814864"/>
   <project name="platform/core/uifw/efl-modules" path="platform/core/uifw/efl-modules" revision="7680c81b0e905f85da28be970fa8b2821358ce7a"/>
   <project name="platform/core/uifw/gesture-engine-default" path="platform/core/uifw/gesture-engine-default" revision="f2ac4625d5ed96605adf9f8450ba74d62ba0475e"/>
-  <project name="platform/core/uifw/headless-server" path="platform/core/uifw/headless-server" revision="685b6e8a075807409d491b77622288ede01a6f06"/>
+  <project name="platform/core/uifw/headless-server" path="platform/core/uifw/headless-server" revision="5cb680264c691549b23ffda0f27fc9ec8dea031d"/>
   <project name="platform/core/uifw/inputdelegator" path="platform/core/uifw/inputdelegator" revision="a51fd09e2e6a92fa5cc493c4564570f72a95fbe3"/>
   <project name="platform/core/uifw/inputmethod-setting" path="platform/core/uifw/inputmethod-setting" revision="5076290a9812de8db834b966132acb1c7dc00d36"/>
   <project name="platform/core/uifw/ise-default" path="platform/core/uifw/ise-default" revision="148671aa3a9330d7fe6b499c9145090612fe924b"/>
@@ -501,19 +501,12 @@
   <project name="platform/hal/api/uwb" path="platform/hal/api/uwb" revision="c160f4bfc19e36a33726488bf5c58d29958e6f4d"/>
   <project name="platform/hal/api/wifi" path="platform/hal/api/wifi" revision="a2d6d270d83b9bea7443e4e43489610fa66e5f21"/>
   <project name="platform/hal/api/zigbee" path="platform/hal/api/zigbee" revision="6907634630325dacd93536fffc103a2bb957a8f0"/>
-  <project name="platform/hal/backend/artik/device-artik" path="platform/hal/backend/artik/device-artik" revision="2820a0c2c4dc7f3eb0e858e700d83f038a640f8d"/>
   <project name="platform/hal/backend/bluetooth-usb" path="platform/hal/backend/bluetooth-usb" revision="968cb4e7a4f47935d3063097ddbef2bf6487cef9"/>
-  <project name="platform/hal/backend/c4/device-c4" path="platform/hal/backend/c4/device-c4" revision="b3c607f42ad99eafcd4072196606e6d387919975"/>
   <project name="platform/hal/backend/device-common" path="platform/hal/backend/device-common" revision="5e7ac0009024f529bee10090e7a56efb568d4c69"/>
-  <project name="platform/hal/backend/emulator/device-emulator" path="platform/hal/backend/emulator/device-emulator" revision="f31d3dc48dfa36fcc79ce0ce1ccba7f744a36c34"/>
+  <project name="platform/hal/backend/emulator/device-emulator" path="platform/hal/backend/emulator/device-emulator" revision="56423aaa058acff525fe93d614edc54f3821fd69"/>
   <project name="platform/hal/backend/emulator/sensor-emulator" path="platform/hal/backend/emulator/sensor-emulator" revision="d1c9db9cadb3bcfd823de0f8a56b8c45ade8032f"/>
   <project name="platform/hal/backend/media-config" path="platform/hal/backend/media-config" revision="be47b4bd6493eae5b216b35984701b57cb7f2645"/>
-  <project name="platform/hal/backend/rpi/device-rpi" path="platform/hal/backend/rpi/device-rpi" revision="6426bb380197a2c90a5a2113a6b564fa0c210c42"/>
-  <project name="platform/hal/backend/rpi/sensor-rpi" path="platform/hal/backend/rpi/sensor-rpi" revision="808c9b463309780ecb4b256976b63db95ad4c753"/>
-  <project name="platform/hal/backend/tm1/device-tm1" path="platform/hal/backend/tm1/device-tm1" revision="bf256c0b3a8b57b02fd616bd8a9cf26a0c31a22b"/>
-  <project name="platform/hal/backend/tw3/device-tw3" path="platform/hal/backend/tw3/device-tw3" revision="1b919cdd18bb0f17ecb7db3a8db76a10ecdd7411"/>
   <project name="platform/hal/backend/vim3/bluetooth-vim3" path="platform/hal/backend/vim3/bluetooth-vim3" revision="781e45b20496df9183358522ccb2f7d2f4fba2ed"/>
-  <project name="platform/hal/backend/vim3/device-vim3" path="platform/hal/backend/vim3/device-vim3" revision="0646e13252f21f39a051a5d7311a2d5a111efda3"/>
   <project name="platform/kernel/linux-tizen-modules-source" path="platform/kernel/linux-tizen-modules-source" revision="877170d83f200041a62c7b3005cb0107e0b8a903"/>
   <project name="platform/kernel/swap-modules" path="platform/kernel/swap-modules" revision="151a05a5ad16ef6ec3ac86af6005cfddbed30a60"/>
   <project name="platform/upstream/GraphicsMagick" path="platform/upstream/GraphicsMagick" revision="eba80d1d3feae7525fff304c5ba8899c6fd8bf23"/>
@@ -564,7 +557,7 @@
   <project name="platform/upstream/edbus" path="platform/upstream/edbus" revision="d3865646d308be9f0921d4f0470793d745f77da1"/>
   <project name="platform/upstream/efl" path="platform/upstream/efl" revision="a3c2025a01e7b19e3ec83fcf1f9d7ac34a02bd6b"/>
   <project name="platform/upstream/ell" path="platform/upstream/ell" revision="a4328623de6997a73a6811e011cb0831e891c3cc"/>
-  <project name="platform/upstream/enlightenment" path="platform/upstream/enlightenment" revision="91dd77f2a7aa7a1955984fbdb8295084fd938805"/>
+  <project name="platform/upstream/enlightenment" path="platform/upstream/enlightenment" revision="8328b03b64d74478229a59a576577bd4da9a25a8"/>
   <project name="platform/upstream/f2fs-tools" path="platform/upstream/f2fs-tools" revision="c2eff33b5f21ca6b6174753915be2ffda9798a51"/>
   <project name="platform/upstream/ffmpeg" path="platform/upstream/ffmpeg" revision="e8b2b5429a316032e8e91aa5c4aae651d7ecd4fe"/>
   <project name="platform/upstream/flac" path="platform/upstream/flac" revision="3e03746915e222d17962f84b8136ca96d5fbf7e4"/>
@@ -593,7 +586,7 @@
   <project name="platform/upstream/gssdp" path="platform/upstream/gssdp" revision="5c83b7ff28737b92eaefc20905d3d1a700ffe3e9"/>
   <project name="platform/upstream/gst-gz" path="platform/upstream/gst-gz" revision="34e4ccb98992a6db8986d722ec86df08fc123b0a"/>
   <project name="platform/upstream/gst-libav" path="platform/upstream/gst-libav" revision="559cfab480a4a211e79e4c6bdcfceaf928ab65d9"/>
-  <project name="platform/upstream/gst-plugins-bad" path="platform/upstream/gst-plugins-bad" revision="07f8147b03fe4309d9cc25392319641caa7dae6a"/>
+  <project name="platform/upstream/gst-plugins-bad" path="platform/upstream/gst-plugins-bad" revision="b4a84f60a676c74c18e52cd79d65894727386d62"/>
   <project name="platform/upstream/gst-plugins-base" path="platform/upstream/gst-plugins-base" revision="7e8836953a816801532694f60a709ef90936fe93"/>
   <project name="platform/upstream/gst-plugins-good" path="platform/upstream/gst-plugins-good" revision="9eaccaf252bbecce348a0babb07159d418dd380c"/>
   <project name="platform/upstream/gst-plugins-tizen" path="platform/upstream/gst-plugins-tizen" revision="02a3f8eff0267c52d0331bab3243f30923c6c9d6"/>
@@ -610,7 +603,7 @@
   <project name="platform/upstream/iotivity" path="platform/upstream/iotivity" revision="f55c442dcbbeefed28d5d74bb8e9017f31ece1e6"/>
   <project name="platform/upstream/iotjs" path="platform/upstream/iotjs" revision="57deb911d1d85ff7e07c4a72658cceb81aec4dc8"/>
   <project name="platform/upstream/iputils" path="platform/upstream/iputils" revision="5bc9c75a4fdf1ec88a110153cab0e010d5ac2f62"/>
-  <project name="platform/upstream/iso-codes" path="platform/upstream/iso-codes" revision="441ef980d82e26b1e859b2b1823b63697916cede"/>
+  <project name="platform/upstream/iso-codes" path="platform/upstream/iso-codes" revision="5edabe44356e59b80bd941b9c9bcbb8a02809d9b"/>
   <project name="platform/upstream/iw" path="platform/upstream/iw" revision="b607d212678ae5e690162598706cbcd089bb29e5"/>
   <project name="platform/upstream/json-c" path="platform/upstream/json-c" revision="9e2d08819059474bed4c1c685d4557efa3efae8b"/>
   <project name="platform/upstream/json-glib" path="platform/upstream/json-glib" revision="255ae18c37735ad7c411f1720cf2d6c91db8a63b"/>
