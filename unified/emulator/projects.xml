@@ -242,7 +242,7 @@
   <project name="platform/core/csapi/xsf" path="platform/core/csapi/xsf" revision="0b61e3269596a322b4ae97e48e7816e49a01c1ee"/>
   <project name="platform/core/dotnet/build-tools" path="platform/core/dotnet/build-tools" revision="255210c5521cb06443bdd7e40e6c67ba6c27f30a"/>
   <project name="platform/core/dotnet/diagnostics" path="platform/core/dotnet/diagnostics" revision="459a4de11e91b098ebfa80e95420783067acadbc"/>
-  <project name="platform/core/dotnet/launcher" path="platform/core/dotnet/launcher" revision="4d1949e6d76a4fa7a2f2653953961369133bbeb5"/>
+  <project name="platform/core/dotnet/launcher" path="platform/core/dotnet/launcher" revision="2cbc12b48736711fa18cc3460ab68e3e849e6e7b"/>
   <project name="platform/core/graphics/cairo" path="platform/core/graphics/cairo" revision="f5a82096a2a1c97da2de10719eb201f2c9601325"/>
   <project name="platform/core/graphics/default-fonts-fc-sdk" path="platform/core/graphics/default-fonts-fc-sdk" revision="347120509eb9e542497e87be50ca2ddd1f944265"/>
   <project name="platform/core/graphics/default-fonts-sdk" path="platform/core/graphics/default-fonts-sdk" revision="efd8b8a5d8e88e3122037fa126831c5a938736a7"/>
@@ -539,8 +539,6 @@
   <project name="platform/upstream/cmocka" path="platform/upstream/cmocka" revision="cb91536511fe9ece8e08878644e90c7444cff77e"/>
   <project name="platform/upstream/connectedhomeip" path="platform/upstream/connectedhomeip" revision="a16b2c4354d25787cea695a93c02771b0059d80b"/>
   <project name="platform/upstream/connman" path="platform/upstream/connman" revision="1c8a8e7588e90a60234ee77d8f04a74f552658ba"/>
-  <project name="platform/upstream/coreclr" path="platform/upstream/coreclr" revision="77c8af8a0969f6a7f139c99af074a7a8c9028025"/>
-  <project name="platform/upstream/corefx" path="platform/upstream/corefx" revision="9c156594ee278907dc33fe9febec219127dd2f37"/>
   <project name="platform/upstream/crda" path="platform/upstream/crda" revision="21434adfc5483a0e6f91e644b5afdd9a78c3278f"/>
   <project name="platform/upstream/createrepo" path="platform/upstream/createrepo" revision="3bba8eb0a7b7a11090fa8aa469c3609ff8e29089"/>
   <project name="platform/upstream/cryptsetup" path="platform/upstream/cryptsetup" revision="d8ba0e1a035ef4d7a345641878de056968c87e98"/>
@@ -554,6 +552,7 @@
   <project name="platform/upstream/dnsmasq" path="platform/upstream/dnsmasq" revision="9a9940fac7c8116d02571a84692e25396a4cfcfc"/>
   <project name="platform/upstream/docker-engine" path="platform/upstream/docker-engine" revision="8f564effa332568a4047ed8f4ae0b04a3894c0cb"/>
   <project name="platform/upstream/dosfstools" path="platform/upstream/dosfstools" revision="b156136ea7bd8d6e7a16d89cd6680d8223945679"/>
+  <project name="platform/upstream/dotnet/runtime" path="platform/upstream/dotnet/runtime" revision="c9657efc4b6b306a9d70ec95fcfffa32a5651012"/>
   <project name="platform/upstream/ecryptfs-utils" path="platform/upstream/ecryptfs-utils" revision="ad1287674b3d1beb2c160116aca626d9a56dd578"/>
   <project name="platform/upstream/edbus" path="platform/upstream/edbus" revision="d3865646d308be9f0921d4f0470793d745f77da1"/>
   <project name="platform/upstream/efl" path="platform/upstream/efl" revision="db0d2d6bfdc776b2e30f5fdcbd9fbe4d3f5945ab"/>
@@ -927,7 +926,7 @@
   <project name="sdk/tools/netcoredbg" path="sdk/tools/netcoredbg" revision="2de336c9496f6b3e8817ed19c70a9d957b8afc43"/>
   <project name="sdk/tools/profctl" path="sdk/tools/profctl" revision="86e997ecc5b57f4913711b74726ea5a701a48a43"/>
   <project name="tools/bmap-tools" path="tools/bmap-tools" revision="05e5d08012dba106383f0eff62d8f86b01f1f3a1"/>
-  <project name="tools/building-blocks" path="tools/building-blocks" revision="a1f1f2463c8de2178468e333dfefc373e1bc0204"/>
+  <project name="tools/building-blocks" path="tools/building-blocks" revision="95c57b19fa704f8f2450814e0fa04e44c4425006"/>
   <project name="tools/libFuzzer" path="tools/libFuzzer" revision="5dcfdbd628a87f6d28dead17a26a9c3e97e61548"/>
   <project name="tools/mic-bootstrap" path="tools/mic-bootstrap" revision="4a2750679a5a0883a476e422ffc9978d3a886a65"/>
   <project name="tools/ttrace" path="tools/ttrace" revision="997a0b846b06a8472cb9b2585947bb884a9dd429"/>
