@@ -1,12 +1,7 @@
-<!-- 
-        Yocto for Arduino Uno Q
-
-        Written by "Nakada Tokumei" <nakada_tokumei@protonmail.com>
- -->
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://github.com/Open-Arduino-Uno-Q/" name="github" review="github.com"/>
-  <remote fetch="https://git.openembedded.org/git/" name="oe" review="git.openembedded.org"/>
+  <remote fetch="https://git.openembedded.org/" name="oe" review="git.openembedded.org"/>
   <remote fetch="https://github.com/openembedded/" name="oe-github" review="github.com"/>
   <remote fetch="https://git.yoctoproject.org/git/" name="yocto" review="git.yoctoproject.org"/>
   <default remote="github" revision="refs/heads/master" sync-j="8"/>
@@ -15,5 +10,5 @@
   <project name="meta-openembedded" path="layers/meta-openembedded" remote="oe" upstream="refs/heads/master"/>
   <project name="meta-yocto" path="layers/meta-yocto" remote="yocto" upstream="refs/heads/master"/>
   <project name="bitbake" path="layers/bitbake" remote="oe-github" upstream="refs/heads/master"/>
-  <project name="oe-core" path="layers/oe-core" remote="oe-github" upstream="refs/heads/master"/>
+  <project name="openembedded-core" path="layers/oe-core" remote="oe-github" upstream="refs/heads/master"/>
 </manifest>
