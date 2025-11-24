@@ -6,6 +6,7 @@
   <remote fetch="https://git.yoctoproject.org/git/" name="yocto" review="git.yoctoproject.org"/>
   <default remote="github" revision="refs/heads/master" sync-j="8"/>
 
+  <project name="bitbake-tools" path="tools" remote="github" upstream="refs/heads/master" />
   <project name="meta-arduino" path="layers/meta-arduino" remote="github" upstream="refs/heads/master"/>
   <project name="meta-openembedded" path="layers/meta-openembedded" remote="oe" upstream="refs/heads/master"/>
   <project name="meta-yocto" path="layers/meta-yocto" remote="yocto" upstream="refs/heads/master"/>
