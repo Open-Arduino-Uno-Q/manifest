@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/Open-Arduino-Uno-Q/" name="github" review="github.com"/>
+  <remote fetch="https://git.openembedded.org/" name="oe" review="git.openembedded.org"/>
+  <remote fetch="https://github.com/openembedded/" name="oe-github" review="github.com"/>
+  <remote fetch="https://git.yoctoproject.org/git/" name="yocto" review="git.yoctoproject.org"/>
+  <remote fetch="https://github.com/webosose/" name="webos-github" review="github.com"/>
+  <remote fetch="https://github.com/kraj/" name="kraj-github" review="github.com"/>
+  <default remote="github" revision="refs/heads/master" sync-j="8"/>
+
+  <!-- <project name="bitbake-tools" path="tools" remote="github" upstream="refs/heads/webos-uno-q" /> -->
+  <project name="meta-arduino" path="layers/meta-arduino" remote="github" upstream="refs/heads/master"/>
+  <project name="meta-openembedded" path="layers/meta-openembedded" remote="oe" upstream="refs/heads/master"/>
+  <project name="meta-yocto" path="layers/meta-yocto" remote="yocto" upstream="refs/heads/master"/>
+  <project name="meta-security" path="layers/meta-security" remote="yocto" upstream="refs/heads/master"/>
+  <project name="bitbake" path="layers/bitbake" remote="oe-github" upstream="refs/heads/master"/>
+  <project name="openembedded-core" path="layers/oe-core" remote="oe-github" upstream="refs/heads/master"/>
+  <project name="meta-webosose" path="layers/meta-weboose" remote="webos-github" upstream="refs/heads/master"/>
+  <project name="meta-clang" path="layers/meta-clang" remote="kraj-github" upstream="refs/heads/master" />
+</manifest>
