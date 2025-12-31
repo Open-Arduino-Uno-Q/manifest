@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote fetch="../" name="github" review="https://github.com"/>
   <!--<remote fetch="ssh://review.tizen.org:29418" name="tizen-gerrit" review="https://review.tizen.org/gerrit"/>
   <default remote="tizen-gerrit"/>-->
   <project name="apps/native/bluetooth-share-ui" path="apps/native/bluetooth-share-ui" revision="a179714f66391543204eaecfdd9999f3c5376b8d"/>
@@ -527,11 +528,13 @@
   <project name="platform/kernel/linux-thead" path="platform/kernel/linux-thead" revision="7030bea0dd105dd955c8b42d4c6e5dae10d99884"/>
   <project name="platform/kernel/linux-tizen-modules" path="platform/kernel/linux-tizen-modules" revision="8ad85932bfb79577b9797c9732b32d3917fdb0be"/>
   <project name="platform/kernel/linux-tizen-modules-source" path="platform/kernel/linux-tizen-modules-source" revision="ba0b2838845d7c4373101063ebbdab341f82069f"/>
+  <project name="Open-Arduino-Uno-Q/linux-qcom-tizen" path="platform/kernel/linux-qcom-tizen" remote="github" upstream="refs/heads/qcom-v6.16.7-unoq" />
   <project name="platform/kernel/opensbi" path="platform/kernel/opensbi" revision="7e5264f2067b8a5ae6b14527d1465a76b846c2a3"/>
   <project name="platform/kernel/opensbi-spacemit" path="platform/kernel/opensbi-spacemit" revision="fe4d2d3b4132f35363011ef3bbe87d90f3a2e420"/>
   <project name="platform/kernel/u-boot" path="platform/kernel/u-boot" revision="e7c76bb72cd7ef610bf14b89d9eb0a25f37288c1"/>
   <project name="platform/kernel/u-boot-spacemit" path="platform/kernel/u-boot-spacemit" revision="7814bedccfa9af7439287a514a39d65fbc341eaf"/>
   <project name="platform/kernel/u-boot-thead" path="platform/kernel/u-boot-thead" revision="2798bead8cc5bbd8856e04485abbc79889d32839"/>
+  <project name="Open-Arduino-Uno-Q/u-boot-tizen" path="platform/kernel/u-boot-tizen" remote="github" upstream="refs/heads/qcom-mainline" />
   <project name="platform/upstream/GraphicsMagick" path="platform/upstream/GraphicsMagick" revision="22868937a0f0a3c2c0599b922e360da612878756"/>
   <project name="platform/upstream/Open3D" path="platform/upstream/Open3D" revision="cbf9eb20c66a62fa71711f78e4d8026851f22d4d"/>
   <project name="platform/upstream/OpenCL-Headers" path="platform/upstream/OpenCL-Headers" revision="39738c2bf28e99349d225a0daa575073fad2215d"/>
